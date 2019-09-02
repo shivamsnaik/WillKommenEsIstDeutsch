@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.WeekNamesFragment"
-    android:background="?attr/backgroundcolor"
-    >
+    tools:context=".fragments.MonthNameFragment"
+    android:background="?attr/backgroundcolor">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,17 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:gravity="center"
-            android:text="@string/weekNamesTxt"
-            android:background="?attr/backgroundcolor"
+            android:text="@string/MonthNamesTxt"
             android:textColor="?attr/textcolor"
-            android:textSize="25dp">
-        </TextView>
-
+            android:textSize="25sp"
+            />
         <TableLayout
-            android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_width="match_parent"
             android:stretchColumns="*">
-
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -64,7 +59,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/monTxtGerman"
+                    android:text="@string/janTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -78,7 +73,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/monTxt"
+                    android:text="@string/janTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -91,7 +86,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tueTxtGerman"
+                    android:text="@string/febTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -105,7 +100,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/tueTxt"
+                    android:text="@string/febTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -118,7 +113,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/wedTxtGerman"
+                    android:text="@string/marTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -132,7 +127,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/wedTxt"
+                    android:text="@string/marTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -145,7 +140,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/thuTxtGerman"
+                    android:text="@string/aprTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -159,7 +154,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/thuTxt"
+                    android:text="@string/aprTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -172,7 +167,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/friTxtGerman"
+                    android:text="@string/mayTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -186,7 +181,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/friTxt"
+                    android:text="@string/mayTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -199,7 +194,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/satTxtGerman"
+                    android:text="@string/junTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -213,7 +208,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/satTxt"
+                    android:text="@string/junTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -226,7 +221,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/sunTxtGerman"
+                    android:text="@string/julTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -240,11 +235,147 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/sunTxt"
+                    android:text="@string/julTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
             </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/augTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/augTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/septTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/septTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/octTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/octTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/novTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/novTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/decTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
         </TableLayout>
 
         <TextView
@@ -253,11 +384,12 @@
             android:layout_marginTop="50dp"
             android:background="?attr/backgroundcolor"
             android:paddingLeft="10dp"
-            android:text="@string/weekNamesNote"
+            android:text="@string/monthNamesNote"
             android:textSize="20sp"
             android:textColor="?attr/textcolor"
             >
 
         </TextView>
+
     </LinearLayout>
 </ScrollView>

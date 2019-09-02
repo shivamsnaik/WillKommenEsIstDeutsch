@@ -1,10 +1,20 @@
 <resources>
-    <string name="app_name">WillKommen.! Ist Deutsch.!</string>
+    <string name="app_name">WillKommen.! Es Ist Deutsch.!</string>
+    <string name="about_us">About Us</string>
+
+    <string name="developer_name">Shivam Naik</string>
+    <string name="git_url">Git URL: https://github.com/shivamsnaik</string>
+
     <string name="greetingsTxt">Greetings/Gruß</string>
     <string name="weekNamesTxt">Week Names/Wochen Tage</string>
     <string name="MonthNamesTxt">Month Names</string>
+    <string name="whQuestionsTxt">Wh-questions/Wh-Fragen</string>
+
     <string name="toggleDarkModeTxt">Toggle Dark Mode</string>
-    <string name="weekNamesNote">Note:\n\n1. Wochentag: Weekdays\n2. Wochenende: Weekends</string>
+
+
+    <string name="weekNamesNote">Note:\n\n1. Wochentag: Weekdays\n2. Wochenende: Weekends\n3. All the words take \"DER\"  as article</string>
+    <string name="monthNamesNote">Note:\n\n1. All the words take \"DER\"  as article</string>
     <!-- GREETINGS PAGE == BEGIN-->
 
     <string name="goodmorningTxt">Good Morning</string>
@@ -120,4 +130,84 @@
 
     <string name="sunTxt">Sunday</string>
     <string name="sunTxtGerman">Sonntag</string>
+
+    <string name="janTxt">January</string>
+    <string name="janTxtGerman">Januar</string>
+
+    <string name="febTxt">February</string>
+    <string name="febTxtGerman">Febuar</string>
+
+    <string name="marTxt">March</string>
+    <string name="marTxtGerman">März</string>
+
+    <string name="aprTxt">April</string>
+    <string name="aprTxtGerman">April</string>
+
+    <string name="mayTxt">May</string>
+    <string name="mayTxtGerman">Mai</string>
+
+    <string name="junTxt">June</string>
+    <string name="junTxtGerman">Juni</string>
+
+    <string name="julTxt">July</string>
+    <string name="julTxtGerman">July</string>
+
+    <string name="augTxt">August</string>
+    <string name="augTxtGerman">August</string>
+
+    <string name="septTxt">September</string>
+    <string name="septTxtGerman">September</string>
+
+    <string name="octTxt">October</string>
+    <string name="octTxtGerman">Oktober</string>
+
+    <string name="novTxt">November</string>
+    <string name="novTxtGerman">November</string>
+
+    <string name="decTxt">December</string>
+    <string name="decTxtGerman">Dezember</string>
+
+    <!--  WH- QUESTIONS  -->
+
+    <string name="whatTxt">What?</string>
+    <string name="whatTxtGerman">Was?</string>
+
+    <string name="whereTxt">Where?</string>
+    <string name="whereTxtGerman">Wo?</string>
+
+    <string name="whoTxt">Who?</string>
+    <string name="whoTxtGerman">Wer?</string>
+
+    <string name="whyTxt">Why?</string>
+    <string name="whyTxtGerman">Warum?</string>
+
+    <string name="whenTxt">When?</string>
+    <string name="whenTxtGerman">Wann?</string>
+
+    <string name="whichTxt">Which?</string>
+    <string name="whichTxtGerman">Welche?</string>
+
+    <string name="howTxt">How?</string>
+    <string name="howTxtGerman">Wie?</string>
+
+    <string name="howcomeTxt">How come?</string>
+    <string name="howcomeTxtGerman">Wieso?</string>
+
+    <string name="howlongTxt">How long?</string>
+    <string name="howlongTxtGerman">Wie lange?</string>
+
+    <string name="whomTxt">Whom?</string>
+    <string name="whomTxtGerman">Mit wem?</string>
+
+    <string name="whoseTxt">Whose?</string>
+    <string name="whoseTxtGerman">Wessen?</string>
+
+    <string name="howmuchTxt">How much?</string>
+    <string name="howmuchTxtGerman">Wie viel?</string>
+
+    <string name="wherefromTxt">Where from?</string>
+    <string name="wherefromTxtGerman">Woher?</string>
+
+    <string name="wheretoTxt">Where to?</string>
+    <string name="wheretoTxtGerman">Wohin?</string>
 </resources>

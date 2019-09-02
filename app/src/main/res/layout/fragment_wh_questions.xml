@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.WeekNamesFragment"
-    android:background="?attr/backgroundcolor"
-    >
+    android:background="?attr/backgroundcolor">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,11 +13,10 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:gravity="center"
-            android:text="@string/weekNamesTxt"
-            android:background="?attr/backgroundcolor"
+            android:text="@string/whQuestionsTxt"
             android:textColor="?attr/textcolor"
-            android:textSize="25dp">
-        </TextView>
+            android:textSize="25sp"
+            />
 
         <TableLayout
             android:layout_width="match_parent"
@@ -64,7 +59,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/monTxtGerman"
+                    android:text="@string/whatTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -78,7 +73,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/monTxt"
+                    android:text="@string/whatTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -91,7 +86,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tueTxtGerman"
+                    android:text="@string/whereTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -105,7 +100,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/tueTxt"
+                    android:text="@string/whereTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -118,7 +113,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/wedTxtGerman"
+                    android:text="@string/wherefromTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -132,7 +127,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/wedTxt"
+                    android:text="@string/wherefromTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -145,7 +140,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/thuTxtGerman"
+                    android:text="@string/wheretoTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -159,7 +154,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/thuTxt"
+                    android:text="@string/wheretoTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -172,7 +167,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/friTxtGerman"
+                    android:text="@string/whyTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -186,7 +181,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/friTxt"
+                    android:text="@string/whyTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -199,7 +194,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/satTxtGerman"
+                    android:text="@string/whenTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -213,7 +208,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/satTxt"
+                    android:text="@string/whenTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -226,7 +221,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/sunTxtGerman"
+                    android:text="@string/whoTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -240,24 +235,175 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/sunTxt"
+                    android:text="@string/whoTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
             </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/whichTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/whichTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/whomTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/whomTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/howTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/howTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/howcomeTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/howcomeTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/howlongTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/howlongTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/howmuchTxtGerman"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/howmuchTxt"
+                    android:textSize="15sp"
+                    android:textColor="?attr/textcolor"
+                    />
+            </TableRow>
+
+
         </TableLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="50dp"
-            android:background="?attr/backgroundcolor"
-            android:paddingLeft="10dp"
-            android:text="@string/weekNamesNote"
-            android:textSize="20sp"
-            android:textColor="?attr/textcolor"
-            >
-
-        </TextView>
     </LinearLayout>
 </ScrollView>

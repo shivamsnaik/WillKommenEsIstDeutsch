@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GreetingFragment">
+    tools:context=".fragments.GreetingFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -682,7 +682,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/wishsuccessTxt"
+                    android:text="@string/wishsuccessTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -696,7 +696,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/wishsuccessTxtGerman"
+                    android:text="@string/wishsuccessTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -709,7 +709,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/condolenceTxt"
+                    android:text="@string/condolenceTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/border"
                     android:padding="12dp"
@@ -723,7 +723,7 @@
                     android:background="@drawable/border"
                     android:gravity="center"
                     android:padding="12dp"
-                    android:text="@string/condolenceTxtGerman"
+                    android:text="@string/condolenceTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />

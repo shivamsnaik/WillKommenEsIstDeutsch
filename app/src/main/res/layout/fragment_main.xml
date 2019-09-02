@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainFragment">
+    tools:context=".fragments.MainFragment">
 
 
     <TextView
@@ -43,7 +43,7 @@
             />
 
         <Button
-            android:id="@+id/weekNames"
+            android:id="@+id/weekNamesBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -52,7 +52,7 @@
             android:textColor="?attr/textcolor" />
 
         <Button
-            android:id="@+id/MonthNames"
+            android:id="@+id/monthNamesBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -60,6 +60,14 @@
             android:text="@string/MonthNamesTxt"
             android:textColor="?attr/textcolor" />
 
+        <Button
+            android:id="@+id/whQuestionsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:text="@string/whQuestionsTxt"
+            android:textColor="?attr/textcolor" />
 
     </LinearLayout>
 
