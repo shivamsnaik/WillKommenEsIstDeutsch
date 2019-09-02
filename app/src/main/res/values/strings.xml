@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">WillKommen.! Ist Deutsch.!</string>
+    <string name="greetingsTxt">Greetings/Gruß</string>
+    <string name="weekNamesTxt">Week Names/Wochen Tage</string>
+    <string name="MonthNamesTxt">Month Names</string>
+    <string name="toggleDarkModeTxt">Toggle Dark Mode</string>
+    <string name="weekNamesNote">Note:\n\n1. Wochentag: Weekdays\n2. Wochenende: Weekends</string>
+    <!-- GREETINGS PAGE == BEGIN-->
+
+    <string name="goodmorningTxt">Good Morning</string>
+    <string name="goodmorningTxtGerman">Guten Morgen</string>
+
+    <string name="gooddayTxt">Good Day</string>
+    <string name="gooddayTxtGerman">Guten Tag</string>
+
+    <string name="goodeveningTxt">Good Evening</string>
+    <string name="goodeveningTxtGerman">Guten Abend</string>
+
+    <string name="goodnightTxt">Good Night</string>
+    <string name="goodnightTxtGerman">Guten Nacht</string>
+
+    <string name="dayaftertomTxt">Day after tomorrow</string>
+    <string name="dayaftertomTxtGerman">Über Morgen</string>
+
+    <string name="todayTxt">Today</string>
+    <string name="todayTxtGerman">Heute</string>
+
+    <string name="yesterdayTxt">Yesterday</string>
+    <string name="yesterdayTxtGerman">Gestern</string>
+
+    <string name="daybefyesterdayTxt">Day before yesterday</string>
+    <string name="daybefyesterdayTxtGerman">Vorgestern</string>
+
+
+    <string name="englishTxt">English</string>
+    <string name="germanTxt">Deutsch</string>
+
+    <string name="thankyouTxt">Thank-you</string>
+    <string name="thankyouTxtGerman">Danke</string>
+
+    <string name="thankyousomuchTxt">Thank-you so much</string>
+    <string name="thankyousomuchTxtGerman">Vielen Danke</string>
+
+    <string name="verygoodTxt">Very Good</string>
+    <string name="verygoodTxtGerman">Sehr Gut</string>
+
+    <string name="welcomeTxt">Welcome</string>
+    <string name="welcomeTxtGerman">Willkommen</string>
+
+    <string name="heartlywelcomeTxt">Heartly Welcome</string>
+    <string name="heartlywelcomeTxtGerman">Herzlich Willkommen</string>
+
+    <string name="godblessTxt">God bless you</string>
+    <string name="godblessTxtGerman">Gezundheit</string>
+
+    <string name="gladtomeetTxt">Glad to meet</string>
+    <string name="gladtomeetTxtGerman">Freut mich/\nFreutmich  sie \nkennen zu lernen</string>
+
+    <string name="seeyoulaterTxt">See you later</string>
+    <string name="seeyoulaterTxtGerman">Bis Später</string>
+
+    <string name="seeyousoonTxt">See you soon</string>
+    <string name="seeyousoonTxtGerman">Bis Bald</string>
+
+    <string name="seeyourightbackTxt">See you right back</string>
+    <string name="seeyourightbackTxtGerman">Bis Gleich</string>
+
+    <string name="sorryTxt">I\'m sorry</string>
+    <string name="sorryTxtGerman">Tut mir leid</string>
+
+    <string name="goodbyeTxt">Good bye</string>
+    <string name="goodbyeTxtGerman">Auf wiedersehen(F)/\nTschüss(INF)</string>
+
+    <string name="allthebestTxt">All the best</string>
+    <string name="allthebestTxtGerman">Bis gleich</string>
+
+    <string name="repeatTxt">Please repeat</string>
+    <string name="repeatTxtGerman">Noch einmal/\nWiederholen sie bitte</string>
+
+    <string name="getwellsoonTxt">Get well soon</string>
+    <string name="getwellsoonTxtGerman">Gute Besserung</string>
+
+    <string name="wishsuccessTxt">Wish you lot of success</string>
+    <string name="wishsuccessTxtGerman">Viel Erfold</string>
+
+    <string name="condolenceTxt">Heart filled condolences</string>
+    <string name="condolenceTxtGerman">Mein herzliches Beileid</string>
+
+    <string name="congratsTxt">Congratulations</string>
+    <string name="congratsTxtGerman">Gratulationen</string>
+
+    <string name="howareyouTxt">How are you?(INF)</string>
+    <string name="howareyouTxtGerman">Wie geht\'s?/\nWie geht es dir\?</string>
+
+    <string name="howareyouFormalTxt">How are you?(F)</string>
+    <string name="howareyouFormalTxtGerman">Wie geht es ihnen\?</string>
+
+    <string name="happyjourneyTxt">Happy Journey</string>
+    <string name="happyjourneyTxtGerman">Gute Reise/\nSchöne Reise</string>
+
+    <!--GREETINGS PAGE == END-->
+
+    <string name="monTxt">Monday</string>
+    <string name="monTxtGerman">Montag</string>
+
+    <string name="tueTxt">Tuesday</string>
+    <string name="tueTxtGerman">Dientag</string>
+
+    <string name="wedTxt">Wednesday</string>
+    <string name="wedTxtGerman">Mittwach</string>
+
+    <string name="thuTxt">Thursday</string>
+    <string name="thuTxtGerman">Donnestag</string>
+
+    <string name="friTxt">Friday</string>
+    <string name="friTxtGerman">Freitag</string>
+
+    <string name="satTxt">Saturday</string>
+    <string name="satTxtGerman">Somstag</string>
+
+    <string name="sunTxt">Sunday</string>
+    <string name="sunTxtGerman">Sonntag</string>
+</resources>
