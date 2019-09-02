@@ -1,6 +1,7 @@
 package com.example.willkommenistdeutsch;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,9 +13,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button greetingsBtn, weekNamesBtn;
     private static boolean themeToggle;
-
     static {
         themeToggle = true;
     }
@@ -23,28 +22,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        greetingsBtn = (Button) findViewById(R.id.greetingBtn);
-        weekNamesBtn = (Button) findViewById(R.id.weekNames);
-
-
-        //Click listeners
-        greetingsBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(MainActivity.this, GreetingActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        weekNamesBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(MainActivity.this, WeekNamesActivity.class);
-                startActivity(intent);
-            }
-        });
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.linearMainLayout, new MainFragment());
+        fragmentTransaction.commit();
     }
 
     @Override
