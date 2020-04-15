@@ -5,8 +5,10 @@
         <attr name="backgroundcolor" format="color"/>
         <attr name="cardbackground" format="color"/>
         <attr name="textcolor" format="color"/>
+        <attr name="textHighlightColor" format="color"/>
         <attr name="tintcolor" format="color"/>
         <attr name="buttoncolor" format="color"/>
         <attr name="bordercolor" format="color"/>
+
     </declare-styleable>
 </resources>
