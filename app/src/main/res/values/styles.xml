@@ -11,6 +11,7 @@
         <item name="backgroundcolor">#fcfcfc</item>
         <item name="cardbackground">#ffffff</item>
         <item name="textcolor">#808080</item>
+        <item name="textHighlightColor">#EE3B3B</item>
         <item name="tintcolor">#000000</item>
         <item name="buttoncolor">#2196f3</item>
         <item name="bordercolor">#000000</item>
@@ -25,9 +26,18 @@
         <item name="backgroundcolor">#000000</item>
         <item name="cardbackground">#424242</item>
         <item name="textcolor">#ababab</item>
+        <item name="textHighlightColor">#EB3030</item>
         <item name="tintcolor">#ffffff</item>
         <item name="buttoncolor">#2196f3</item>
         <item name="bordercolor">#4a4a4a</item>
+    </style>
+
+    <style name="Garamound" parent="android:TextAppearance">
+        <item name="fontPath">fonts/GARA.TFF</item>
+    </style>
+
+    <style name="SimpleFont" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Simple-Regular.ttf</item>
     </style>
 
 </resources>

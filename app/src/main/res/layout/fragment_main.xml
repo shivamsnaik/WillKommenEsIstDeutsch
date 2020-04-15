@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fragments.MainFragment">
+    tools:context=".fragments.MainFragment"
+    tools:ignore="MissingPrefix">
 
 
     <TextView
@@ -20,7 +21,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
+<!--        android:textAppearance="@style/SimpleFont"/>-->
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -68,6 +70,43 @@
             android:background="@drawable/border"
             android:text="@string/whQuestionsTxt"
             android:textColor="?attr/textcolor" />
+
+        <Button
+            android:id="@+id/dativVerbenBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:text="@string/dativVerbenTxt"
+            android:textColor="?attr/textcolor" />
+
+        <Button
+            android:id="@+id/trenbarrUntrennbarVerbenBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:text="@string/trenbarrUntrennbarVerbenTxt"
+            android:textColor="?attr/textcolor" />
+
+        <Button
+            android:id="@+id/adjektivEndingBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:text="@string/adjectivEndingTxt"
+            android:textColor="?attr/textcolor" />
+
+        <Button
+            android:id="@+id/rulesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:text="@string/rulesTxt"
+            android:textColor="?attr/textcolor" />
+
 
     </LinearLayout>
 
