@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">WillKommen.! Es Ist Deutsch.!</string>
+    <string name="app_name">Herzlichen Willkommen.!\n\nFangen Wir Deutsch lernen an.!</string>
+    <string name="app_name_short">Fangen Wir Deutsch lernen an.!</string>
     <string name="about_us">About Us</string>
 
     <string name="developer_name">Shivam Naik</string>
@@ -9,9 +10,12 @@
     <string name="weekNamesTxt">Week Names/Wochen Tage</string>
     <string name="MonthNamesTxt">Month Names</string>
     <string name="whQuestionsTxt">Wh-questions/Wh-Fragen</string>
-
+    <string name="dativVerbenTxt">Dativ Verben</string>
     <string name="toggleDarkModeTxt">Toggle Dark Mode</string>
 
+    <string name="trenbarrUntrennbarVerbenTxt">Trennbar/Untrennbar Verbs</string>
+
+    <string name="rulesTxt">General Rules</string>
 
     <string name="weekNamesNote">Note:\n\n1. Wochentag: Weekdays\n2. Wochenende: Weekends\n3. All the words take \"DER\"  as article</string>
     <string name="monthNamesNote">Note:\n\n1. All the words take \"DER\"  as article</string>
@@ -114,19 +118,19 @@
     <string name="monTxtGerman">Montag</string>
 
     <string name="tueTxt">Tuesday</string>
-    <string name="tueTxtGerman">Dientag</string>
+    <string name="tueTxtGerman">Dienstag</string>
 
     <string name="wedTxt">Wednesday</string>
-    <string name="wedTxtGerman">Mittwach</string>
+    <string name="wedTxtGerman">Mittwoch</string>
 
     <string name="thuTxt">Thursday</string>
-    <string name="thuTxtGerman">Donnestag</string>
+    <string name="thuTxtGerman">Donnerstag</string>
 
     <string name="friTxt">Friday</string>
     <string name="friTxtGerman">Freitag</string>
 
     <string name="satTxt">Saturday</string>
-    <string name="satTxtGerman">Somstag</string>
+    <string name="satTxtGerman">Samstag</string>
 
     <string name="sunTxt">Sunday</string>
     <string name="sunTxtGerman">Sonntag</string>
@@ -135,7 +139,7 @@
     <string name="janTxtGerman">Januar</string>
 
     <string name="febTxt">February</string>
-    <string name="febTxtGerman">Febuar</string>
+    <string name="febTxtGerman">Februar</string>
 
     <string name="marTxt">March</string>
     <string name="marTxtGerman">März</string>
@@ -150,7 +154,7 @@
     <string name="junTxtGerman">Juni</string>
 
     <string name="julTxt">July</string>
-    <string name="julTxtGerman">July</string>
+    <string name="julTxtGerman">Juli</string>
 
     <string name="augTxt">August</string>
     <string name="augTxtGerman">August</string>
@@ -210,4 +214,55 @@
 
     <string name="wheretoTxt">Where to?</string>
     <string name="wheretoTxtGerman">Wohin?</string>
+
+
+    <!--    TRENNBAR VERBEN PAGE-->
+
+    <!--    -->
+
+
+    <!--    RULES PAGE-->
+
+    <string name="ruleOneTxt">1. Zum is used as an exception while talking about food at different time. \nEg. Zum Früstuck, Zum Mittagessen. </string>
+    <string name="ruleTwoTxt">
+        2. Zu Hause oder Nach Hause ???\n -> Use Zu Hause when in possession.\n\u0009\u0009\u0009\u0009\u0009Ich bin zu Hause.\n
+        -> Nach Hause when action is involved.\n\u0009\u0009\u0009\u0009\u0009Ich gehe nach Hause.
+    </string>
+    <string name="ruleThreeTxt">3. Ich gehe NACH oder ZU Deutschland??\nNach is used while going to a destination that occupied large space.\nEg. Countries</string>
+    <string name="ruleFourTxt">4. A trennbar verb can end with T or EN in Partizip ZWEI</string>
+    <string name="ruleFiveTxt">
+        5. NOMINATIVE -> RESE\n\u0009\u0009\u0009AKKUSATIV -> NESE\n
+        \u0009\u0009\u0009DATIV -> MR M+N
+        \n\u0009\u0009\u0009GENITIV -> SR SR
+    </string>
+
+    <string name="ruleSixTxt">6. Viel => NOT COUNTABLE ITEM
+        \n\u0009\u0009\u0009\u0009\u0009Eg. Wie VIEL kostet das?
+        \nViele => COUNTABLE ITEM
+        \n\u0009\u0009\u0009\u0009\u0009Wie VIELE kinder sind da?
+    </string>
+
+    <string name="ruleSevenTxt">
+        7. IN => When action leads anyone inside or outside something.
+        \n\u0009\u0009\u0009\u0009\u0009Eg. Ich gehe in die Kirche.
+        \nZU => When action does not specify ending up inside or ouside some place.
+        \n\u0009\u0009\u0009\u0009\u0009Eg. Ich gehe zur Kirche.
+    </string>
+
+    <string name="ruleEightTxt">
+        8. If a reflexive verb has additional object, it become REFLEXIV DATIVE satz. Eg:
+        \n\u0009\u0009\u0009\u0009\u0009 Ich wasche mich. - w/o object
+        \n\u0009\u0009\u0009\u0009\u0009 Ich wasche mir die Haare - w object
+    </string>
+    <!--    -->
+
+    <!--  ADJEKTIV ENDINGS PAGE  -->
+
+    <string name="adjectivEndingTxt">
+        Adjektiv Endings Table
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    -->
 </resources>
