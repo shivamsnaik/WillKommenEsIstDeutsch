@@ -96,7 +96,7 @@
             android:text="@string/rulesTxt"
             android:textColor="?attr/textcolor" />
 
-        <Button
+        <!--<Button
             android:id="@+id/adjektivEndingBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
             android:background="@drawable/border"
             android:text="@string/adjectivEndingTxt"
             android:textColor="?attr/textcolor" />
-
+        -->
     </LinearLayout>
 
 </LinearLayout>
