@@ -1,4 +1,4 @@
-package com.example.willkommenistdeutsch.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.willkommenistdeutsch.R;
+import com.android.deutschlernenzuzammen.R;
 
 public class DativVerbenFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.example.willkommenistdeutsch.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -8,9 +8,10 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.willkommenistdeutsch.R;
+import com.android.deutschlernenzuzammen.R;
 
-public class TrennbarUntrennbarFragment extends Fragment {
+
+public class RulesFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,7 @@ public class TrennbarUntrennbarFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.trennbar_untrennbar, container, false);
+        return inflater.inflate(R.layout.fragment_rules, container, false);
     }
 
     @Override

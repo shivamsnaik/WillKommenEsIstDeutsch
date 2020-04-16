@@ -1,4 +1,4 @@
-package com.example.willkommenistdeutsch;
+package com.deutschlernen.deutschlernenzuzammen;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,7 +11,8 @@ import android.view.MenuItem;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.willkommenistdeutsch.fragments.MainFragment;
+import com.android.deutschlernenzuzammen.R;
+import com.deutschlernen.deutschlernenzuzammen.fragments.MainFragment;
 
 import io.github.inflationx.calligraphy3.CalligraphyConfig;
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor;

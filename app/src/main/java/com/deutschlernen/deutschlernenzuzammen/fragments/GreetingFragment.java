@@ -1,4 +1,6 @@
-package com.example.willkommenistdeutsch.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments;
+
+import androidx.fragment.app.Fragment;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -6,11 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import androidx.fragment.app.Fragment;
+import com.android.deutschlernenzuzammen.R;
 
-import com.example.willkommenistdeutsch.R;
 
-public class RulesFragment extends Fragment {
+public class GreetingFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -18,10 +19,9 @@ public class RulesFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_rules, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+    {
+        return inflater.inflate(R.layout.fragment_greeting, container, false);
     }
 
     @Override
@@ -33,5 +33,4 @@ public class RulesFragment extends Fragment {
     public void onDetach() {
         super.onDetach();
     }
-
 }

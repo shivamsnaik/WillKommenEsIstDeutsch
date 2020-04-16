@@ -1,4 +1,4 @@
-package com.example.willkommenistdeutsch.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.willkommenistdeutsch.R;
+import com.android.deutschlernenzuzammen.R;
 
 public class AdjektivEndingsFragment extends Fragment {
 

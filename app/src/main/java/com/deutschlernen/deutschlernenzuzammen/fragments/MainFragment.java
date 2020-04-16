@@ -1,4 +1,4 @@
-package com.example.willkommenistdeutsch.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments;
 
 
 import android.content.Context;
@@ -11,7 +11,8 @@ import android.widget.Button;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.willkommenistdeutsch.R;
+import com.android.deutschlernenzuzammen.R;
+
 
 public class MainFragment extends Fragment {
 
