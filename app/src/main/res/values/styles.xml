@@ -5,14 +5,17 @@
     <!-- Light theme. -->
     <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#2196F3</item>
-        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorPrimary">#0d1821</item>
+        <item name="colorPrimaryDark">#060c10</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="backgroundcolor">#fcfcfc</item>
-        <item name="cardbackground">#ffffff</item>
-        <item name="textcolor">#808080</item>
+        <item name="backgroundcolor">#0d1821</item>
+        <item name="cardbackground">#EF3C2E</item>
+        <item name="textcolor">#FFFFFF</item>
+<!--        <item name="textcolor">#24EF15</item>-->
         <item name="textHighlightColor">#EE3B3B</item>
-        <item name="tintcolor">#000000</item>
+        <item name="buttonTextColor">#FFFFFF</item>
+        <item name="buttonBackgroundColor">#FDE69E</item>
+        <item name="tintcolor">#FFFFFF</item>
         <item name="buttoncolor">#2196f3</item>
         <item name="bordercolor">#000000</item>
     </style>
@@ -23,10 +26,13 @@
         <item name="colorPrimary">#212121</item>
         <item name="colorPrimaryDark">#000000</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="backgroundcolor">#000000</item>
+        <item name="backgroundcolor">#0d1821</item>
         <item name="cardbackground">#424242</item>
-        <item name="textcolor">#ababab</item>
+<!--        <item name="textcolor">#ababab</item>-->
+        <item name="textcolor">#24EF15</item>
         <item name="textHighlightColor">#EB3030</item>
+        <item name="buttonTextColor">#FFFFFF</item>
+        <item name="buttonBackgroundColor">#FDE69E</item>
         <item name="tintcolor">#ffffff</item>
         <item name="buttoncolor">#2196f3</item>
         <item name="bordercolor">#4a4a4a</item>

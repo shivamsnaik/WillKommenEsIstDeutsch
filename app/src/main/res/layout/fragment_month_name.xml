@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.MonthNameFragment"
-    android:background="?attr/backgroundcolor">
+    android:background="?attr/cardbackground">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,42 +17,48 @@
             android:gravity="center"
             android:text="@string/MonthNamesTxt"
             android:textColor="?attr/textcolor"
-            android:textSize="25sp"
+            android:textSize="30sp"
             />
         <TableLayout
             android:layout_height="match_parent"
             android:layout_width="match_parent"
             android:stretchColumns="*">
             <TableRow
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/germanTxt"
+                    android:height="90dp"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
-                    android:background="@drawable/border"
-                    android:padding="12dp"
+                    android:text="@string/germanTxt"
+                    android:textColor="?attr/textcolor"
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/textcolor"
 
                     />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/englishTxt"
+                    android:height="90dp"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
-                    android:background="@drawable/border"
-                    android:padding="12dp"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
+                    android:text="@string/englishTxt"
                     android:textColor="?attr/textcolor"
-                    />
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
             </TableRow>
 
             <TableRow
+                android:elevation="10dp"
+                android:translationZ="18dp"
+                android:stateListAnimator="@null"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -61,8 +67,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/janTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -70,9 +77,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/janTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -88,8 +96,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/febTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -97,9 +106,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/febTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -115,8 +125,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/marTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -124,9 +135,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/marTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -142,8 +154,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/aprTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -151,9 +164,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/aprTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -169,8 +183,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/mayTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -178,9 +193,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/mayTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -196,8 +212,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/junTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -205,9 +222,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/junTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -223,8 +241,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/julTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -232,9 +251,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/julTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -250,8 +270,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/augTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -259,9 +280,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/augTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -277,8 +299,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/septTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -286,9 +309,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/septTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -304,8 +328,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/octTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -313,9 +338,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/octTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -331,8 +357,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/novTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -340,9 +367,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/novTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -358,8 +386,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/decTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
                     />
@@ -367,9 +396,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
+                    android:height="70dp"
                     android:text="@string/decTxt"
                     android:textSize="15sp"
                     android:textColor="?attr/textcolor"
@@ -381,8 +411,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="50dp"
-            android:background="?attr/backgroundcolor"
+            android:paddingTop="50dp"
+            android:background="#100E0F"
             android:paddingLeft="10dp"
             android:text="@string/monthNamesNote"
             android:textSize="20sp"

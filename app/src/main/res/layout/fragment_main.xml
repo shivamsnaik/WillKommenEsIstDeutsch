@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.MainFragment"
     tools:ignore="MissingPrefix"
-    android:background="?attr/backgroundcolor">
+    android:background="?attr/colorPrimary">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,10 +18,10 @@
             android:id="@+id/appName"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="?attr/backgroundcolor"
+            android:background="#0d1821"
             android:gravity="center"
             android:text="@string/app_name"
-            android:textColor="?attr/textcolor"
+            android:textColor="#c6d6e4"
             android:textSize="25dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="?attr/backgroundcolor"
+            android:background="#FFFFFF"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp">
 
@@ -43,74 +43,107 @@
                 android:id="@+id/greetingBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
                 android:text="@string/greetingsTxt"
-                android:textColor="?attr/textcolor"
-                android:background="@drawable/border"
+                android:textColor="?attr/buttonTextColor"
+                android:background="#6692b7"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:layout_marginTop="2dp"
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
                 />
 
             <Button
                 android:id="@+id/weekNamesBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/border"
+                android:background="#4077a5"
                 android:text="@string/weekNamesTxt"
-                android:textColor="?attr/textcolor" />
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="19dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/buttonTextColor" />
 
             <Button
                 android:id="@+id/monthNamesBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/border"
+                android:background="#3a6b95"
                 android:text="@string/MonthNamesTxt"
-                android:textColor="?attr/textcolor" />
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="18dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/buttonTextColor" />
 
             <Button
                 android:id="@+id/whQuestionsBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/border"
+                android:background="#264763"
                 android:text="@string/whQuestionsTxt"
-                android:textColor="?attr/textcolor" />
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="17dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/buttonTextColor" />
 
             <Button
                 android:id="@+id/dativVerbenBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/border"
+                android:background="#203c53"
                 android:text="@string/dativVerbenTxt"
-                android:textColor="?attr/textcolor" />
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="16dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/buttonTextColor" />
 
             <Button
                 android:id="@+id/trenbarrUntrennbarVerbenBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/border"
+                android:background="#1a3042"
                 android:text="@string/trenbarrUntrennbarVerbenTxt"
-                android:textColor="?attr/textcolor" />
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="15dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/buttonTextColor" />
 
             <Button
                 android:id="@+id/adjektivEndingBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/border"
+                android:background="#0d1821"
                 android:text="@string/adjectivEndingTxt"
-                android:textColor="?attr/textcolor" />
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="14dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/buttonTextColor" />
 
             <Button
                 android:id="@+id/rulesBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/border"
+                android:background="#060c10"
                 android:text="@string/rulesTxt"
-                android:textColor="?attr/textcolor" />
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="13dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/buttonTextColor" />
 
 
         </LinearLayout>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.AdjektivEndingsFragment"
-    android:background="?attr/backgroundcolor"
+    android:background="?attr/cardbackground"
     >
 
     <LinearLayout
@@ -17,7 +17,7 @@
             android:layout_height="100dp"
             android:gravity="center"
             android:text="Adjektiv Enden"
-            android:background="?attr/backgroundcolor"
+            android:background="?attr/tintcolor"
             android:textColor="?attr/textcolor"
             android:textSize="25dp">
         </TextView>
