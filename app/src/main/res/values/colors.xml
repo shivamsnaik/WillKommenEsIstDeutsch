@@ -3,4 +3,19 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="blueColorOne">#6692b7</color>
+    <color name="blueColorTwo">#4077a5</color>
+    <color name="blueColorThree">#3a6b95</color>
+    <color name="blueColorFour">#264763</color>
+    <color name="blueColorFive">#203c53</color>
+    <color name="blueColorSix">#1a3042</color>
+    <color name="blueColorSeven">#0d1821</color>
+    <color name="blueColorEight">#060c10</color>
+
+    <color name="menuRippleColor">#a3bed4</color>
+    <color name="gridItemColor">#100E0F</color>
 </resources>
