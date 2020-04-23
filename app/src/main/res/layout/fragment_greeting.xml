@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/cardbackground"
+    android:background="?attr/BackgroundColor"
     tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.GreetingFragment">
 
     <LinearLayout
@@ -21,14 +21,15 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="@string/greetingsTxt"
-            android:background="?attr/cardbackground"
-            android:textColor="?attr/textcolor"
+            android:background="?attr/HeaderColor"
+            android:textColor="?attr/HeaderTextColor"
             android:textSize="30dp" />
 
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:layout_marginTop="2dp"
             android:stretchColumns="*">
 
 
@@ -42,10 +43,9 @@
                     android:text="@string/germanTxt"
                     android:gravity="center"
                     android:background="@drawable/grid_background"
-                    
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/textcolor"
+                    android:textColor="?attr/ElementColorEight"
                     android:height="90dp"
                     />
                 <TextView
@@ -55,10 +55,9 @@
                     android:gravity="center"
                     android:height="90dp"
                     android:background="@drawable/grid_background"
-                    
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/textcolor"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -73,9 +72,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"
-                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     
                     />
 
@@ -86,8 +84,8 @@
                     android:background="@drawable/grid_background"                    android:gravity="center"
                     
                     android:text="@string/goodmorningTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -98,13 +96,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/gooddayTxtGerman"
-                    android:gravity="center"
                     android:height="70dp"
-                    android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
-                    />
+                    android:background="@drawable/grid_background"
+                    android:gravity="center"
+                    android:text="@string/gooddayTxtGerman"
+                    android:textColor="?attr/ElementColorEight"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -113,8 +110,8 @@
                     android:background="@drawable/grid_background"                    android:gravity="center"
                     
                     android:text="@string/gooddayTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -129,8 +126,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -140,8 +137,8 @@
                     android:background="@drawable/grid_background"                    android:gravity="center"
                     
                     android:text="@string/goodeveningTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -156,8 +153,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -167,8 +164,8 @@
                     android:background="@drawable/grid_background"                    android:gravity="center"
                     
                     android:text="@string/goodnightTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -183,8 +180,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -194,8 +191,8 @@
                     android:background="@drawable/grid_background"                    android:gravity="center"
                     
                     android:text="@string/todayTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -210,8 +207,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -221,8 +218,8 @@
                     android:background="@drawable/grid_background"                    android:gravity="center"
                     
                     android:text="@string/yesterdayTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -237,8 +234,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -248,8 +245,8 @@
                     android:background="@drawable/grid_background"                    android:gravity="center"
                     
                     android:text="@string/dayaftertomTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -264,8 +261,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -275,8 +272,8 @@
                     android:background="@drawable/grid_background"                    android:gravity="center"
                     
                     android:text="@string/daybefyesterdayTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -291,8 +288,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -301,8 +298,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -317,8 +314,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -327,8 +324,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -343,8 +340,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -353,8 +350,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -369,8 +366,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -379,8 +376,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -395,8 +392,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -405,8 +402,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -421,8 +418,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -431,8 +428,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:background="@drawable/grid_background"                    
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -446,9 +443,9 @@
                     android:text="@string/gladtomeetTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/grid_background"
-                    android:height="85dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:height="100dp"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -457,8 +454,8 @@
                     android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:text="@string/gladtomeetTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
             </TableRow>
 
@@ -472,9 +469,9 @@
                     android:text="@string/seeyoulaterTxtGerman"
                     android:gravity="center"
                     android:background="@drawable/grid_background"
-                    android:textSize="15sp"
+                    android:textSize="18sp"
                     android:height="70dp"
-                    android:textColor="?attr/textcolor"
+                    android:textColor="?attr/ElementColorEight"
                 />
 
                 <TextView
@@ -484,8 +481,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/seeyoulaterTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
             </TableRow>
 
@@ -500,8 +497,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="70dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -511,8 +508,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/seeyousoonTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
             </TableRow>
 
@@ -527,8 +524,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="70dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
 
                 <TextView
@@ -538,8 +535,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/seeyourightbackTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
             </TableRow>
 
@@ -554,8 +551,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="70dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
 
                 <TextView
@@ -565,8 +562,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/sorryTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
             </TableRow>
 
@@ -581,8 +578,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="90dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
 
                 <TextView
@@ -592,8 +589,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/goodbyeTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
             </TableRow>
 
@@ -608,8 +605,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="85dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
 
                 <TextView
@@ -619,8 +616,8 @@
                     android:gravity="center"
                     android:height="85dp"
                     android:text="@string/allthebestTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
             </TableRow>
 
@@ -635,8 +632,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="90dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
 
                 <TextView
@@ -646,8 +643,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/repeatTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                 />
             </TableRow>
 
@@ -662,8 +659,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="70dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -673,8 +670,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/getwellsoonTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -689,8 +686,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="70dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -700,8 +697,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/wishsuccessTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -716,8 +713,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="70dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -727,8 +724,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/condolenceTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -743,8 +740,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="70dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -754,8 +751,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/congratsTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -770,8 +767,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="90dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -781,8 +778,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/howareyouTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -797,8 +794,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="70dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -808,8 +805,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/howareyouFormalTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
 
@@ -824,8 +821,8 @@
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:height="90dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
 
                 <TextView
@@ -835,8 +832,8 @@
                     android:gravity="center"
                     android:height="70dp"
                     android:text="@string/happyjourneyTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
                     />
             </TableRow>
         </TableLayout>

@@ -4,6 +4,12 @@
     <string name="about_us">About Us</string>
 
     <string name="developer_name">Shivam Naik</string>
+    <string name="developer_bio">
+        Software Developer\n
+        Beginner at German\n
+        So, Lets learn together\n
+        <b><i>Oh warte! Lass uns Zuzammen lernen</i></b>
+    </string>
     <string name="git_url">Git URL: https://github.com/shivamsnaik/WillKommenEsIstDeutsch</string>
 
     <string name="greetingsTxt">Greetings/Gruß</string>

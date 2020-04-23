@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.RulesFragment"
-    android:background="?attr/backgroundcolor">
+    android:background="?attr/BackgroundColor">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,34 +16,36 @@
             android:layout_height="100dp"
             android:gravity="center"
             android:text="@string/rulesTxt"
-            android:textColor="?attr/textcolor"
+            android:textColor="?attr/HeaderTextColor"
+            android:background="?attr/HeaderColor"
             android:textSize="25sp"
             />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?attr/backgroundcolor"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleOneTxt"
-            android:textSize="17sp"
-            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:textColor="?attr/ElementColorEight"
             >
 
         </TextView>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?attr/backgroundcolor"
+            android:layout_height="120dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:text="@string/ruleTwoTxt"
-            android:textColor="?attr/textcolor"
-            android:textSize="17sp"
+            android:textColor="?attr/ElementColorEight"
+            android:textSize="18sp"
             android:justificationMode="inter_word"
             >
 
@@ -52,79 +54,85 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?attr/backgroundcolor"
+            android:layout_height="120dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleThreeTxt"
-            android:textColor="?attr/textcolor"
-            android:textSize="17sp"
+            android:textColor="?attr/ElementColorEight"
+            android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?attr/backgroundcolor"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleFourTxt"
-            android:textColor="?attr/textcolor"
-            android:textSize="17sp"
+            android:textColor="?attr/ElementColorEight"
+            android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?attr/backgroundcolor"
+            android:layout_height="120dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleFiveTxt"
-            android:textColor="?attr/textcolor"
-            android:textSize="17sp"
+            android:textColor="?attr/ElementColorEight"
+            android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?attr/backgroundcolor"
+            android:layout_height="120dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleSixTxt"
-            android:textColor="?attr/textcolor"
-            android:textSize="17sp"
+            android:textColor="?attr/ElementColorEight"
+            android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?attr/backgroundcolor"
+            android:layout_height="160dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleSevenTxt"
-            android:textColor="?attr/textcolor"
-            android:textSize="17sp"
+            android:textColor="?attr/ElementColorEight"
+            android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?attr/backgroundcolor"
+            android:layout_height="120dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleEightTxt"
-            android:textColor="?attr/textcolor"
-            android:textSize="17sp"
+            android:textColor="?attr/ElementColorEight"
+            android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
 

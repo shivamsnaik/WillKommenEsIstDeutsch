@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="?attr/backgroundcolor"
+    android:background="@drawable/grid_background"
     tools:context="com.deutschlernen.deutschlernenzuzammen.AboutUsActivity">
 
     <TextView
@@ -14,23 +14,37 @@
         android:gravity="center"
         android:text="@string/about_us"
         android:textSize="25sp"
-        android:background="?attr/backgroundcolor"
-        android:textColor="?attr/textcolor"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="50sp"
-        android:gravity="center"
-        android:text="@string/developer_name"
-        android:background="@drawable/border"
-        android:textColor="?attr/textcolor"/>
+        android:background="?attr/HeaderColor"
+        android:textColor="?attr/HeaderTextColor"/>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50sp"
+        android:layout_height="90sp"
+        android:gravity="center"
+        android:text="@string/developer_name"
+        android:background="@drawable/grid_background"
+        android:textColor="?attr/ElementColorEight"
+        android:textSize="19sp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:gravity="center"
+        android:text="@string/developer_bio"
+        android:background="@drawable/grid_background"
+        android:textColor="?attr/ElementColorEight"
+        android:textSize="17sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
         android:gravity="center"
         android:text="@string/git_url"
-        android:background="@drawable/border"
-        android:textColor="?attr/textcolor"
+        android:background="@drawable/grid_background"
+        android:textColor="?attr/ElementColorEight"
+
         android:autoLink="web"
         android:linksClickable="true"/>
 </LinearLayout>

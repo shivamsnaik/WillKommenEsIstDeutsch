@@ -9,7 +9,7 @@
         android:id="@+id/linearMainLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="?attr/backgroundcolor">
+        android:background="?attr/BackgroundColor">
     </FrameLayout>
 
 </RelativeLayout>

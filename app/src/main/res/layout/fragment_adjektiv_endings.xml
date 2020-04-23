@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.AdjektivEndingsFragment"
-    android:background="?attr/cardbackground"
+    android:background="@drawable/grid_background"
     >
 
     <LinearLayout
@@ -17,14 +17,17 @@
             android:layout_height="100dp"
             android:gravity="center"
             android:text="Adjektiv Enden"
-            android:background="?attr/tintcolor"
-            android:textColor="?attr/textcolor"
+            android:background="?attr/HeaderColor"
+            android:textColor="?attr/HeaderTextColor"
             android:textSize="25dp">
         </TextView>
 
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+
+            android:background="?attr/BackgroundColor"
             android:stretchColumns="*">
 
             <TextView
@@ -32,11 +35,11 @@
                 android:layout_height="wrap_content"
                 android:text="Besstimmten Artikel"
                 android:gravity="center"
-                android:background="@drawable/border"
+                android:background="@drawable/grid_background"
                 android:padding="12dp"
                 android:textSize="25sp"
-                android:textStyle="italic"
-                android:textColor="?attr/textcolor"/>
+                android:textStyle="normal"
+                android:textColor="?attr/ElementColorEight"/>
 
             <TableRow>
                 <TextView
@@ -44,11 +47,11 @@
                     android:layout_height="wrap_content"
                     android:text="Gend/Case"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -56,11 +59,11 @@
                     android:layout_height="wrap_content"
                     android:text="Mas"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -68,11 +71,11 @@
                     android:layout_height="wrap_content"
                     android:text="Fem"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -80,11 +83,11 @@
                     android:layout_height="wrap_content"
                     android:text="Neu"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -92,11 +95,11 @@
                     android:layout_height="wrap_content"
                     android:text="Plu"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
             </TableRow>
@@ -106,11 +109,11 @@
                     android:layout_height="wrap_content"
                     android:text="Nom"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -118,11 +121,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -130,11 +133,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -142,11 +145,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -154,11 +157,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
             </TableRow>
 
@@ -168,11 +171,11 @@
                     android:layout_height="wrap_content"
                     android:text="Akkusativ"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -180,11 +183,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -192,11 +195,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -204,11 +207,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -216,11 +219,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
             </TableRow>
 
@@ -230,11 +233,11 @@
                     android:layout_height="wrap_content"
                     android:text="Dativ"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -242,11 +245,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -254,11 +257,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -266,11 +269,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -278,11 +281,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
             </TableRow>
 
@@ -292,11 +295,11 @@
                     android:layout_height="wrap_content"
                     android:text="Genitiv"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -304,11 +307,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -316,11 +319,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -328,11 +331,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -340,17 +343,17 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
             </TableRow>
         </TableLayout>
 
         <TableLayout
-            android:layout_marginTop="50sp"
+            android:layout_marginTop="15sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:stretchColumns="*">
@@ -359,11 +362,11 @@
                 android:layout_height="wrap_content"
                 android:text="Unbesstimmten Artikel"
                 android:gravity="center"
-                android:background="@drawable/border"
+                android:background="@drawable/grid_background"
                 android:padding="12dp"
                 android:textSize="25sp"
-                android:textStyle="italic"
-                android:textColor="?attr/textcolor"/>
+                android:textStyle="normal"
+                android:textColor="?attr/ElementColorEight"/>
 
             <TableRow>
                 <TextView
@@ -371,11 +374,11 @@
                     android:layout_height="wrap_content"
                     android:text="Gend/Case"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -383,11 +386,11 @@
                     android:layout_height="wrap_content"
                     android:text="Mas"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -395,11 +398,11 @@
                     android:layout_height="wrap_content"
                     android:text="Fem"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -407,11 +410,11 @@
                     android:layout_height="wrap_content"
                     android:text="Neu"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -419,11 +422,11 @@
                     android:layout_height="wrap_content"
                     android:text="Plu"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
             </TableRow>
@@ -433,11 +436,11 @@
                     android:layout_height="wrap_content"
                     android:text="Nom"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -445,11 +448,11 @@
                     android:layout_height="wrap_content"
                     android:text="er"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -457,11 +460,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -469,17 +472,17 @@
                     android:layout_height="wrap_content"
                     android:text="es"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="en*"
@@ -494,11 +497,11 @@
                     android:layout_height="wrap_content"
                     android:text="Akkusativ"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -506,11 +509,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -518,11 +521,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -530,11 +533,11 @@
                     android:layout_height="wrap_content"
                     android:text="es"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -542,7 +545,7 @@
                     android:layout_height="wrap_content"
                     android:text="en*"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
@@ -556,11 +559,11 @@
                     android:layout_height="wrap_content"
                     android:text="Dativ"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -568,11 +571,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -580,11 +583,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -592,11 +595,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -604,7 +607,7 @@
                     android:layout_height="wrap_content"
                     android:text="en*"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
@@ -618,11 +621,11 @@
                     android:layout_height="wrap_content"
                     android:text="Genitiv"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -630,11 +633,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -642,11 +645,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -654,11 +657,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -666,7 +669,7 @@
                     android:layout_height="wrap_content"
                     android:text="er*"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
@@ -688,8 +691,8 @@
 
 
         <TableLayout
-            android:layout_marginTop="50sp"
-            android:layout_marginBottom="20sp"
+            android:layout_marginTop="15sp"
+            android:paddingBottom="20sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:stretchColumns="*">
@@ -699,11 +702,11 @@
                 android:layout_height="wrap_content"
                 android:text="Ohne Artikel"
                 android:gravity="center"
-                android:background="@drawable/border"
+                android:background="@drawable/grid_background"
                 android:padding="12dp"
                 android:textSize="25sp"
                 android:textStyle="italic"
-                android:textColor="?attr/textcolor"/>
+                android:textColor="?attr/ElementColorEight"/>
 
             <TableRow>
                 <TextView
@@ -711,11 +714,11 @@
                     android:layout_height="wrap_content"
                     android:text="Gend/Case"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -723,11 +726,11 @@
                     android:layout_height="wrap_content"
                     android:text="Mas"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -735,11 +738,11 @@
                     android:layout_height="wrap_content"
                     android:text="Fem"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -747,11 +750,11 @@
                     android:layout_height="wrap_content"
                     android:text="Neu"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -759,11 +762,11 @@
                     android:layout_height="wrap_content"
                     android:text="Plu"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
             </TableRow>
@@ -773,11 +776,11 @@
                     android:layout_height="wrap_content"
                     android:text="Nom"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -785,11 +788,11 @@
                     android:layout_height="wrap_content"
                     android:text="er"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -797,11 +800,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -809,11 +812,11 @@
                     android:layout_height="wrap_content"
                     android:text="es"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -821,11 +824,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
             </TableRow>
 
@@ -835,11 +838,11 @@
                     android:layout_height="wrap_content"
                     android:text="Akkusativ"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -847,11 +850,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -859,11 +862,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -871,11 +874,11 @@
                     android:layout_height="wrap_content"
                     android:text="es"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -883,11 +886,11 @@
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
             </TableRow>
 
@@ -897,11 +900,11 @@
                     android:layout_height="wrap_content"
                     android:text="Dativ"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -909,11 +912,11 @@
                     android:layout_height="wrap_content"
                     android:text="em"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -921,11 +924,11 @@
                     android:layout_height="wrap_content"
                     android:text="er"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -933,11 +936,11 @@
                     android:layout_height="wrap_content"
                     android:text="em"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -945,11 +948,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
             </TableRow>
 
@@ -959,11 +962,11 @@
                     android:layout_height="wrap_content"
                     android:text="Genitiv"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -971,11 +974,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -983,11 +986,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -995,11 +998,11 @@
                     android:layout_height="wrap_content"
                     android:text="en"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
 
                 <TextView
@@ -1007,11 +1010,11 @@
                     android:layout_height="wrap_content"
                     android:text="er"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/textcolor">
+                    android:textColor="?attr/ElementColorEight">
                 </TextView>
             </TableRow>
         </TableLayout>
