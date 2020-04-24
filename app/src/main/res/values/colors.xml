@@ -3,4 +3,32 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="HeaderColor">#0d1821</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    //BLUE
+    <color name="BlueColorOne">#6692b7</color>
+    <color name="BlueColorTwo">#4077a5</color>
+    <color name="BlueColorThree">#3a6b95</color>
+    <color name="BlueColorFour">#264763</color>
+    <color name="BlueColorFive">#203c53</color>
+    <color name="BlueColorSix">#1a3042</color>
+    <color name="BlueColorSeven">#0d1821</color>
+    <color name="BlueColorEight">#060c10</color>
+
+    //RED
+    <color name="RedColorOne">#F43434</color>
+
+    <color name="menuRippleColor">#a3bed4</color>
+    <color name="gridItemColor">#100E0F</color>
+    
+    <color name="blue">#d1dee9</color>
+
+    <color name="TextColor"></color>
+    <color name="CardBackgroundColor"></color>
+    <color name="HeaderTextColor">#c6d6e4</color>
+    
 </resources>

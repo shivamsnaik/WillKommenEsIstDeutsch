@@ -1,9 +1,11 @@
-package com.example.willkommenistdeutsch.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments;
 
 
 import android.content.Context;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -11,7 +13,8 @@ import android.widget.Button;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.willkommenistdeutsch.R;
+import com.android.deutschlernenzuzammen.R;
+
 
 public class MainFragment extends Fragment {
 
@@ -58,6 +61,7 @@ public class MainFragment extends Fragment {
         greetingsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
 
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);

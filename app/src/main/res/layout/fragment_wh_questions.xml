@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/backgroundcolor">
+    android:background="?attr/BackgroundColor">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,13 +14,15 @@
             android:layout_height="100dp"
             android:gravity="center"
             android:text="@string/whQuestionsTxt"
-            android:textColor="?attr/textcolor"
+            android:textColor="?attr/HeaderTextColor"
+            android:background="?attr/HeaderColor"
             android:textSize="25sp"
             />
 
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
             android:stretchColumns="*">
 
             <TableRow
@@ -32,11 +34,12 @@
                     android:layout_height="wrap_content"
                     android:text="@string/germanTxt"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/textcolor"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="90dp"
 
                     />
                 <TextView
@@ -44,11 +47,12 @@
                     android:layout_height="wrap_content"
                     android:text="@string/englishTxt"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/textcolor"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="90dp"
                     />
             </TableRow>
 
@@ -61,21 +65,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/whatTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/whatTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -88,21 +94,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/whereTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/whereTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -115,21 +123,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/wherefromTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/wherefromTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -142,21 +152,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/wheretoTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/wheretoTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -169,21 +181,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/whyTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/whyTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -196,21 +210,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/whenTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/whenTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -223,21 +239,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/whoTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/whoTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -250,21 +268,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/whichTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/whichTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -277,21 +297,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/whomTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/whomTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -304,21 +326,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/howTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/howTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -331,21 +355,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/howcomeTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/howcomeTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -358,21 +384,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/howlongTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/howlongTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 
@@ -385,21 +413,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/howmuchTxtGerman"
                     android:gravity="center"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:padding="12dp"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border"
+                    android:background="@drawable/grid_background"
                     android:gravity="center"
                     android:padding="12dp"
                     android:text="@string/howmuchTxt"
-                    android:textSize="15sp"
-                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:textColor="?attr/ElementColorEight"
+                    android:height="70dp"
                     />
             </TableRow>
 

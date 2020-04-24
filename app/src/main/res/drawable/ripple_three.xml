@@ -1,0 +1,12 @@
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" android:color="@color/menuRippleColor">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color= "?attr/ElementColorThree"> </solid>
+            <corners android:radius="0dp"> </corners>
+        </shape>
+    </item>
+
+</ripple>

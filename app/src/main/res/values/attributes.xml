@@ -3,12 +3,29 @@
     <declare-styleable name="darkmode">
 
         <attr name="backgroundcolor" format="color"/>
+        <attr name="BackgroundColor" format="color"/>
         <attr name="cardbackground" format="color"/>
-        <attr name="textcolor" format="color"/>
+        <attr name="TextColor" format="color"/>
+        <attr name="HeaderTextColor" format="color"/>
         <attr name="textHighlightColor" format="color"/>
         <attr name="tintcolor" format="color"/>
         <attr name="buttoncolor" format="color"/>
         <attr name="bordercolor" format="color"/>
-
+        <attr name="buttonBackgroundColor" format="color"/>
+        <attr name="ButtonTextColor" format="color"/>
+        <attr name="CardBackgroundColor" format="color"/>
+        <attr name="GridBackgroundColor" format="color"/>
     </declare-styleable>
+
+    <attr name="HeaderColor" format="color"/>
+    <attr name="ElementColorOne" format="color"/>
+    <attr name="ElementColorTwo" format="color"/>
+    <attr name="ElementColorThree" format="color"/>
+    <attr name="ElementColorFour" format="color"/>
+    <attr name="ElementColorFive" format="color"/>
+    <attr name="ElementColorSix" format="color"/>
+    <attr name="ElementColorSeven" format="color"/>
+    <attr name="ElementColorEight" format="color"/>
+
+
 </resources>

@@ -1,10 +1,11 @@
-package com.example.willkommenistdeutsch;
+package com.deutschlernen.deutschlernenzuzammen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.view.KeyEvent;
+
+import com.android.deutschlernenzuzammen.R;
 
 import io.github.inflationx.calligraphy3.CalligraphyConfig;
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor;

@@ -1,4 +1,4 @@
-package com.example.willkommenistdeutsch;
+package com.deutschlernen.willkommenistdeutsch;
 
 import org.junit.Test;
 
