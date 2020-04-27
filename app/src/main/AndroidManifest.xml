@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.deutschlernenzuzammen">
 
+    <!-- INTERNET PERMISSIONS -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
@@ -9,8 +12,11 @@
         android:roundIcon="@mipmap/app_launcher_v1"
         android:supportsRtl="true"
         android:theme="@style/LightTheme">
-        <activity android:name="com.deutschlernen.deutschlernenzuzammen.AboutUsActivity"></activity>
-        <activity android:name="com.deutschlernen.deutschlernenzuzammen.MainActivity">
+        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.TranslatorActivity"></activity>
+        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.AboutUsActivity" />
+        <activity
+            android:name="com.deutschlernen.deutschlernenzuzammen.activity.MainActivity"
+            android:label="@string/app_name_short">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

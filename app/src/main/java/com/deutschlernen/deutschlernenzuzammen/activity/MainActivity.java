@@ -1,4 +1,4 @@
-package com.deutschlernen.deutschlernenzuzammen;
+package com.deutschlernen.deutschlernenzuzammen.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -85,8 +85,12 @@ public class MainActivity extends AppCompatActivity {
                 restartApp();
                 break;
             case R.id.about_us:
-                Intent intent = new Intent(this, AboutUsActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(this, AboutUsActivity.class));
+
+                break;
+
+            case R.id.translator:
+                startActivity(new Intent(this, TranslatorActivity.class));
         }
         return true;
     }

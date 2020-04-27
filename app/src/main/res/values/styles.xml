@@ -3,7 +3,7 @@
     <!-- Base application theme. -->
 
     <!-- Light theme. -->
-    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="LightTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#0d1821</item>
         <item name="colorPrimaryDark">#060c10</item>
@@ -64,5 +64,14 @@
     <style name="SimpleFont" parent="android:TextAppearance">
         <item name="fontPath">fonts/Simple-Regular.ttf</item>
     </style>
+
+    <style name="LightTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="LightTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="LightTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

@@ -66,7 +66,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new GreetingFragment());
+                ft.add(R.id.linearMainLayout, new GreetingFragment());
                 ft.commit();
             }
         });
@@ -78,7 +78,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new WeekNamesFragment());
+                ft.add(R.id.linearMainLayout, new WeekNamesFragment());
                 ft.commit();
             }
         });
@@ -89,7 +89,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new MonthNameFragment());
+                ft.add(R.id.linearMainLayout, new MonthNameFragment());
                 ft.commit();
             }
         });
@@ -101,7 +101,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new WhQuestionFragment());
+                ft.add(R.id.linearMainLayout, new WhQuestionFragment());
                 ft.commit();
             }
         });
@@ -113,7 +113,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new TrennbarUntrennbarFragment());
+                ft.add(R.id.linearMainLayout, new TrennbarUntrennbarFragment());
                 ft.commit();
             }
         });
@@ -125,7 +125,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new RulesFragment());
+                ft.add(R.id.linearMainLayout, new RulesFragment());
                 ft.commit();
             }
         });
@@ -137,7 +137,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new DativVerbenFragment());
+                ft.add(R.id.linearMainLayout, new DativVerbenFragment());
                 ft.commit();
             }
         });
@@ -148,7 +148,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new AdjektivEndingsFragment());
+                ft.add(R.id.linearMainLayout, new AdjektivEndingsFragment());
                 ft.commit();
             }
         });

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/grid_background"
-    tools:context="com.deutschlernen.deutschlernenzuzammen.AboutUsActivity">
+    tools:context="com.deutschlernen.deutschlernenzuzammen.activity.AboutUsActivity">
 
     <TextView
         android:layout_width="match_parent"
