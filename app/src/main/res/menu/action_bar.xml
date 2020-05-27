@@ -5,6 +5,10 @@
         android:id="@+id/toggle_dark_mode"
         android:title="@string/toggleDarkModeTxt"/>
     <item
+        android:id='@+id/translator'
+        android:checked="true"
+        android:title='Translator - Coming Soon'/>
+    <item
         android:id="@+id/about_us"
         android:title="About Us"/>
 </menu>

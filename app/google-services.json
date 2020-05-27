@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "89805561993",
+    "firebase_url": "https://deutschenglishtranslator.firebaseio.com",
+    "project_id": "deutschenglishtranslator",
+    "storage_bucket": "deutschenglishtranslator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89805561993:android:c0a6deeaae937c02f82658",
+        "android_client_info": {
+          "package_name": "com.deutschlernen.willkommenesistdeutsch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89805561993-mra0a6k4adofedjs1csbq0lffi6a6p00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deutschlernen.willkommenesistdeutsch",
+            "certificate_hash": "b8f6cbd29bf1a5b468cdc2605a664d64fbf463e6"
+          }
+        },
+        {
+          "client_id": "89805561993-7lspmj59g0np9br46udobs9km1ip0igg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn5V5f80nJkyZ-STPMVESta9CXWSTQV1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89805561993-7lspmj59g0np9br46udobs9km1ip0igg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
