@@ -39,15 +39,15 @@ public class MainActivity extends AppCompatActivity {
 
         //FETCHING SETTINGS DATA
         sharedPreferences = getSharedPreferences("settings", Context.MODE_PRIVATE);
-        themeToggle = sharedPreferences.getBoolean("dark_mode", true);
+//        themeToggle = sharedPreferences.getBoolean("dark_mode", true);
 
 
-        if(themeToggle) {
-            this.setTheme(R.style.DarkTheme);
-        }
-        else {
-            this.setTheme(R.style.LightTheme);
-        }
+//        if(themeToggle) {
+//            this.setTheme(R.style.DarkTheme);
+//        }
+//        else {
+//            this.setTheme(R.style.LightTheme);
+//        }
 
         setContentView(R.layout.activity_main);
 
