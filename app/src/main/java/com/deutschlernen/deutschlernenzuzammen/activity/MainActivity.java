@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     public static boolean themeToggle;
     private SharedPreferences sharedPreferences;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,18 +70,18 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             //TOGGLE DARK MODE
             case R.id.toggle_dark_mode:
-                if(themeToggle)
-                    themeToggle = false;
-                else
-                    themeToggle = true;
-
-                /*STORE DARK MODE TOGGLE DATA TO LOCALSTORAGE*/
-                sharedPreferences = getSharedPreferences("settings", Context.MODE_PRIVATE);
-                SharedPreferences.Editor editor = sharedPreferences.edit();
-                editor.putBoolean("dark_mode",themeToggle);
-                editor.apply();
-
-                restartApp();
+//                if(themeToggle)
+//                    themeToggle = false;
+//                else
+//                    themeToggle = true;
+//
+//                /*STORE DARK MODE TOGGLE DATA TO LOCALSTORAGE*/
+//                sharedPreferences = getSharedPreferences("settings", Context.MODE_PRIVATE);
+//                SharedPreferences.Editor editor = sharedPreferences.edit();
+//                editor.putBoolean("dark_mode",themeToggle);
+//                editor.apply();
+//
+//                restartApp();
                 break;
             case R.id.about_us:
                 startActivity(new Intent(this, AboutUsActivity.class));
@@ -90,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
 // TO BE UNCOMMENTED WHEN TRANSLATOR FEATURE IS UPDATED
-//            case R.id.translator:
+            case R.id.translator:
 //                startActivity(new Intent(this, TranslatorActivity.class));
         }
         return true;

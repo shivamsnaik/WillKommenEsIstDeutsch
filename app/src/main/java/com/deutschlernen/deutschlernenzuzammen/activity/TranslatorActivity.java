@@ -1,10 +1,11 @@
 package com.deutschlernen.deutschlernenzuzammen.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentTransaction;
-
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.android.deutschlernenzuzammen.R;
 import com.deutschlernen.deutschlernenzuzammen.fragments.TranslatorFragment;
@@ -15,6 +16,8 @@ import io.github.inflationx.viewpump.ViewPump;
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 public class TranslatorActivity extends AppCompatActivity {
+
+    private static final String TAG = "sdsds";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,10 @@ public class TranslatorActivity extends AppCompatActivity {
                                 .build()))
                 .build());
 
+        updateUI();
+    }
+
+    private void updateUI() {
         setContentView(R.layout.activity_translator);
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();

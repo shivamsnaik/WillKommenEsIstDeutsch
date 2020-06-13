@@ -416,6 +416,7 @@
             android:paddingTop="50dp"
             android:background="@color/blue"
             android:paddingLeft="10dp"
+            android:paddingBottom="20dp"
             android:text="@string/monthNamesNote"
             android:textSize="20sp"
             android:textColor="?attr/ElementColorEight"

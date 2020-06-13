@@ -10,14 +10,16 @@
     <color name="black">#000000</color>
 
     //BLUE
-    <color name="BlueColorOne">#6692b7</color>
-    <color name="BlueColorTwo">#4077a5</color>
-    <color name="BlueColorThree">#3a6b95</color>
-    <color name="BlueColorFour">#264763</color>
-    <color name="BlueColorFive">#203c53</color>
-    <color name="BlueColorSix">#1a3042</color>
-    <color name="BlueColorSeven">#0d1821</color>
-    <color name="BlueColorEight">#060c10</color>
+    <color name="BlueColorMinusOne">#89a6bf</color>
+    <color name="BlueColorZero">#7597b5</color>
+    <color name="BlueColorOne">#6189aa</color>
+    <color name="BlueColorTwo">#4e7aa0</color>
+    <color name="BlueColorThree">#3a6b95</color> <!-- BASE COLOR -->
+    <color name="BlueColorFour">#346086</color>
+    <color name="BlueColorFive">#2e5677</color>
+    <color name="BlueColorSix">#294b68</color>
+    <color name="BlueColorSeven">#234059</color>
+    <color name="BlueColorEight">#1d364b</color>
 
     //RED
     <color name="RedColorOne">#F43434</color>

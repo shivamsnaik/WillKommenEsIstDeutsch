@@ -12,19 +12,21 @@
     </string>
     <string name="git_url">Git URL: https://github.com/shivamsnaik/WillKommenEsIstDeutsch</string>
 
+    <string name="numbersTxt">Numbers/Zahlen</string>
+    <string name="alphabetsTxt">Alphabets</string>
     <string name="greetingsTxt">Greetings/Gruß</string>
     <string name="weekNamesTxt">Week Names/Wochen Tage</string>
     <string name="MonthNamesTxt">Month Names</string>
     <string name="whQuestionsTxt">Wh-questions/Wh-Fragen</string>
     <string name="dativVerbenTxt">Dativ Verben</string>
-    <string name="toggleDarkModeTxt">Toggle Dark Mode</string>
+    <string name="toggleDarkModeTxt">Toggle Dark Mode - Coming Soon</string>
 
     <string name="trenbarrUntrennbarVerbenTxt">Trennbar/Untrennbar Verbs</string>
 
     <string name="rulesTxt">General Rules</string>
 
-    <string name="weekNamesNote">Note:\n\n1. Wochentag: Weekdays\n2. Wochenende: Weekends\n3. All the words take \"DER\"  as article</string>
-    <string name="monthNamesNote">Note:\n\n1. All the words take \"DER\"  as article</string>
+    <string name="weekNamesNote"><font fgcolor="red">Note:\n\n1. Wochentag: Weekdays\n2. Wochenende: Weekends\n3. All the words take \"DER\"  as article</font></string>
+    <string name="monthNamesNote"><font fgcolor="red">Note:\n\n1. All the words take \"DER\"  as article</font></string>
     <!-- GREETINGS PAGE == BEGIN-->
 
     <string name="goodmorningTxt">Good Morning</string>
@@ -226,8 +228,148 @@
 
     <!--    -->
 
+    <!--    NUMBERS  -->
 
-    <!--    RULES PAGE-->
+    <string-array name="numbersGerman">
+        <item>Null\n(n-ull)</item>
+        <item>Zero</item>
+        <item>Eins\n(eyns)</item>
+        <item>One</item>
+        <item>Zwei\n(tsvey)</item>
+        <item>Two</item>
+        <item>Drei\n(dry)</item>
+        <item>Three</item>
+        <item>Vier\n(fear)</item>
+        <item>Four</item>
+        <item>Fünf\n(fuhnf)</item>
+        <item>Five</item>
+        <item>Sechs\n(zex)</item>
+        <item>Six</item>
+        <item>Sieben\n(zee-bin)</item>
+        <item>Seven</item>
+        <item>Acht\n(akt)</item>
+        <item>Eight</item>
+        <item>Neun\n(noin)</item>
+        <item>Nine</item>
+        <item>Zehn\n(tsayn)</item>
+        <item>Ten</item>
+        <item>Elf\n(elf)</item>
+        <item>Eleven</item>
+        <item>Zwölf\n(tsvolf)</item>
+        <item>Twelve</item>
+        <item>Dreizehn\n(dry-tsayn)</item>
+        <item>Thirteen</item>
+        <item>Vierzehn\n(fear-tsayn)</item>
+        <item>Fourteen</item>
+        <item>Fünfzehn\n(fuhnf-tsayn)</item>
+        <item>Fifteen</item>
+        <item>Sechszehn\n(zex-tsayn)</item>
+        <item>Sixteen</item>
+        <item>Siebzehn\n(zeeb-tsayn)</item>
+        <item>Seventeen</item>
+        <item>Achtzehn\n(akt-tsayn)</item>
+        <item>Eighteen</item>
+        <item>Neunzehn\n(noin-tsayn)</item>
+        <item>Ninteen</item>
+        <item>Zwanzig\n(zwan-zish)</item>
+        <item>Twenty</item>
+
+        <item>-- LINE_BREAK --</item>
+
+        <item>Ein-und-Zwanzig</item>
+        <item>Twenty One</item>
+        <item>Zwei-und-zwanzig</item>
+        <item>Twenty Two</item>
+        <item>Sieben-und-Zwanzig</item>
+        <item>Twenty Seven</item>
+
+        <item>-- LINE_BREAK --</item>
+
+        <item>Drei-und-Dreizig</item>
+        <item>Thirty Three</item>
+        <item>Acht-und-Dreizig</item>
+        <item>Thirty Eight</item>
+    </string-array>
+
+    <string name="numbersNote">
+        <font fgcolor="red">NOTE:\n\n1. After 20, every number follows the following format:\n
+        \t SECOND_NUMBER und FIRST_NUMBER - zig.\n
+        E.g., \n\t\t1. 76 - SECHS und SIEB - zig
+        \n\t\t2. 92 - ZWEI und NEUN - zig
+        </font>
+    </string>
+    <!--  NUMBERS END  -->
+
+    <!--  ALPHABETS LIST  -->
+
+    <string-array name="alphabets">
+        <item>A\n(Aaa)</item>
+        <item>A</item>
+        <item>B\n(Bey)</item>
+        <item>B</item>
+        <item>C\n(Tsey)</item>
+        <item>C</item>
+        <item>D\n(Dey)</item>
+        <item>D</item>
+        <item>E\n(Ey)</item>
+        <item>E</item>
+        <item>F</item>
+        <item>F</item>
+        <item>G\n(Ge)</item>
+        <item>G</item>
+        <item>H\n(Haa)</item>
+        <item>H</item>
+        <item>I\n(Ee)</item>
+        <item>I</item>
+        <item>J\n(Yot)</item>
+        <item>J</item>
+        <item>K\n(Kaa)</item>
+        <item>K</item>
+        <item>L</item>
+        <item>L</item>
+        <item>M</item>
+        <item>M</item>
+        <item>N</item>
+        <item>N</item>
+        <item>O</item>
+        <item>O</item>
+        <item>P\n(Pay)</item>
+        <item>P</item>
+        <item>Q\n(Kuu)</item>
+        <item>Q</item>
+        <item>R\n(Err)</item>
+        <item>R</item>
+        <item>S</item>
+        <item>S</item>
+        <item>T\n(Tey)</item>
+        <item>T</item>
+        <item>U\n(Oo)</item>
+        <item>U</item>
+        <item>V\n(Fau)</item>
+        <item>V</item>
+        <item>W\n(Way)</item>
+        <item>W</item>
+        <item>X\n(Ix)</item>
+        <item>X</item>
+        <item>Y\n(Ipslon)</item>
+        <item>Y</item>
+        <item>Z\n(Tzed)</item>
+        <item>Z</item>
+
+        <item>-- LINE_BREAK --</item>
+
+        <item>Ä</item>
+        <item> - </item>
+        <item>Ö</item>
+        <item> - </item>
+        <item>Ü</item>
+        <item> - </item>
+        <item>ß</item>
+        <item> Esset </item>
+    </string-array>
+
+    <!--  ALPHABETS END  -->
+
 
     <string name="ruleOneTxt">1. Zum is used as an exception while talking about food at different time. \nEg. Zum Früstuck, Zum Mittagessen. </string>
     <string name="ruleTwoTxt">

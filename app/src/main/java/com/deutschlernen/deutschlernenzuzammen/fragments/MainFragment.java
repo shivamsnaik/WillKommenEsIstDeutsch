@@ -19,9 +19,9 @@ import com.android.deutschlernenzuzammen.R;
 public class MainFragment extends Fragment {
 
 
-    private Button greetingsBtn, weekNamesBtn, monthNameBtn;
+    private Button numbersBtn, greetingsBtn, weekNamesBtn, monthNameBtn;
     private Button whQuestionsBtn, trenbarrUntrennbarVerbenBtn, dativVerbenBtn, rulesBtn;
-    private Button adjektivEndingBtn;
+    private Button adjektivEndingBtn, alphabetsBtn;
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -48,6 +48,7 @@ public class MainFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle bundle)
     {
+
         greetingsBtn = (Button) view.findViewById(R.id.greetingBtn);
         weekNamesBtn = (Button) view.findViewById(R.id.weekNamesBtn);
         monthNameBtn = (Button) view.findViewById(R.id.monthNamesBtn);
@@ -56,8 +57,36 @@ public class MainFragment extends Fragment {
         rulesBtn = (Button) view.findViewById(R.id.rulesBtn);
         dativVerbenBtn = (Button) view.findViewById(R.id.dativVerbenBtn);
         adjektivEndingBtn = (Button) view.findViewById(R.id.adjektivEndingBtn);
+        numbersBtn = (Button) view.findViewById(R.id.numbersBtn);
+        alphabetsBtn = (Button) view.findViewById(R.id.alphabetsBtn);
 
         //Click listeners
+        numbersBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
+                ft.addToBackStack(null);
+                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
+                ft.add(R.id.linearMainLayout, new NumbersFragment());
+                ft.commit();
+            }
+        });
+
+        alphabetsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
+                ft.addToBackStack(null);
+                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
+                ft.add(R.id.linearMainLayout, new AlphabetFragment());
+                ft.commit();
+            }
+        });
+
         greetingsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -66,7 +95,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new GreetingFragment());
+                ft.add(R.id.linearMainLayout, new GreetingFragment());
                 ft.commit();
             }
         });
@@ -78,7 +107,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new WeekNamesFragment());
+                ft.add(R.id.linearMainLayout, new WeekNamesFragment());
                 ft.commit();
             }
         });
@@ -89,7 +118,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new MonthNameFragment());
+                ft.add(R.id.linearMainLayout, new MonthNameFragment());
                 ft.commit();
             }
         });
@@ -101,7 +130,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new WhQuestionFragment());
+                ft.add(R.id.linearMainLayout, new WhQuestionFragment());
                 ft.commit();
             }
         });
@@ -113,7 +142,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new TrennbarUntrennbarFragment());
+                ft.add(R.id.linearMainLayout, new TrennbarUntrennbarFragment());
                 ft.commit();
             }
         });
@@ -125,7 +154,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new RulesFragment());
+                ft.add(R.id.linearMainLayout, new RulesFragment());
                 ft.commit();
             }
         });
@@ -137,7 +166,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new DativVerbenFragment());
+                ft.add(R.id.linearMainLayout, new DativVerbenFragment());
                 ft.commit();
             }
         });
@@ -148,7 +177,7 @@ public class MainFragment extends Fragment {
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new AdjektivEndingsFragment());
+                ft.add(R.id.linearMainLayout, new AdjektivEndingsFragment());
                 ft.commit();
             }
         });
