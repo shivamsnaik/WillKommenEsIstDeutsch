@@ -17,6 +17,8 @@
         <item name="BackgroundColor">@color/white</item>
         <item name="HeaderColor">@color/HeaderColor</item>
 
+        <item name="ElementColorMinusOne">@color/BlueColorMinusOne</item>
+        <item name="ElementColorZero">@color/BlueColorZero</item>
         <item name="ElementColorOne">@color/BlueColorOne</item>
         <item name="ElementColorTwo">@color/BlueColorTwo</item>
         <item name="ElementColorThree">@color/BlueColorThree</item>
@@ -45,6 +47,8 @@
         <item name="BackgroundColor">@color/white</item>
         <item name="HeaderColor">@color/HeaderColor</item>
 
+        <item name="ElementColorMinusOne">@color/BlueColorMinusOne</item>
+        <item name="ElementColorZero">@color/BlueColorZero</item>
         <item name="ElementColorOne">@color/BlueColorOne</item>
         <item name="ElementColorTwo">@color/BlueColorTwo</item>
         <item name="ElementColorThree">@color/BlueColorThree</item>
@@ -63,6 +67,10 @@
 
     <style name="SimpleFont" parent="android:TextAppearance">
         <item name="fontPath">fonts/Simple-Regular.ttf</item>
+    </style>
+
+    <style name="GidoleRegularFont" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Gidole-Regular.otf</item>
     </style>
 
 </resources>

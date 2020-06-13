@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.AlphabetFragment"
+    android:background="?attr/BackgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="@string/alphabetsTxt"
+            android:textColor="?attr/HeaderTextColor"
+            android:textSize="30sp"
+            android:background="?attr/HeaderColor"
+            />
+        <TableLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="2dp"
+            android:id="@+id/alphabetsTable"
+            android:stretchColumns="*">
+            <TableRow
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:height="90dp"
+                    android:background="@drawable/grid_background"
+                    android:gravity="center"
+                    android:text="@string/germanTxt"
+                    android:textColor="?attr/ElementColorEight"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:height="90dp"
+                    android:background="@drawable/grid_background"
+                    android:gravity="center"
+                    android:text="@string/englishTxt"
+                    android:textColor="?attr/ElementColorEight"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="2dp"-->
+
+<!--            />-->
+<!--        <TextView-->
+<!--            android:paddingTop="20dp"-->
+<!--            android:paddingBottom="20dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@drawable/grid_background"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:text="@string/numbersNote"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="?attr/ElementColorEight"-->
+<!--            >-->
+
+<!--        </TextView>-->
+
+    </LinearLayout>
+</ScrollView>

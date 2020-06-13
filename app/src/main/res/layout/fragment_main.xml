@@ -14,19 +14,19 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/appName"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:gravity="center"
-            android:text="@string/app_name"
-            android:textColor="?attr/HeaderTextColor"
-            android:textSize="25dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-        <!--        android:textAppearance="@style/SimpleFont"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/appName"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/app_name"-->
+<!--            android:textColor="?attr/HeaderTextColor"-->
+<!--            android:textSize="25dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.497"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"/>-->
+<!--        &lt;!&ndash;        android:textAppearance="@style/SimpleFont"/>&ndash;&gt;-->
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -39,6 +39,34 @@
 
 
             <Button
+                android:id="@+id/numbersBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/numbersTxt"
+                android:textColor="?attr/ButtonTextColor"
+                android:background="@drawable/ripple_minus_one"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:layout_marginTop="2dp"
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
+                />
+
+            <Button
+                android:id="@+id/alphabetsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alphabetsTxt"
+                android:textColor="?attr/ButtonTextColor"
+                android:background="@drawable/ripple_zero"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
+                />
+            <Button
                 android:id="@+id/greetingBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -47,7 +75,6 @@
                 android:background="@drawable/ripple_one"
                 android:textSize="20dp"
                 android:height="120dp"
-                android:layout_marginTop="2dp"
                 android:elevation="10dp"
                 android:translationZ="20dp"
                 android:stateListAnimator="@null"

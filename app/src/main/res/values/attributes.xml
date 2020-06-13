@@ -18,6 +18,8 @@
     </declare-styleable>
 
     <attr name="HeaderColor" format="color"/>
+    <attr name="ElementColorMinusOne" format="color"/>
+    <attr name="ElementColorZero" format="color"/>
     <attr name="ElementColorOne" format="color"/>
     <attr name="ElementColorTwo" format="color"/>
     <attr name="ElementColorThree" format="color"/>

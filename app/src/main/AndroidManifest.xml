@@ -6,10 +6,11 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
         android:label="@string/app_name_short"
-        android:roundIcon="@mipmap/app_launcher_v1"
+        android:roundIcon="@mipmap/app_launcher_v2"
         android:supportsRtl="true"
         android:theme="@style/LightTheme">
         <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.AboutUsActivity"></activity>
+        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.TranslatorActivity"></activity>
         <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
