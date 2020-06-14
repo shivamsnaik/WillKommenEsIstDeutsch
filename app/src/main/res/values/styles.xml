@@ -4,11 +4,12 @@
 
     <!-- Light theme. -->
     <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="titleBarColor">@color/black</item>
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#0d1821</item>
-        <item name="colorPrimaryDark">#060c10</item>
+        <item name="colorPrimaryDark">#0d1821</item>
         <item name="CardBackgroundColor">#EF3C2E</item>
-        <item name="TextColor">@color/TextColor</item>
         <item name="HeaderTextColor">@color/HeaderTextColor</item>
         <item name="textHighlightColor">#EE3B3B</item>
         <item name="ButtonTextColor">#FFFFFF</item>
@@ -29,36 +30,41 @@
         <item name="ElementColorEight">@color/BlueColorEight</item>
 
         <item name="GridBackgroundColor">@color/blue</item>
-
+        <item name="TableTextColor">@color/black</item>
+        <item name="MenuRippleColor">@color/menuRippleColor</item>
     </style>
 
     <!-- Night theme. -->
     <style name="DarkTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
+        <item name="titleBarColor">@color/red</item>
+
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#0d1821</item>
-        <item name="colorPrimaryDark">#060c10</item>
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>
         <item name="CardBackgroundColor">#EF3C2E</item>
-        <item name="TextColor">@color/TextColor</item>
         <item name="HeaderTextColor">@color/HeaderTextColor</item>
         <item name="textHighlightColor">#EE3B3B</item>
         <item name="ButtonTextColor">#FFFFFF</item>
         <item name="buttonBackgroundColor">#FDE69E</item>
 
         <item name="BackgroundColor">@color/white</item>
-        <item name="HeaderColor">@color/HeaderColor</item>
+        <item name="HeaderColor">@color/DarkColorMinusOne</item>
 
-        <item name="ElementColorMinusOne">@color/BlueColorMinusOne</item>
-        <item name="ElementColorZero">@color/BlueColorZero</item>
-        <item name="ElementColorOne">@color/BlueColorOne</item>
-        <item name="ElementColorTwo">@color/BlueColorTwo</item>
-        <item name="ElementColorThree">@color/BlueColorThree</item>
-        <item name="ElementColorFour">@color/BlueColorFour</item>
-        <item name="ElementColorFive">@color/BlueColorFive</item>
-        <item name="ElementColorSix">@color/BlueColorSix</item>
-        <item name="ElementColorSeven">@color/BlueColorSeven</item>
-        <item name="ElementColorEight">@color/BlueColorEight</item>
+        <item name="ElementColorMinusOne">@color/DarkColorMinusOne</item>
+        <item name="ElementColorZero">@color/DarkColorZero</item>
+        <item name="ElementColorOne">@color/DarkColorOne</item>
+        <item name="ElementColorTwo">@color/DarkColorTwo</item>
+        <item name="ElementColorThree">@color/DarkColorThree</item>
+        <item name="ElementColorFour">@color/DarkColorFour</item>
+        <item name="ElementColorFive">@color/DarkColorFive</item>
+        <item name="ElementColorSix">@color/DarkColorSix</item>
+        <item name="ElementColorSeven">@color/DarkColorSeven</item>
+        <item name="ElementColorEight">@color/DarkColorEight</item>
 
-        <item name="GridBackgroundColor">@color/blue</item>
+        <item name="GridBackgroundColor">@color/DarkColorTwo</item>
+        <item name="TableTextColor">@color/TableTextColor</item>
+        <item name="MenuRippleColor">@color/menuRippleColorDark</item>
     </style>
 
     <style name="Garamound" parent="android:TextAppearance">

@@ -3,11 +3,15 @@ package com.deutschlernen.deutschlernenzuzammen.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
+import androidx.annotation.ColorInt;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -39,15 +43,15 @@ public class MainActivity extends AppCompatActivity {
 
         //FETCHING SETTINGS DATA
         sharedPreferences = getSharedPreferences("settings", Context.MODE_PRIVATE);
-//        themeToggle = sharedPreferences.getBoolean("dark_mode", true);
+        themeToggle = sharedPreferences.getBoolean("dark_mode", true);
 
 
-//        if(themeToggle) {
-//            this.setTheme(R.style.DarkTheme);
-//        }
-//        else {
-//            this.setTheme(R.style.LightTheme);
-//        }
+        if(themeToggle) {
+            this.setTheme(R.style.DarkTheme);
+        }
+        else {
+            this.setTheme(R.style.LightTheme);
+        }
 
         setContentView(R.layout.activity_main);
 
@@ -70,18 +74,18 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             //TOGGLE DARK MODE
             case R.id.toggle_dark_mode:
-//                if(themeToggle)
-//                    themeToggle = false;
-//                else
-//                    themeToggle = true;
-//
-//                /*STORE DARK MODE TOGGLE DATA TO LOCALSTORAGE*/
-//                sharedPreferences = getSharedPreferences("settings", Context.MODE_PRIVATE);
-//                SharedPreferences.Editor editor = sharedPreferences.edit();
-//                editor.putBoolean("dark_mode",themeToggle);
-//                editor.apply();
-//
-//                restartApp();
+                if(themeToggle)
+                    themeToggle = false;
+                else
+                    themeToggle = true;
+
+                /*STORE DARK MODE TOGGLE DATA TO LOCALSTORAGE*/
+                sharedPreferences = getSharedPreferences("settings", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putBoolean("dark_mode",themeToggle);
+                editor.apply();
+
+                restartApp();
                 break;
             case R.id.about_us:
                 startActivity(new Intent(this, AboutUsActivity.class));
@@ -106,5 +110,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
+    }
+
+    public static int getResourceFromAttribute(int attributeId, Resources.Theme theme)
+    {
+        TypedValue typedValue = new TypedValue();
+        theme.resolveAttribute(R.attr.titleBarColor, typedValue, true);
+        int resource = typedValue.data;
+
+        return resource;
     }
 }

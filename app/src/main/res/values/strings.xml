@@ -12,6 +12,7 @@
     </string>
     <string name="git_url">Git URL: https://github.com/shivamsnaik/WillKommenEsIstDeutsch</string>
 
+    <string name="practiceTxt">Practice Hören</string>
     <string name="numbersTxt">Numbers/Zahlen</string>
     <string name="alphabetsTxt">Alphabets</string>
     <string name="greetingsTxt">Greetings/Gruß</string>
@@ -19,7 +20,7 @@
     <string name="MonthNamesTxt">Month Names</string>
     <string name="whQuestionsTxt">Wh-questions/Wh-Fragen</string>
     <string name="dativVerbenTxt">Dativ Verben</string>
-    <string name="toggleDarkModeTxt">Toggle Dark Mode - Coming Soon</string>
+    <string name="toggleDarkModeTxt">Dim/Light the Candles</string>
 
     <string name="trenbarrUntrennbarVerbenTxt">Trennbar/Untrennbar Verbs</string>
 
@@ -231,63 +232,63 @@
     <!--    NUMBERS  -->
 
     <string-array name="numbersGerman">
-        <item>Null\n(n-ull)</item>
+        <item>Null</item>
         <item>Zero</item>
-        <item>Eins\n(eyns)</item>
+        <item>Eins</item>
         <item>One</item>
-        <item>Zwei\n(tsvey)</item>
+        <item>Zwei</item>
         <item>Two</item>
-        <item>Drei\n(dry)</item>
+        <item>Drei</item>
         <item>Three</item>
-        <item>Vier\n(fear)</item>
+        <item>Vier</item>
         <item>Four</item>
-        <item>Fünf\n(fuhnf)</item>
+        <item>Fünf</item>
         <item>Five</item>
-        <item>Sechs\n(zex)</item>
+        <item>Sechs</item>
         <item>Six</item>
-        <item>Sieben\n(zee-bin)</item>
+        <item>Sieben</item>
         <item>Seven</item>
-        <item>Acht\n(akt)</item>
+        <item>Acht</item>
         <item>Eight</item>
-        <item>Neun\n(noin)</item>
+        <item>Neun</item>
         <item>Nine</item>
-        <item>Zehn\n(tsayn)</item>
+        <item>Zehn</item>
         <item>Ten</item>
-        <item>Elf\n(elf)</item>
+        <item>Elf</item>
         <item>Eleven</item>
-        <item>Zwölf\n(tsvolf)</item>
+        <item>Zwölf</item>
         <item>Twelve</item>
-        <item>Dreizehn\n(dry-tsayn)</item>
+        <item>Dreizehn</item>
         <item>Thirteen</item>
-        <item>Vierzehn\n(fear-tsayn)</item>
+        <item>Vierzehn</item>
         <item>Fourteen</item>
-        <item>Fünfzehn\n(fuhnf-tsayn)</item>
+        <item>Fünfzehn</item>
         <item>Fifteen</item>
-        <item>Sechszehn\n(zex-tsayn)</item>
+        <item>Sechszehn</item>
         <item>Sixteen</item>
-        <item>Siebzehn\n(zeeb-tsayn)</item>
+        <item>Siebzehn</item>
         <item>Seventeen</item>
-        <item>Achtzehn\n(akt-tsayn)</item>
+        <item>Achtzehn</item>
         <item>Eighteen</item>
-        <item>Neunzehn\n(noin-tsayn)</item>
+        <item>Neunzehn</item>
         <item>Ninteen</item>
-        <item>Zwanzig\n(zwan-zish)</item>
+        <item>Zwanzig</item>
         <item>Twenty</item>
 
         <item>-- LINE_BREAK --</item>
 
-        <item>Ein-und-Zwanzig</item>
+        <item>EinundZwanzig</item>
         <item>Twenty One</item>
-        <item>Zwei-und-zwanzig</item>
+        <item>Zweiundzwanzig</item>
         <item>Twenty Two</item>
-        <item>Sieben-und-Zwanzig</item>
+        <item>SiebenundZwanzig</item>
         <item>Twenty Seven</item>
 
         <item>-- LINE_BREAK --</item>
 
-        <item>Drei-und-Dreizig</item>
+        <item>DreiundDreizig</item>
         <item>Thirty Three</item>
-        <item>Acht-und-Dreizig</item>
+        <item>AchtundDreizig</item>
         <item>Thirty Eight</item>
     </string-array>
 
@@ -303,27 +304,27 @@
     <!--  ALPHABETS LIST  -->
 
     <string-array name="alphabets">
-        <item>A\n(Aaa)</item>
         <item>A</item>
-        <item>B\n(Bey)</item>
+        <item>A</item>
         <item>B</item>
-        <item>C\n(Tsey)</item>
+        <item>B</item>
         <item>C</item>
-        <item>D\n(Dey)</item>
+        <item>C</item>
         <item>D</item>
-        <item>E\n(Ey)</item>
+        <item>D</item>
+        <item>E</item>
         <item>E</item>
         <item>F</item>
         <item>F</item>
-        <item>G\n(Ge)</item>
         <item>G</item>
-        <item>H\n(Haa)</item>
+        <item>G</item>
         <item>H</item>
-        <item>I\n(Ee)</item>
+        <item>H</item>
         <item>I</item>
-        <item>J\n(Yot)</item>
+        <item>I</item>
         <item>J</item>
-        <item>K\n(Kaa)</item>
+        <item>J</item>
+        <item>K</item>
         <item>K</item>
         <item>L</item>
         <item>L</item>
@@ -333,27 +334,27 @@
         <item>N</item>
         <item>O</item>
         <item>O</item>
-        <item>P\n(Pay)</item>
         <item>P</item>
-        <item>Q\n(Kuu)</item>
+        <item>P</item>
         <item>Q</item>
-        <item>R\n(Err)</item>
+        <item>Q</item>
+        <item>R</item>
         <item>R</item>
         <item>S</item>
         <item>S</item>
-        <item>T\n(Tey)</item>
         <item>T</item>
-        <item>U\n(Oo)</item>
+        <item>T</item>
         <item>U</item>
-        <item>V\n(Fau)</item>
+        <item>U</item>
         <item>V</item>
-        <item>W\n(Way)</item>
+        <item>V</item>
         <item>W</item>
-        <item>X\n(Ix)</item>
+        <item>W</item>
         <item>X</item>
-        <item>Y\n(Ipslon)</item>
+        <item>X</item>
         <item>Y</item>
-        <item>Z\n(Tzed)</item>
+        <item>Y</item>
+        <item>Z</item>
         <item>Z</item>
 
         <item>-- LINE_BREAK --</item>

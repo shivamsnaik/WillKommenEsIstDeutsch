@@ -38,7 +38,7 @@
                     android:padding="12dp"
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="90dp"
 
                     />
@@ -51,7 +51,7 @@
                     android:padding="12dp"
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="90dp"
                     />
             </TableRow>
@@ -68,7 +68,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -80,7 +80,7 @@
                     android:padding="12dp"
                     android:text="@string/whatTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -97,7 +97,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -109,7 +109,7 @@
                     android:padding="12dp"
                     android:text="@string/whereTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -126,7 +126,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -138,7 +138,7 @@
                     android:padding="12dp"
                     android:text="@string/wherefromTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -155,7 +155,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -167,7 +167,7 @@
                     android:padding="12dp"
                     android:text="@string/wheretoTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -184,7 +184,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -196,7 +196,7 @@
                     android:padding="12dp"
                     android:text="@string/whyTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -213,7 +213,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -225,7 +225,7 @@
                     android:padding="12dp"
                     android:text="@string/whenTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -242,7 +242,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -254,7 +254,7 @@
                     android:padding="12dp"
                     android:text="@string/whoTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -271,7 +271,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -283,7 +283,7 @@
                     android:padding="12dp"
                     android:text="@string/whichTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -300,7 +300,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -312,7 +312,7 @@
                     android:padding="12dp"
                     android:text="@string/whomTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -329,7 +329,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -341,7 +341,7 @@
                     android:padding="12dp"
                     android:text="@string/howTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -358,7 +358,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -370,7 +370,7 @@
                     android:padding="12dp"
                     android:text="@string/howcomeTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -387,7 +387,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -399,7 +399,7 @@
                     android:padding="12dp"
                     android:text="@string/howlongTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>
@@ -416,7 +416,7 @@
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
 
@@ -428,7 +428,7 @@
                     android:padding="12dp"
                     android:text="@string/howmuchTxt"
                     android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="70dp"
                     />
             </TableRow>

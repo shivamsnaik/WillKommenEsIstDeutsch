@@ -22,14 +22,25 @@
     <color name="BlueColorEight">#1d364b</color>
 
     //RED
-    <color name="RedColorOne">#F43434</color>
+    <color name="DarkColorMinusOne">#0c0b0b</color>
+    <color name="DarkColorZero">#100f0f</color>
+    <color name="DarkColorOne">#141313</color>
+    <color name="DarkColorTwo">#181616</color>
+    <color name="DarkColorThree">#1c1a1a</color>
+    <color name="DarkColorFour">#201e1e</color>
+    <color name="DarkColorFive">#242121</color>
+    <color name="DarkColorSix">#282525</color> <!-- BASE COLOR -->
+    <color name="DarkColorSeven">#3e3b3b</color>
+    <color name="DarkColorEight">#535151</color>
 
     <color name="menuRippleColor">#a3bed4</color>
+    <color name="menuRippleColorDark">#d26b6d</color>
     <color name="gridItemColor">#100E0F</color>
-    
+
+    <color name="red">#b33537</color>
     <color name="blue">#d1dee9</color>
 
-    <color name="TextColor"></color>
+    <color name="TableTextColor">@color/white</color>
     <color name="CardBackgroundColor"></color>
     <color name="HeaderTextColor">#c6d6e4</color>
     
