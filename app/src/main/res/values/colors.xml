@@ -10,6 +10,7 @@
     <color name="black">#000000</color>
 
     //BLUE
+    <color name="BlueColorMinusTwo">#9db5ca</color>
     <color name="BlueColorMinusOne">#89a6bf</color>
     <color name="BlueColorZero">#7597b5</color>
     <color name="BlueColorOne">#6189aa</color>
@@ -22,6 +23,7 @@
     <color name="BlueColorEight">#1d364b</color>
 
     //RED
+    <color name="DarkColorMinusTwo">#000000</color>
     <color name="DarkColorMinusOne">#0c0b0b</color>
     <color name="DarkColorZero">#100f0f</color>
     <color name="DarkColorOne">#141313</color>

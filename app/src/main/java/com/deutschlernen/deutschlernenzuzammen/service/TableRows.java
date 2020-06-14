@@ -5,6 +5,7 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Build;
 import android.text.Layout;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
@@ -20,7 +21,7 @@ import com.android.deutschlernenzuzammen.R;
 
 import org.w3c.dom.Text;
 
-public class CreateTableRows {
+public class TableRows {
     @RequiresApi(api = Build.VERSION_CODES.M)
     public static void createRows(String[] dataList, int tableId, View view, Activity fragmentActivity){
 
@@ -62,7 +63,8 @@ public class CreateTableRows {
             txtViewGerman.setText(dataList[i]);
             txtViewGerman.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
             txtViewGerman.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-            txtViewGerman.setTextAppearance(R.style.GidoleRegularFont);
+            txtViewGerman.setTextAppearance(fragmentActivity, R.style.GidoleRegularFont);
+            txtViewGerman.setOnClickListener(new TextToSpeechListener());
             row.addView(txtViewGerman);
 
             TextView  txtViewEnglish = new TextView(fragmentActivity);
@@ -71,13 +73,19 @@ public class CreateTableRows {
             txtViewEnglish.setText(dataList[i+1]);
             txtViewEnglish.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
             txtViewEnglish.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-            txtViewEnglish.setTextAppearance(R.style.GidoleRegularFont);
-            txtViewEnglish.setTextAppearance(fragmentActivity, typedValue.data);
+            txtViewEnglish.setTextAppearance(fragmentActivity, R.style.GidoleRegularFont);
             row.addView(txtViewEnglish);
 
             table.addView(row, new TableLayout.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableLayout.LayoutParams.WRAP_CONTENT));
         }
-
-
     }
+
+    static class TextToSpeechListener implements TextView.OnClickListener {
+        @Override
+        public void onClick(View v) {
+            Log.i("ONSPEECH", "onClick: "+((TextView)v).getText());
+            TextToSpeechService.convertTextToSpeech(v.getContext(), ((TextView)v).getText());
+        }
+    }
+
 }
