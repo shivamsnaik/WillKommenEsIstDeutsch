@@ -30,206 +30,328 @@
     <string name="monthNamesNote"><font fgcolor="red">Note:\n\n1. All the words take \"DER\"  as article</font></string>
     <!-- GREETINGS PAGE == BEGIN-->
 
-    <string name="goodmorningTxt">Good Morning</string>
-    <string name="goodmorningTxtGerman">Guten Morgen</string>
+    <string-array name="greetings">
+        <item>Hallo</item>
+        <item>Hello</item>
 
-    <string name="gooddayTxt">Good Day</string>
-    <string name="gooddayTxtGerman">Guten Tag</string>
+        <item>Guten Morgen</item>
+        <item>Good Morning</item>
 
-    <string name="goodeveningTxt">Good Evening</string>
-    <string name="goodeveningTxtGerman">Guten Abend</string>
+        <item>Guten Tag</item>
+        <item>Good Day</item>
 
-    <string name="goodnightTxt">Good Night</string>
-    <string name="goodnightTxtGerman">Guten Nacht</string>
+        <item>Guten Abend</item>
+        <item>Good Evening</item>
 
-    <string name="dayaftertomTxt">Day after tomorrow</string>
-    <string name="dayaftertomTxtGerman">Über Morgen</string>
+        <item>Gute Nacht</item>
+        <item>Good Night</item>
 
-    <string name="todayTxt">Today</string>
-    <string name="todayTxtGerman">Heute</string>
+        <item>Über Morgen</item>
+        <item>Day after tomorrow</item>
 
-    <string name="yesterdayTxt">Yesterday</string>
-    <string name="yesterdayTxtGerman">Gestern</string>
+        <item>Heute</item>
+        <item>Today</item>
 
-    <string name="daybefyesterdayTxt">Day before yesterday</string>
-    <string name="daybefyesterdayTxtGerman">Vorgestern</string>
+        <item>Gestern</item>
+        <item>Yesterday</item>
 
+        <item>Vorgestern</item>
+        <item>Day before yesterday</item>
+
+        <item>Danke</item>
+        <item>Thank-you</item>
+
+        <item>Vielen Danke</item>
+        <item>Thank-you so much</item>
+
+        <item>Sehr Gut</item>
+        <item>Very Good</item>
+
+        <item>Willkommen</item>
+        <item>Welcome</item>
+
+        <item>Herzlich Willkommen</item>
+        <item>Heartly Welcome</item>
+
+        <item>Gezundheit</item>
+        <item>God bless you</item>
+
+        <item>Freut mich/\nFreutmich  sie \nkennen zu lernen</item>
+        <item>Glad to meet</item>
+
+        <item>Bis Später</item>
+        <item>See you later</item>
+
+        <item>Bis Bald</item>
+        <item>See you soon</item>
+
+        <item>Bis Gleich</item>
+        <item>See you right back</item>
+
+        <item>Bis Gleich</item>
+        <item>See you right back</item>
+
+        <item>Tut mir leid</item>
+        <item>I\'m sorry</item>
+
+        <item>Auf wiedersehen(F)/\nTschüss(INF)</item>
+        <item>Good bye</item>
+
+        <item>Bis gleich</item>
+        <item>All the best</item>
+
+        <item>Noch einmal/\nWiederholen sie bitte</item>
+        <item>Please repeat</item>
+
+        <item>Gute Besserung</item>
+        <item>Get well soon</item>
+
+        <item>Viel Erfold</item>
+        <item>Wish you lot of success</item>
+
+        <item>Mein herzliches Beileid</item>
+        <item>Heart filled condolences</item>
+
+        <item>Gratulationen</item>
+        <item>Congratulations</item>
+
+        <item>Wie geht\'s?/\nWie geht es dir\?</item>
+        <item>How are you?(INF)</item>
+
+        <item>Wie geht es ihnen\?</item>
+        <item>How are you?(F)</item>
+
+        <item>Gute Reise/\nSchöne Reise</item>
+        <item>Happy Journey</item>
+
+        <item></item>
+    </string-array>
 
     <string name="englishTxt">English</string>
-    <string name="germanTxt">Deutsch</string>
-
-    <string name="thankyouTxt">Thank-you</string>
-    <string name="thankyouTxtGerman">Danke</string>
-
-    <string name="thankyousomuchTxt">Thank-you so much</string>
-    <string name="thankyousomuchTxtGerman">Vielen Danke</string>
-
-    <string name="verygoodTxt">Very Good</string>
-    <string name="verygoodTxtGerman">Sehr Gut</string>
-
-    <string name="welcomeTxt">Welcome</string>
-    <string name="welcomeTxtGerman">Willkommen</string>
-
-    <string name="heartlywelcomeTxt">Heartly Welcome</string>
-    <string name="heartlywelcomeTxtGerman">Herzlich Willkommen</string>
-
-    <string name="godblessTxt">God bless you</string>
-    <string name="godblessTxtGerman">Gezundheit</string>
-
-    <string name="gladtomeetTxt">Glad to meet</string>
-    <string name="gladtomeetTxtGerman">Freut mich/\nFreutmich  sie \nkennen zu lernen</string>
-
-    <string name="seeyoulaterTxt">See you later</string>
-    <string name="seeyoulaterTxtGerman">Bis Später</string>
-
-    <string name="seeyousoonTxt">See you soon</string>
-    <string name="seeyousoonTxtGerman">Bis Bald</string>
-
-    <string name="seeyourightbackTxt">See you right back</string>
-    <string name="seeyourightbackTxtGerman">Bis Gleich</string>
-
-    <string name="sorryTxt">I\'m sorry</string>
-    <string name="sorryTxtGerman">Tut mir leid</string>
-
-    <string name="goodbyeTxt">Good bye</string>
-    <string name="goodbyeTxtGerman">Auf wiedersehen(F)/\nTschüss(INF)</string>
-
-    <string name="allthebestTxt">All the best</string>
-    <string name="allthebestTxtGerman">Bis gleich</string>
-
-    <string name="repeatTxt">Please repeat</string>
-    <string name="repeatTxtGerman">Noch einmal/\nWiederholen sie bitte</string>
-
-    <string name="getwellsoonTxt">Get well soon</string>
-    <string name="getwellsoonTxtGerman">Gute Besserung</string>
-
-    <string name="wishsuccessTxt">Wish you lot of success</string>
-    <string name="wishsuccessTxtGerman">Viel Erfold</string>
-
-    <string name="condolenceTxt">Heart filled condolences</string>
-    <string name="condolenceTxtGerman">Mein herzliches Beileid</string>
-
-    <string name="congratsTxt">Congratulations</string>
-    <string name="congratsTxtGerman">Gratulationen</string>
-
-    <string name="howareyouTxt">How are you?(INF)</string>
-    <string name="howareyouTxtGerman">Wie geht\'s?/\nWie geht es dir\?</string>
-
-    <string name="howareyouFormalTxt">How are you?(F)</string>
-    <string name="howareyouFormalTxtGerman">Wie geht es ihnen\?</string>
-
-    <string name="happyjourneyTxt">Happy Journey</string>
-    <string name="happyjourneyTxtGerman">Gute Reise/\nSchöne Reise</string>
+    <string name="germanTxt">Deutsch\n<font size="12"><i>(Click on the word for Voice O/P)</i></font></string>
 
     <!--GREETINGS PAGE == END-->
 
-    <string name="monTxt">Monday</string>
-    <string name="monTxtGerman">Montag</string>
 
-    <string name="tueTxt">Tuesday</string>
-    <string name="tueTxtGerman">Dienstag</string>
+    <!-- WEEK NAMES PAGE BEGIN   -->
 
-    <string name="wedTxt">Wednesday</string>
-    <string name="wedTxtGerman">Mittwoch</string>
+    <string-array name="weekNames">
+        <item>Montag</item>
+        <item>Monday</item>
 
-    <string name="thuTxt">Thursday</string>
-    <string name="thuTxtGerman">Donnerstag</string>
+        <item>Dienstag</item>
+        <item>Tuesday</item>
 
-    <string name="friTxt">Friday</string>
-    <string name="friTxtGerman">Freitag</string>
+        <item>Mittwoch</item>
+        <item>Wednesday</item>
 
-    <string name="satTxt">Saturday</string>
-    <string name="satTxtGerman">Samstag</string>
+        <item>Donnerstag</item>
+        <item>Thursday</item>
 
-    <string name="sunTxt">Sunday</string>
-    <string name="sunTxtGerman">Sonntag</string>
+        <item>Freitag</item>
+        <item>Friday</item>
 
-    <string name="janTxt">January</string>
-    <string name="janTxtGerman">Januar</string>
+        <item>Samstag</item>
+        <item>Saturday</item>
 
-    <string name="febTxt">February</string>
-    <string name="febTxtGerman">Februar</string>
+        <item>Sonntag</item>
+        <item>Sunday</item>
+    </string-array>
 
-    <string name="marTxt">March</string>
-    <string name="marTxtGerman">März</string>
+    <!--  WEEK NAMES END  -->
 
-    <string name="aprTxt">April</string>
-    <string name="aprTxtGerman">April</string>
+    <!--  MONTH NAMES START  -->
 
-    <string name="mayTxt">May</string>
-    <string name="mayTxtGerman">Mai</string>
+    <string-array name="monthNames">
+        <item>Januar</item>
+        <item>January</item>
 
-    <string name="junTxt">June</string>
-    <string name="junTxtGerman">Juni</string>
+        <item>Februar</item>
+        <item>February</item>
 
-    <string name="julTxt">July</string>
-    <string name="julTxtGerman">Juli</string>
+        <item>März</item>
+        <item>March</item>
 
-    <string name="augTxt">August</string>
-    <string name="augTxtGerman">August</string>
+        <item>April</item>
+        <item>April</item>
 
-    <string name="septTxt">September</string>
-    <string name="septTxtGerman">September</string>
+        <item>Mai</item>
+        <item>May</item>
 
-    <string name="octTxt">October</string>
-    <string name="octTxtGerman">Oktober</string>
+        <item>Juni</item>
+        <item>June</item>
 
-    <string name="novTxt">November</string>
-    <string name="novTxtGerman">November</string>
+        <item>Juli</item>
+        <item>July</item>
 
-    <string name="decTxt">December</string>
-    <string name="decTxtGerman">Dezember</string>
+        <item>August</item>
+        <item>August</item>
 
-    <!--  WH- QUESTIONS  -->
+        <item>September</item>
+        <item>September</item>
 
-    <string name="whatTxt">What?</string>
-    <string name="whatTxtGerman">Was?</string>
+        <item>November</item>
+        <item>November</item>
 
-    <string name="whereTxt">Where?</string>
-    <string name="whereTxtGerman">Wo?</string>
+        <item>Dezember</item>
+        <item>December</item>
+    </string-array>
 
-    <string name="whoTxt">Who?</string>
-    <string name="whoTxtGerman">Wer?</string>
+    <!--  MONTH NAMES END  -->
 
-    <string name="whyTxt">Why?</string>
-    <string name="whyTxtGerman">Warum?</string>
+    <!--  WH- QUESTIONS START -->
+    <string-array name="whQuestions">
+        <item>Was?</item>
+        <item>What?</item>
 
-    <string name="whenTxt">When?</string>
-    <string name="whenTxtGerman">Wann?</string>
+        <item>Wo?</item>
+        <item>Where?</item>
 
-    <string name="whichTxt">Which?</string>
-    <string name="whichTxtGerman">Welche?</string>
+        <item>Wer?</item>
+        <item>Who?</item>
 
-    <string name="howTxt">How?</string>
-    <string name="howTxtGerman">Wie?</string>
+        <item>Warum?</item>
+        <item>Why?</item>
 
-    <string name="howcomeTxt">How come?</string>
-    <string name="howcomeTxtGerman">Wieso?</string>
+        <item>Wann?</item>
+        <item>When?</item>
 
-    <string name="howlongTxt">How long?</string>
-    <string name="howlongTxtGerman">Wie lange?</string>
+        <item>Welche?</item>
+        <item>Which?</item>
 
-    <string name="whomTxt">Whom?</string>
-    <string name="whomTxtGerman">Mit wem?</string>
+        <item>Wie?</item>
+        <item>How?</item>
 
-    <string name="whoseTxt">Whose?</string>
-    <string name="whoseTxtGerman">Wessen?</string>
+        <item>Wieso?</item>
+        <item>How come?</item>
 
-    <string name="howmuchTxt">How much?</string>
-    <string name="howmuchTxtGerman">Wie viel?</string>
+        <item>Wie lange?</item>
+        <item>How long?</item>
 
-    <string name="wherefromTxt">Where from?</string>
-    <string name="wherefromTxtGerman">Woher?</string>
+        <item>Mit wem?</item>
+        <item>Whom?</item>
 
-    <string name="wheretoTxt">Where to?</string>
-    <string name="wheretoTxtGerman">Wohin?</string>
+        <item>Wessen?</item>
+        <item>Whose?</item>
 
+        <item>Wie Viel?</item>
+        <item>How much?</item>
 
-    <!--    TRENNBAR VERBEN PAGE-->
+        <item>Woher?</item>
+        <item>Where from?</item>
 
-    <!--    -->
+        <item>Wohin?</item>
+        <item>Where to?</item>
 
-    <!--    NUMBERS  -->
+    </string-array>
+    <!--  WH- QUESTIONS END -->
+
+    <!--  DATIV VERBEN START  -->
+
+    <string-array name="dativeVerbs">
+        <item>ERZÄHLEN</item>
+        <item>TO TELL</item>
+
+        <item>GEFALLEN</item>
+        <item>TO LIKE</item>
+
+        <item>GEHÖREN</item>
+        <item>TO BELONG</item>
+
+        <item>HÄNGEN</item>
+        <item>TO HANG SOMETHING</item>
+
+        <item>HELFEN</item>
+        <item>TO HELP</item>
+
+        <item>PASSEN</item>
+        <item>TO BE SUITABLE</item>
+
+        <item>SCHMECKEN</item>
+        <item>TO TASTE</item>
+
+        <item>STEHEN</item>
+        <item>TO STAND</item>
+
+        <item>WÜNSCHEN</item>
+        <item>TO WISH</item>
+    </string-array>
+    <!--  DATIVE VERBEN END  -->
+
+    <!--  TRENNBAR VERBEN START  -->
+    <string-array name="trenbarUntrenbarVerbs">
+        <item>ABbiegen</item>
+        <item>TO TURN</item>
+
+        <item>AUSgeben</item>
+        <item>TO SPEND</item>
+
+        <item>ANfangen</item>
+        <item>TO BEGIN</item>
+
+        <item>ANkommen</item>
+        <item>TO ARRIVE</item>
+
+        <item>BEkommen</item>
+        <item>TO RECEIVE</item>
+
+        <item>REINkommen</item>
+        <item>COME IN</item>
+
+        <item>ANrufen</item>
+        <item>TO CALL</item>
+
+        <item>ANzichen</item>
+        <item>TO WEAR</item>
+
+        <item>ANzahlen</item>
+        <item>PUT DOWN/MENTION</item>
+
+        <item>EINsteigen</item>
+        <item>TO GET IN(TRANSPORT)</item>
+
+        <item>UMsteigen</item>
+        <item>TO CHANGE(TRANSPORT)</item>
+
+        <item>AUSsteigen</item>
+        <item>TO GET OUT(TRANSPORT)</item>
+
+        <item>AUSgehen</item>
+        <item>TO GO OUT</item>
+
+        <item>AUFhören</item>
+        <item>TO END</item>
+
+        <item>AUFgestern</item>
+        <item>TO GET UP</item>
+
+        <item>EINladen</item>
+        <item>TO INVITE</item>
+
+        <item>STATTfinden</item>
+        <item>TO OCCUR</item>
+
+        <item>VORhaben</item>
+        <item>TO HAVE PLANS</item>
+
+        <item>WEN TUN</item>
+        <item>TO HURT</item>
+
+        <item>AUFmachen</item>
+        <item>TO OPEN</item>
+
+        <item>ZUmachen</item>
+        <item>TO CLOSE</item>
+
+        <item>ANmachen</item>
+        <item>TURN ON</item>
+
+        <item>AUSmachen</item>
+        <item>TURN OFF</item>
+    </string-array>
+    <!--  TRENNBAR VERBEN END  -->
+
+    <!--    NUMBERS START -->
 
     <string-array name="numbersGerman">
         <item>Null</item>
@@ -301,7 +423,7 @@
     </string>
     <!--  NUMBERS END  -->
 
-    <!--  ALPHABETS LIST  -->
+    <!--  ALPHABETS LIST START -->
 
     <string-array name="alphabets">
         <item>A</item>

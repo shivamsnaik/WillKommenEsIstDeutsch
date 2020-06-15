@@ -1,38 +1,47 @@
 package com.deutschlernen.deutschlernenzuzammen.fragments;
 
 import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
 import com.android.deutschlernenzuzammen.R;
-import com.deutschlernen.deutschlernenzuzammen.service.TableRows;
+import com.deutschlernen.deutschlernenzuzammen.service.TextToSpeechService;
 
-public class AlphabetFragment extends Fragment{
+import org.w3c.dom.Text;
 
-    String[] alphabetList;
+public class PracticeFragment extends Fragment  {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        alphabetList = getResources().getStringArray(R.array.alphabets);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_alphabet, container, false);
-        TableRows.createRows(alphabetList, R.id.alphabetsTable, view, this.getActivity());
+        return inflater.inflate(R.layout.fragment_practice, container, false);
 
-        return view;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+
+        Button textToSpeechButton = (Button) view.findViewById(R.id.textToSpeechBtn);
+        textToSpeechButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CharSequence text = ((TextView) view.findViewById(R.id.textToSpeechTxt)).getText();
+                TextToSpeechService.convertTextToSpeech(v.getContext(), text);
+            }
+        });
     }
 
     @Override

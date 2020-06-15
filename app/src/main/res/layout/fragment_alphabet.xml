@@ -26,6 +26,7 @@
             android:layout_marginTop="2dp"
             android:id="@+id/alphabetsTable"
             android:stretchColumns="*">
+
             <TableRow
                 android:elevation="10dp"
                 android:translationZ="20dp"
@@ -35,7 +36,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:height="90dp"
                     android:background="@drawable/grid_background"
                     android:gravity="center"
@@ -48,7 +49,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:height="90dp"
                     android:background="@drawable/grid_background"
                     android:gravity="center"

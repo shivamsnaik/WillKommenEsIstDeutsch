@@ -18,6 +18,7 @@
         <item name="BackgroundColor">@color/white</item>
         <item name="HeaderColor">@color/HeaderColor</item>
 
+        <item name="ElementColorMinusTwo">@color/BlueColorMinusTwo</item>
         <item name="ElementColorMinusOne">@color/BlueColorMinusOne</item>
         <item name="ElementColorZero">@color/BlueColorZero</item>
         <item name="ElementColorOne">@color/BlueColorOne</item>
@@ -32,6 +33,7 @@
         <item name="GridBackgroundColor">@color/blue</item>
         <item name="TableTextColor">@color/black</item>
         <item name="MenuRippleColor">@color/menuRippleColor</item>
+        <item name="editTextBackgroundColor">@color/menuRippleColor</item>
     </style>
 
     <!-- Night theme. -->
@@ -51,6 +53,7 @@
         <item name="BackgroundColor">@color/white</item>
         <item name="HeaderColor">@color/DarkColorMinusOne</item>
 
+        <item name="ElementColorMinusTwo">@color/DarkColorMinusTwo</item>
         <item name="ElementColorMinusOne">@color/DarkColorMinusOne</item>
         <item name="ElementColorZero">@color/DarkColorZero</item>
         <item name="ElementColorOne">@color/DarkColorOne</item>
@@ -65,6 +68,7 @@
         <item name="GridBackgroundColor">@color/DarkColorTwo</item>
         <item name="TableTextColor">@color/TableTextColor</item>
         <item name="MenuRippleColor">@color/menuRippleColorDark</item>
+        <item name="editTextBackgroundColor">@color/red</item>
     </style>
 
     <style name="Garamound" parent="android:TextAppearance">

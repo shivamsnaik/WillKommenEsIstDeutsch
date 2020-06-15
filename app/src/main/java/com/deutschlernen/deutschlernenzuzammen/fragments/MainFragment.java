@@ -21,7 +21,7 @@ public class MainFragment extends Fragment {
 
     private Button numbersBtn, greetingsBtn, weekNamesBtn, monthNameBtn;
     private Button whQuestionsBtn, trenbarrUntrennbarVerbenBtn, dativVerbenBtn, rulesBtn;
-    private Button adjektivEndingBtn, alphabetsBtn;
+    private Button adjektivEndingBtn, alphabetsBtn, practiceBtn;
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -48,7 +48,7 @@ public class MainFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle bundle)
     {
-
+        practiceBtn = (Button) view.findViewById(R.id.practiceBtn);
         greetingsBtn = (Button) view.findViewById(R.id.greetingBtn);
         weekNamesBtn = (Button) view.findViewById(R.id.weekNamesBtn);
         monthNameBtn = (Button) view.findViewById(R.id.monthNamesBtn);
@@ -61,6 +61,19 @@ public class MainFragment extends Fragment {
         alphabetsBtn = (Button) view.findViewById(R.id.alphabetsBtn);
 
         //Click listeners
+        practiceBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
+                ft.addToBackStack(null);
+                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
+                ft.add(R.id.linearMainLayout, new PracticeFragment());
+                ft.commit();
+            }
+        });
+
         numbersBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
