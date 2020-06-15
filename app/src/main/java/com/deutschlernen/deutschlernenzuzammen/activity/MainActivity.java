@@ -6,10 +6,12 @@ import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.TypedValue;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.annotation.ColorInt;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +19,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.android.deutschlernenzuzammen.R;
 import com.deutschlernen.deutschlernenzuzammen.fragments.MainFragment;
+import com.deutschlernen.deutschlernenzuzammen.service.PopupService;
 
 import io.github.inflationx.calligraphy3.CalligraphyConfig;
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor;
@@ -43,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         //FETCHING SETTINGS DATA
         sharedPreferences = getSharedPreferences("settings", Context.MODE_PRIVATE);
-        themeToggle = sharedPreferences.getBoolean("dark_mode", true);
+        themeToggle = sharedPreferences.getBoolean("dark_mode", false);
 
 
         if(themeToggle) {
@@ -52,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
         else {
             this.setTheme(R.style.LightTheme);
         }
+
+        //ADD FEATURE TO SHOW POP UP IF FEATURE UPDATED ON PHONE FOR FIRST TIME
+        PopupService.showPopupForFeatureUpdate(this.getBaseContext(), sharedPreferences, "tts_shoutout",
+                "UPDATE - You can now Tap on GERMAN/DEUTSCH words to listen to the pronunciation");
 
         setContentView(R.layout.activity_main);
 
@@ -110,14 +117,5 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
-    }
-
-    public static int getResourceFromAttribute(int attributeId, Resources.Theme theme)
-    {
-        TypedValue typedValue = new TypedValue();
-        theme.resolveAttribute(R.attr.titleBarColor, typedValue, true);
-        int resource = typedValue.data;
-
-        return resource;
     }
 }
