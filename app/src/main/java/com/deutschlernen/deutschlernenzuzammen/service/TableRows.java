@@ -66,8 +66,8 @@ public class TableRows {
             txtViewGerman.setHeight((int)(90 * scale + 0.5f)); //SET HEIGHT IN DP
             txtViewGerman.setText(dataList[i]);
             txtViewGerman.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
-            txtViewGerman.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-            TextViewCompat.setTextAppearance(txtViewGerman, R.style.GidoleRegularFont);
+            txtViewGerman.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
+//            TextViewCompat.setTextAppearance(txtViewGerman, R.style.GidoleRegularFont);
             txtViewGerman.setTextColor(textColor);
             txtViewGerman.setOnClickListener(new TextToSpeechListener());
 
@@ -76,8 +76,8 @@ public class TableRows {
             txtViewEnglish.setHeight((int)(90 * scale + 0.5f)); //SET HEIGHT IN DP
             txtViewEnglish.setText(dataList[i+1]);
             txtViewEnglish.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
-            txtViewEnglish.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-            TextViewCompat.setTextAppearance(txtViewEnglish, R.style.GidoleRegularFont);
+            txtViewEnglish.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
+//            TextViewCompat.setTextAppearance(txtViewEnglish, R.style.GidoleRegularFont);
             txtViewEnglish.setTextColor(textColor);
 
             row.addView(txtViewGerman);
