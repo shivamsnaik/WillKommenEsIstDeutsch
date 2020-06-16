@@ -33,7 +33,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Besstimmten Artikel"
+                android:text="Bestimmte Artikel"
                 android:gravity="center"
                 android:background="@drawable/grid_background"
                 android:padding="12dp"
@@ -360,7 +360,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Unbesstimmten Artikel"
+                android:text="Unbestimmte Artikel"
                 android:gravity="center"
                 android:background="@drawable/grid_background"
                 android:padding="12dp"

@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Deutsch Lernen Zuzammen</string>
-    <string name="app_name_short">Deutsch Lernen Zuzammen</string>
+    <string name="app_name">Deutsch Lernen Zusammen</string>
+    <string name="app_name_short">Deutsch Lernen Zusammen</string>
     <string name="about_us">About Us</string>
 
     <string name="developer_name">Shivam Naik</string>
@@ -8,7 +8,7 @@
         Software Developer\n
         Beginner at German\n
         So, Lets learn together\n
-        <b><i>Oh warte! Lass uns Zuzammen lernen</i></b>
+        <b><i>Oh warte! Lass uns Zusammen lernen</i></b>
     </string>
     <string name="git_url">Git URL: https://github.com/shivamsnaik/WillKommenEsIstDeutsch</string>
 
@@ -46,7 +46,7 @@
         <item>Gute Nacht</item>
         <item>Good Night</item>
 
-        <item>Über Morgen</item>
+        <item>Übermorgen</item>
         <item>Day after tomorrow</item>
 
         <item>Heute</item>
@@ -61,7 +61,7 @@
         <item>Danke</item>
         <item>Thank-you</item>
 
-        <item>Vielen Danke</item>
+        <item>Vielen Dank</item>
         <item>Thank-you so much</item>
 
         <item>Sehr Gut</item>
@@ -70,13 +70,13 @@
         <item>Willkommen</item>
         <item>Welcome</item>
 
-        <item>Herzlich Willkommen</item>
+        <item>Herzlich willkommen</item>
         <item>Heartly Welcome</item>
 
-        <item>Gezundheit</item>
+        <item>Gesundheit</item>
         <item>God bless you</item>
 
-        <item>Freut mich/\nFreutmich  sie \nkennen zu lernen</item>
+        <item>Freut mich/\nfreut mich sie \nkennenzulernen</item>
         <item>Glad to meet</item>
 
         <item>Bis Später</item>
@@ -88,25 +88,22 @@
         <item>Bis Gleich</item>
         <item>See you right back</item>
 
-        <item>Bis Gleich</item>
-        <item>See you right back</item>
-
         <item>Tut mir leid</item>
         <item>I\'m sorry</item>
 
-        <item>Auf wiedersehen(F)/\nTschüss(INF)</item>
+        <item>Auf Wiedersehen(F)/\nTschüss(INF)</item>
         <item>Good bye</item>
 
         <item>Bis gleich</item>
         <item>All the best</item>
 
-        <item>Noch einmal/\nWiederholen sie bitte</item>
+        <item>Noch einmal/\nWiederholen Sie bitte.</item>
         <item>Please repeat</item>
 
         <item>Gute Besserung</item>
         <item>Get well soon</item>
 
-        <item>Viel Erfold</item>
+        <item>Viel Erfolg</item>
         <item>Wish you lot of success</item>
 
         <item>Mein herzliches Beileid</item>
@@ -118,10 +115,10 @@
         <item>Wie geht\'s?/\nWie geht es dir\?</item>
         <item>How are you?(INF)</item>
 
-        <item>Wie geht es ihnen\?</item>
+        <item>Wie geht es Ihnen\?</item>
         <item>How are you?(F)</item>
 
-        <item>Gute Reise/\nSchöne Reise</item>
+        <item>Gute Reise/\nSchöne Reise.</item>
         <item>Happy Journey</item>
 
         <item></item>
@@ -301,7 +298,7 @@
         <item>ANrufen</item>
         <item>TO CALL</item>
 
-        <item>ANzichen</item>
+        <item>ANziehen</item>
         <item>TO WEAR</item>
 
         <item>ANzahlen</item>
@@ -322,7 +319,7 @@
         <item>AUFhören</item>
         <item>TO END</item>
 
-        <item>AUFgestern</item>
+        <item>AUFstehen</item>
         <item>TO GET UP</item>
 
         <item>EINladen</item>
@@ -334,7 +331,7 @@
         <item>VORhaben</item>
         <item>TO HAVE PLANS</item>
 
-        <item>WEN TUN</item>
+        <item>WEH TUN</item>
         <item>TO HURT</item>
 
         <item>AUFmachen</item>
@@ -343,7 +340,7 @@
         <item>ZUmachen</item>
         <item>TO CLOSE</item>
 
-        <item>ANmachen</item>
+            <item>ANmachen</item>
         <item>TURN ON</item>
 
         <item>AUSmachen</item>
@@ -386,7 +383,7 @@
         <item>Fourteen</item>
         <item>Fünfzehn</item>
         <item>Fifteen</item>
-        <item>Sechszehn</item>
+        <item>Sechzehn</item>
         <item>Sixteen</item>
         <item>Siebzehn</item>
         <item>Seventeen</item>
@@ -399,26 +396,41 @@
 
         <item>-- LINE_BREAK --</item>
 
-        <item>EinundZwanzig</item>
+        <item>Einundzwanzig</item>
         <item>Twenty One</item>
         <item>Zweiundzwanzig</item>
         <item>Twenty Two</item>
-        <item>SiebenundZwanzig</item>
+        <item>Siebenundzwanzig</item>
         <item>Twenty Seven</item>
 
         <item>-- LINE_BREAK --</item>
 
-        <item>DreiundDreizig</item>
+        <item>Dreiunddreißig</item>
         <item>Thirty Three</item>
-        <item>AchtundDreizig</item>
+        <item>Achtunddreißig</item>
         <item>Thirty Eight</item>
+
+        <item>-- LINE_BREAK --</item>
+
+        <item>Einhundert</item>
+        <item>One Hundred</item>
+
+        <item>Eintausend</item>
+        <item>One Thousand</item>
+
+        <item>Eintausenddreihundert\nfünfundsechzig</item>
+        <item>One Thousand three\nhundred sixty-five</item>
+
+        <item>Dreitausendsiebenhundert\nvierunddreißig</item>
+        <item>Three Thousand seven\nhundred thirty-four</item>
     </string-array>
 
     <string name="numbersNote">
         <font fgcolor="red">NOTE:\n\n1. After 20, every number follows the following format:\n
         \t SECOND_NUMBER und FIRST_NUMBER - zig.\n
         E.g., \n\t\t1. 76 - SECHS und SIEB - zig
-        \n\t\t2. 92 - ZWEI und NEUN - zig
+        \n\t\t2. 92 - ZWEI und NEUN - zig\n
+            \nEXCEPTION:  Use <b><i>ßig</i></b> instead of <b><i>zig</i></b> for numbers in range of 31 to 39.
         </font>
     </string>
     <!--  NUMBERS END  -->
