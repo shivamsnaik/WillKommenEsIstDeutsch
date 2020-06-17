@@ -14,20 +14,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-<!--        <TextView-->
-<!--            android:id="@+id/appName"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="100dp"-->
-<!--            android:gravity="center"-->
-<!--            android:text="@string/app_name"-->
-<!--            android:textColor="?attr/HeaderTextColor"-->
-<!--            android:textSize="25dp"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintHorizontal_bias="0.497"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toTopOf="parent"/>-->
-<!--        &lt;!&ndash;        android:textAppearance="@style/SimpleFont"/>&ndash;&gt;-->
-
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
@@ -48,7 +34,7 @@
                 android:height="120dp"
                 android:layout_marginTop="2dp"
                 android:elevation="10dp"
-                android:translationZ="20dp"
+                android:translationZ="1dp"
                 android:stateListAnimator="@null"
                 />
             <Button
@@ -61,7 +47,7 @@
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="20dp"
+                android:translationZ="2dp"
                 android:stateListAnimator="@null"
                 />
 
@@ -75,7 +61,7 @@
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="20dp"
+                android:translationZ="3dp"
                 android:stateListAnimator="@null"
                 />
             <Button
@@ -88,7 +74,7 @@
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="20dp"
+                android:translationZ="4dp"
                 android:stateListAnimator="@null"
                 />
 
@@ -101,7 +87,7 @@
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="19dp"
+                android:translationZ="5dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
 
@@ -114,7 +100,7 @@
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="18dp"
+                android:translationZ="6dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
 
@@ -127,7 +113,20 @@
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="17dp"
+                android:translationZ="7dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/ButtonTextColor" />
+
+            <Button
+                android:id="@+id/articleBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_five"
+                android:text="@string/articleChartsTxt"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="8dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
 
@@ -135,12 +134,12 @@
                 android:id="@+id/dativVerbenBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_five"
+                android:background="@drawable/ripple_six"
                 android:text="@string/dativVerbenTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="16dp"
+                android:translationZ="9dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
 
@@ -148,12 +147,12 @@
                 android:id="@+id/trenbarrUntrennbarVerbenBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_six"
+                android:background="@drawable/ripple_seven"
                 android:text="@string/trenbarrUntrennbarVerbenTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="15dp"
+                android:translationZ="10dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
 
@@ -161,12 +160,12 @@
                 android:id="@+id/adjektivEndingBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_seven"
+                android:background="@drawable/ripple_eight"
                 android:text="@string/adjectivEndingTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="14dp"
+                android:translationZ="11dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
 
@@ -174,12 +173,12 @@
                 android:id="@+id/rulesBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_eight"
+                android:background="@drawable/ripple_nine"
                 android:text="@string/rulesTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="13dp"
+                android:translationZ="12dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
 

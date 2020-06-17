@@ -21,7 +21,7 @@ public class MainFragment extends Fragment {
 
     private Button numbersBtn, greetingsBtn, weekNamesBtn, monthNameBtn;
     private Button whQuestionsBtn, trenbarrUntrennbarVerbenBtn, dativVerbenBtn, rulesBtn;
-    private Button adjektivEndingBtn, alphabetsBtn, practiceBtn;
+    private Button adjektivEndingBtn, alphabetsBtn, practiceBtn, articleBtn;
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -59,6 +59,7 @@ public class MainFragment extends Fragment {
         adjektivEndingBtn = (Button) view.findViewById(R.id.adjektivEndingBtn);
         numbersBtn = (Button) view.findViewById(R.id.numbersBtn);
         alphabetsBtn = (Button) view.findViewById(R.id.alphabetsBtn);
+        articleBtn = (Button) view.findViewById(R.id.articleBtn);
 
         //Click listeners
         practiceBtn.setOnClickListener(new View.OnClickListener() {
@@ -191,6 +192,17 @@ public class MainFragment extends Fragment {
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
                 ft.add(R.id.linearMainLayout, new AdjektivEndingsFragment());
+                ft.commit();
+            }
+        });
+
+        articleBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
+                ft.addToBackStack(null);
+                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
+                ft.add(R.id.linearMainLayout, new ArticleFragment());
                 ft.commit();
             }
         });

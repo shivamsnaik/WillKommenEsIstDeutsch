@@ -69,6 +69,7 @@ public class TableRows {
             txtViewGerman.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
 //            TextViewCompat.setTextAppearance(txtViewGerman, R.style.GidoleRegularFont);
             txtViewGerman.setTextColor(textColor);
+            txtViewGerman.setBackgroundResource(R.drawable.ripple_table_item_background);
             txtViewGerman.setOnClickListener(new TextToSpeechListener());
 
             TextView  txtViewEnglish = new TextView(fragmentActivity);
@@ -79,6 +80,8 @@ public class TableRows {
             txtViewEnglish.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
 //            TextViewCompat.setTextAppearance(txtViewEnglish, R.style.GidoleRegularFont);
             txtViewEnglish.setTextColor(textColor);
+            txtViewEnglish.setBackgroundResource(R.drawable.ripple_table_item_background);
+            txtViewEnglish.setOnClickListener(null);
 
             row.addView(txtViewGerman);
             row.addView(txtViewEnglish);

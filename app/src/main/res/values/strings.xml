@@ -20,6 +20,7 @@
     <string name="MonthNamesTxt">Month Names</string>
     <string name="whQuestionsTxt">Wh-questions/Wh-Fragen</string>
     <string name="dativVerbenTxt">Dativ Verben</string>
+    <string name="articleChartsTxt">Articles Charts</string>
     <string name="toggleDarkModeTxt">Dim/Light the Candles</string>
 
     <string name="trenbarrUntrennbarVerbenTxt">Trennbar/Untrennbar Verbs</string>
@@ -340,7 +341,7 @@
         <item>ZUmachen</item>
         <item>TO CLOSE</item>
 
-            <item>ANmachen</item>
+        <item>ANmachen</item>
         <item>TURN ON</item>
 
         <item>AUSmachen</item>
