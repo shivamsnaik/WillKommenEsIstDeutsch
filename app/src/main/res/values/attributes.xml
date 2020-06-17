@@ -31,6 +31,8 @@
     <attr name="ElementColorSix" format="color"/>
     <attr name="ElementColorSeven" format="color"/>
     <attr name="ElementColorEight" format="color"/>
+    <attr name="ElementColorNine" format="color"/>
+    <attr name="ElementColorTen" format="color"/>
 
     <attr name="MenuRippleColor" format="color"/>
     <attr name="editTextBackgroundColor" format="color"/>

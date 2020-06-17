@@ -10,30 +10,37 @@
     <color name="black">#000000</color>
 
     //BLUE
-    <color name="BlueColorMinusTwo">#9db5ca</color>
-    <color name="BlueColorMinusOne">#89a6bf</color>
-    <color name="BlueColorZero">#7597b5</color>
-    <color name="BlueColorOne">#6189aa</color>
-    <color name="BlueColorTwo">#4e7aa0</color>
-    <color name="BlueColorThree">#3a6b95</color> <!-- BASE COLOR -->
-    <color name="BlueColorFour">#346086</color>
-    <color name="BlueColorFive">#2e5677</color>
-    <color name="BlueColorSix">#294b68</color>
-    <color name="BlueColorSeven">#234059</color>
-    <color name="BlueColorEight">#1d364b</color>
+    //ENTER #3a6b95 in SHADOWLORD with 1%, choose 5% and verticle downwards.
+
+    <color name="BlueColorMinusTwo">#37668e</color>
+    <color name="BlueColorMinusOne">#345f85</color>
+    <color name="BlueColorZero">#30597c</color>
+    <color name="BlueColorOne">#2d5273</color>
+    <color name="BlueColorTwo">#294c6a</color>
+    <color name="BlueColorThree">#264661</color> <!-- BASE COLOR -->
+    <color name="BlueColorFour">#223f58</color>
+    <color name="BlueColorFive">#1f394f</color>
+    <color name="BlueColorSix">#1b3246</color>
+    <color name="BlueColorSeven">#182c3d</color>
+    <color name="BlueColorEight">#142534</color>
+    <color name="BlueColorNine">#111f2b</color>
+    <color name="BlueColorTen">#0d1922</color>
 
     //RED
-    <color name="DarkColorMinusTwo">#000000</color>
-    <color name="DarkColorMinusOne">#0c0b0b</color>
-    <color name="DarkColorZero">#100f0f</color>
-    <color name="DarkColorOne">#141313</color>
-    <color name="DarkColorTwo">#181616</color>
-    <color name="DarkColorThree">#1c1a1a</color>
-    <color name="DarkColorFour">#201e1e</color>
-    <color name="DarkColorFive">#242121</color>
-    <color name="DarkColorSix">#282525</color> <!-- BASE COLOR -->
-    <color name="DarkColorSeven">#3e3b3b</color>
-    <color name="DarkColorEight">#535151</color>
+    //ENTER #242424 in SHADOWLORD with 1%, choose 97% and verticle upwards.
+    <color name="DarkColorMinusTwo">#010101</color>
+    <color name="DarkColorMinusOne">#030303</color>
+    <color name="DarkColorZero">#050505</color>
+    <color name="DarkColorOne">#080808</color>
+    <color name="DarkColorTwo">#0a0a0a</color>
+    <color name="DarkColorThree">#0c0c0c</color>
+    <color name="DarkColorFour">#0e0e0e</color>
+    <color name="DarkColorFive">#101010</color>
+    <color name="DarkColorSix">#121212</color> <!-- BASE COLOR -->
+    <color name="DarkColorSeven">#151515</color>
+    <color name="DarkColorEight">#171717</color>
+    <color name="DarkColorNine">#191919</color>
+    <color name="DarkColorTen">#1b1b1b</color>
 
     <color name="menuRippleColor">#a3bed4</color>
     <color name="menuRippleColorDark">#d26b6d</color>
