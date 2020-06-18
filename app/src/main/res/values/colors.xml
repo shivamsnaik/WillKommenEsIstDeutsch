@@ -4,10 +4,12 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="HeaderColor">#0d1821</color>
+    <color name="HeaderColor">#111f2b</color>
+    <color name="HeaderColorDark">#010101</color>
 
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="dimWhite">#ededed</color>
 
     //BLUE
     //ENTER #3a6b95 in SHADOWLORD with 1%, choose 5% and verticle downwards.
@@ -49,7 +51,7 @@
     <color name="red">#b33537</color>
     <color name="blue">#d1dee9</color>
 
-    <color name="TableTextColor">@color/white</color>
+    <color name="TableTextColor">@color/dimWhite</color>
     <color name="CardBackgroundColor"></color>
     <color name="HeaderTextColor">#c6d6e4</color>
     

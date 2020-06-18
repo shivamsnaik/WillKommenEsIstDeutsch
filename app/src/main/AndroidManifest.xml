@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_v4_round"
         android:supportsRtl="true"
         android:theme="@style/LightTheme">
-        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.AboutUsActivity"></activity>
-        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.TranslatorActivity"></activity>
+        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.GrammarA2Activity"></activity>
+        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.BeginnersActivity" />
+        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.BaseActivity" />
+        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.GrammarA1Activity" />
+        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.AboutUsActivity" />
+        <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.TranslatorActivity" />
         <activity android:name="com.deutschlernen.deutschlernenzuzammen.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
