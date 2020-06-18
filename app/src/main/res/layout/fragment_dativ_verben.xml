@@ -20,7 +20,7 @@
             android:text="@string/dativVerbenTxt"
             android:background="?attr/HeaderColor"
             android:textColor="?attr/HeaderTextColor"
-            android:textSize="25dp">
+            android:textSize="25sp">
         </TextView>
 
         <TableLayout
@@ -48,8 +48,7 @@
                     android:textStyle="bold"
                     android:textColor="?attr/TableTextColor"
                     android:height="90dp"
-
-                    />
+                />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"

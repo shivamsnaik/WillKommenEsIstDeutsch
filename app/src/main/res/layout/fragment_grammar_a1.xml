@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.MainFragment"
+    tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.GrammarA1Fragment"
     tools:ignore="MissingPrefix"
     android:background="?attr/HeaderColor">
 
@@ -15,7 +15,7 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/linearLayout"
+            android:id="@+id/grammarA1Layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -24,39 +24,37 @@
             tools:layout_editor_absoluteY="0dp">
 
             <Button
-                android:id="@+id/practiceBtn"
+                android:id="@+id/articleBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/practiceTxt"
-                android:textColor="?attr/ButtonTextColor"
-                android:background="@drawable/ripple_one"
+                android:background="@drawable/ripple_two"
+                android:text="@string/articleChartsTxt"
                 android:textSize="20dp"
                 android:height="120dp"
-                android:layout_marginTop="2dp"
                 android:elevation="10dp"
                 android:translationZ="1dp"
                 android:stateListAnimator="@null"
-                />
+                android:textColor="?attr/ButtonTextColor" />
 
             <Button
-                android:id="@+id/beginnersBtn"
+                android:id="@+id/dativVerbenBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/beginnersTxt"
-                android:textColor="?attr/ButtonTextColor"
                 android:background="@drawable/ripple_three"
+                android:text="@string/dativVerbenTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
                 android:translationZ="2dp"
                 android:stateListAnimator="@null"
-                />
+                android:textColor="?attr/ButtonTextColor" />
+
             <Button
-                android:id="@+id/grammerA1Btn"
+                android:id="@+id/trenbarrUntrennbarVerbenBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_five"
-                android:text="@string/grammerA1Txt"
+                android:background="@drawable/ripple_four"
+                android:text="@string/trenbarrUntrennbarVerbenTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
@@ -65,15 +63,15 @@
                 android:textColor="?attr/ButtonTextColor" />
 
             <Button
-                android:id="@+id/grammerA2Btn"
+                android:id="@+id/rulesA1Btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_seven"
-                android:text="@string/grammerA2Txt"
+                android:background="@drawable/ripple_six"
+                android:text="@string/rulesTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="3dp"
+                android:translationZ="4dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
         </LinearLayout>

@@ -21,10 +21,10 @@
             android:background="?attr/HeaderColor"
             />
         <TableLayout
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:layout_marginTop="2dp"
             android:id="@+id/alphabetsTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
             android:stretchColumns="*">
 
             <TableRow
@@ -37,26 +37,28 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:height="90dp"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
                     android:text="@string/germanTxt"
-                    android:textColor="?attr/TableTextColor"
+                    android:gravity="center"
+                    android:background="@drawable/grid_background"
+                    android:padding="12dp"
                     android:textSize="25sp"
                     android:textStyle="bold"
+                    android:textColor="?attr/TableTextColor"
+                    android:height="90dp"
 
                     />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:height="90dp"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
                     android:text="@string/englishTxt"
-                    android:textColor="?attr/TableTextColor"
+                    android:gravity="center"
+                    android:background="@drawable/grid_background"
+                    android:padding="12dp"
                     android:textSize="25sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="?attr/TableTextColor"
+                    android:height="90dp"
+                    />
             </TableRow>
         </TableLayout>
 

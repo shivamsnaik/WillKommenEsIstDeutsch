@@ -26,12 +26,14 @@
             android:layout_width="match_parent"
             android:layout_marginTop="2dp"
             android:stretchColumns="*">
+
             <TableRow
                 android:elevation="10dp"
                 android:translationZ="20dp"
                 android:stateListAnimator="@null"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -58,6 +60,5 @@
                     />
             </TableRow>
         </TableLayout>
-
     </LinearLayout>
 </ScrollView>

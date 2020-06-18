@@ -53,7 +53,7 @@
         <item name="buttonBackgroundColor">#FDE69E</item>
 
         <item name="BackgroundColor">@color/white</item>
-        <item name="HeaderColor">@color/DarkColorMinusOne</item>
+        <item name="HeaderColor">@color/HeaderColorDark</item>
 
         <item name="ElementColorMinusTwo">@color/DarkColorMinusTwo</item>
         <item name="ElementColorMinusOne">@color/DarkColorMinusOne</item>

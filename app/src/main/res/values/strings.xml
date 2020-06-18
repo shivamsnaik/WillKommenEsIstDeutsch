@@ -13,6 +13,7 @@
     <string name="git_url">Git URL: https://github.com/shivamsnaik/WillKommenEsIstDeutsch</string>
 
     <string name="practiceTxt">Practice Hören</string>
+    <string name="beginnersTxt">Beginners Section</string>
     <string name="numbersTxt">Numbers/Zahlen</string>
     <string name="alphabetsTxt">Alphabets</string>
     <string name="greetingsTxt">Greetings/Gruß</string>
@@ -20,6 +21,9 @@
     <string name="MonthNamesTxt">Month Names</string>
     <string name="whQuestionsTxt">Wh-questions/Wh-Fragen</string>
     <string name="dativVerbenTxt">Dativ Verben</string>
+
+    <string name="grammerA1Txt">Grammar Section (A1)</string>
+    <string name="grammerA2Txt">Grammar Section (A2)</string>
     <string name="articleChartsTxt">Articles Charts</string>
     <string name="toggleDarkModeTxt">Dim/Light the Candles</string>
 
