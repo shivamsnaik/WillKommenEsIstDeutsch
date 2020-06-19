@@ -31,10 +31,16 @@
             android:paddingBottom="10dp"
             android:text="@string/ruleOneTxt"
             android:textSize="18sp"
-            android:textColor="?attr/ElementColorEight"
+            android:textColor="?attr/TableTextColor"
             >
 
         </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dimWhite"
+        />
 
         <TextView
             android:layout_width="match_parent"
@@ -44,13 +50,17 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="@string/ruleTwoTxt"
-            android:textColor="?attr/ElementColorEight"
+            android:textColor="?attr/TableTextColor"
             android:textSize="18sp"
             android:justificationMode="inter_word"
             >
-
-
         </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dimWhite"
+        />
 
         <TextView
             android:layout_width="match_parent"
@@ -61,10 +71,16 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleThreeTxt"
-            android:textColor="?attr/ElementColorEight"
+            android:textColor="?attr/TableTextColor"
             android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dimWhite"
+        />
 
         <TextView
             android:layout_width="match_parent"
@@ -75,10 +91,16 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleFourTxt"
-            android:textColor="?attr/ElementColorEight"
+            android:textColor="?attr/TableTextColor"
             android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dimWhite"
+        />
 
         <TextView
             android:layout_width="match_parent"
@@ -89,10 +111,16 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleFiveTxt"
-            android:textColor="?attr/ElementColorEight"
+            android:textColor="?attr/TableTextColor"
             android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dimWhite"
+        />
 
         <TextView
             android:layout_width="match_parent"
@@ -103,10 +131,16 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleSixTxt"
-            android:textColor="?attr/ElementColorEight"
+            android:textColor="?attr/TableTextColor"
             android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dimWhite"
+        />
 
         <TextView
             android:layout_width="match_parent"
@@ -117,10 +151,16 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleSevenTxt"
-            android:textColor="?attr/ElementColorEight"
+            android:textColor="?attr/TableTextColor"
             android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dimWhite"
+        />
 
         <TextView
             android:layout_width="match_parent"
@@ -131,7 +171,7 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleEightTxt"
-            android:textColor="?attr/ElementColorEight"
+            android:textColor="?attr/TableTextColor"
             android:textSize="18sp"
             android:justificationMode="inter_word">
         </TextView>

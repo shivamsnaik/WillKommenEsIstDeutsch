@@ -1,4 +1,6 @@
-package com.deutschlernen.deutschlernenzuzammen;
+package com.deutschlernen.deutschlernenzuzammen.activity;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,22 +10,17 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentTransaction;
-
 import com.android.deutschlernenzuzammen.R;
-import com.deutschlernen.deutschlernenzuzammen.fragments.MainFragment;
 
 import io.github.inflationx.calligraphy3.CalligraphyConfig;
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor;
 import io.github.inflationx.viewpump.ViewPump;
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
-public class MainActivity extends AppCompatActivity {
+public class BaseActivity extends AppCompatActivity {
 
     public static boolean themeToggle;
-    private SharedPreferences sharedPreferences;
-
+    protected SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         //FETCHING SETTINGS DATA
         sharedPreferences = getSharedPreferences("settings", Context.MODE_PRIVATE);
-        themeToggle = sharedPreferences.getBoolean("dark_mode", true);
+        themeToggle = sharedPreferences.getBoolean("dark_mode", false);
 
 
         if(themeToggle) {
@@ -49,12 +46,6 @@ public class MainActivity extends AppCompatActivity {
         else {
             this.setTheme(R.style.LightTheme);
         }
-
-        setContentView(R.layout.activity_main);
-
-        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.linearMainLayout, new MainFragment());
-        fragmentTransaction.commit();
     }
 
     @Override
@@ -85,8 +76,13 @@ public class MainActivity extends AppCompatActivity {
                 restartApp();
                 break;
             case R.id.about_us:
-                Intent intent = new Intent(this, AboutUsActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(this, AboutUsActivity.class));
+
+                break;
+
+// TO BE UNCOMMENTED WHEN TRANSLATOR FEATURE IS UPDATED
+            case R.id.translator:
+//                startActivity(new Intent(this, TranslatorActivity.class));
         }
         return true;
     }
@@ -95,7 +91,8 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(intent);
-        finish();
+        finishAffinity();
+
     }
 
     //ATTACHES NEW CONTEXT TO REFLECT CUSTOM FONT STYLE

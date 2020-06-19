@@ -4,30 +4,54 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="HeaderColor">#0d1821</color>
+    <color name="HeaderColor">#111f2b</color>
+    <color name="HeaderColorDark">#010101</color>
 
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="dimWhite">#ededed</color>
 
     //BLUE
-    <color name="BlueColorOne">#6692b7</color>
-    <color name="BlueColorTwo">#4077a5</color>
-    <color name="BlueColorThree">#3a6b95</color>
-    <color name="BlueColorFour">#264763</color>
-    <color name="BlueColorFive">#203c53</color>
-    <color name="BlueColorSix">#1a3042</color>
-    <color name="BlueColorSeven">#0d1821</color>
-    <color name="BlueColorEight">#060c10</color>
+    //ENTER #3a6b95 in SHADOWLORD with 1%, choose 5% and verticle downwards.
+
+    <color name="BlueColorMinusTwo">#37668e</color>
+    <color name="BlueColorMinusOne">#345f85</color>
+    <color name="BlueColorZero">#30597c</color>
+    <color name="BlueColorOne">#2d5273</color>
+    <color name="BlueColorTwo">#294c6a</color>
+    <color name="BlueColorThree">#264661</color> <!-- BASE COLOR -->
+    <color name="BlueColorFour">#223f58</color>
+    <color name="BlueColorFive">#1f394f</color>
+    <color name="BlueColorSix">#1b3246</color>
+    <color name="BlueColorSeven">#182c3d</color>
+    <color name="BlueColorEight">#142534</color>
+    <color name="BlueColorNine">#111f2b</color>
+    <color name="BlueColorTen">#0d1922</color>
 
     //RED
-    <color name="RedColorOne">#F43434</color>
+    //ENTER #242424 in SHADOWLORD with 1%, choose 97% and verticle upwards.
+    <color name="DarkColorMinusTwo">#010101</color>
+    <color name="DarkColorMinusOne">#030303</color>
+    <color name="DarkColorZero">#050505</color>
+    <color name="DarkColorOne">#080808</color>
+    <color name="DarkColorTwo">#0a0a0a</color>
+    <color name="DarkColorThree">#0c0c0c</color>
+    <color name="DarkColorFour">#0e0e0e</color>
+    <color name="DarkColorFive">#101010</color>
+    <color name="DarkColorSix">#121212</color> <!-- BASE COLOR -->
+    <color name="DarkColorSeven">#151515</color>
+    <color name="DarkColorEight">#171717</color>
+    <color name="DarkColorNine">#191919</color>
+    <color name="DarkColorTen">#1b1b1b</color>
 
     <color name="menuRippleColor">#a3bed4</color>
+    <color name="menuRippleColorDark">#d26b6d</color>
     <color name="gridItemColor">#100E0F</color>
-    
+
+    <color name="red">#b33537</color>
     <color name="blue">#d1dee9</color>
 
-    <color name="TextColor"></color>
+    <color name="TableTextColor">@color/dimWhite</color>
     <color name="CardBackgroundColor"></color>
     <color name="HeaderTextColor">#c6d6e4</color>
     

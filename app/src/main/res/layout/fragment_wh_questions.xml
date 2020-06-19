@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.WhQuestionFragment"
     android:background="?attr/BackgroundColor">
 
     <LinearLayout
@@ -20,420 +23,45 @@
             />
 
         <TableLayout
+            android:id="@+id/whQuestionsTable"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="2dp"
             android:stretchColumns="*">
 
             <TableRow
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="@string/germanTxt"
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="90dp"
 
                     />
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="@string/englishTxt"
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="90dp"
                     />
             </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/whatTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/whatTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/whereTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/whereTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/wherefromTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/wherefromTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/wheretoTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/wheretoTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/whyTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/whyTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/whenTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/whenTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/whoTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/whoTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/whichTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/whichTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/whomTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/whomTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/howTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/howTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/howcomeTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/howcomeTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/howlongTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/howlongTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/howmuchTxtGerman"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/howmuchTxt"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-
         </TableLayout>
     </LinearLayout>
 </ScrollView>

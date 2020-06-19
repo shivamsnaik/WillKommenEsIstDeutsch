@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.BeginnersFragment"
+    tools:ignore="MissingPrefix"
+    android:background="?attr/HeaderColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/beginnersLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="?attr/BackgroundColor"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/white"
+            />
+
+            <Button
+                android:id="@+id/numbersBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/numbersTxt"
+                android:textColor="?attr/ButtonTextColor"
+                android:background="@drawable/ripple_two"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="1dp"
+                android:stateListAnimator="@null"
+                />
+
+            <Button
+                android:id="@+id/alphabetsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alphabetsTxt"
+                android:textColor="?attr/ButtonTextColor"
+                android:background="@drawable/ripple_three"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="2dp"
+                android:stateListAnimator="@null"
+                />
+            <Button
+                android:id="@+id/greetingBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/greetingsTxt"
+                android:textColor="?attr/ButtonTextColor"
+                android:background="@drawable/ripple_four"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="3dp"
+                android:stateListAnimator="@null"
+                />
+
+            <Button
+                android:id="@+id/weekNamesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_five"
+                android:text="@string/weekNamesTxt"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="4dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/ButtonTextColor" />
+
+            <Button
+                android:id="@+id/monthNamesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_six"
+                android:text="@string/MonthNamesTxt"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="5dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/ButtonTextColor" />
+
+            <Button
+                android:id="@+id/whQuestionsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_seven"
+                android:text="@string/whQuestionsTxt"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="6dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/ButtonTextColor" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

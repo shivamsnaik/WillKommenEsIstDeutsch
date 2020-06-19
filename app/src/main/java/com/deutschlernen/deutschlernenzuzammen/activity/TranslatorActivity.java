@@ -1,23 +1,29 @@
-package com.deutschlernen.deutschlernenzuzammen;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.deutschlernen.deutschlernenzuzammen.activity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.android.deutschlernenzuzammen.R;
+import com.deutschlernen.deutschlernenzuzammen.fragments.TranslatorFragment;
 
 import io.github.inflationx.calligraphy3.CalligraphyConfig;
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor;
 import io.github.inflationx.viewpump.ViewPump;
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
-public class AboutUsActivity extends AppCompatActivity {
+public class TranslatorActivity extends AppCompatActivity {
+
+    private static final String TAG = "sdsds";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //Custom font
         ViewPump.init(ViewPump.builder()
                 .addInterceptor(new CalligraphyInterceptor(
                         new CalligraphyConfig.Builder()
@@ -26,13 +32,15 @@ public class AboutUsActivity extends AppCompatActivity {
                                 .build()))
                 .build());
 
-        if(MainActivity.themeToggle)
-        {
-            this.setTheme(R.style.DarkTheme);
-        }else
-            this.setTheme(R.style.LightTheme);
+        updateUI();
+    }
 
-        setContentView(R.layout.activity_about_us);
+    private void updateUI() {
+        setContentView(R.layout.activity_translator);
+
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.translatorLinearLayout, new TranslatorFragment());
+        ft.commit();
     }
 
     //ATTACHES NEW CONTEXT TO REFLECT CUSTOM FONT STYLE

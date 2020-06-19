@@ -14,20 +14,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/appName"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:gravity="center"
-            android:text="@string/app_name"
-            android:textColor="?attr/HeaderTextColor"
-            android:textSize="25dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-        <!--        android:textAppearance="@style/SimpleFont"/>-->
-
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
@@ -37,114 +23,59 @@
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp">
 
-
             <Button
-                android:id="@+id/greetingBtn"
+                android:id="@+id/practiceBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/greetingsTxt"
+                android:text="@string/practiceTxt"
                 android:textColor="?attr/ButtonTextColor"
                 android:background="@drawable/ripple_one"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:layout_marginTop="2dp"
                 android:elevation="10dp"
-                android:translationZ="20dp"
+                android:translationZ="1dp"
                 android:stateListAnimator="@null"
                 />
 
             <Button
-                android:id="@+id/weekNamesBtn"
+                android:id="@+id/beginnersBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_two"
-                android:text="@string/weekNamesTxt"
-                android:textSize="20dp"
-                android:height="120dp"
-                android:elevation="10dp"
-                android:translationZ="19dp"
-                android:stateListAnimator="@null"
-                android:textColor="?attr/ButtonTextColor" />
-
-            <Button
-                android:id="@+id/monthNamesBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:text="@string/beginnersTxt"
+                android:textColor="?attr/ButtonTextColor"
                 android:background="@drawable/ripple_three"
-                android:text="@string/MonthNamesTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="18dp"
+                android:translationZ="2dp"
                 android:stateListAnimator="@null"
-                android:textColor="?attr/ButtonTextColor" />
-
+                />
             <Button
-                android:id="@+id/whQuestionsBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/ripple_four"
-                android:text="@string/whQuestionsTxt"
-                android:textSize="20dp"
-                android:height="120dp"
-                android:elevation="10dp"
-                android:translationZ="17dp"
-                android:stateListAnimator="@null"
-                android:textColor="?attr/ButtonTextColor" />
-
-            <Button
-                android:id="@+id/dativVerbenBtn"
+                android:id="@+id/grammerA1Btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_five"
-                android:text="@string/dativVerbenTxt"
+                android:text="@string/grammerA1Txt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="16dp"
+                android:translationZ="3dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
 
             <Button
-                android:id="@+id/trenbarrUntrennbarVerbenBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/ripple_six"
-                android:text="@string/trenbarrUntrennbarVerbenTxt"
-                android:textSize="20dp"
-                android:height="120dp"
-                android:elevation="10dp"
-                android:translationZ="15dp"
-                android:stateListAnimator="@null"
-                android:textColor="?attr/ButtonTextColor" />
-
-            <Button
-                android:id="@+id/adjektivEndingBtn"
+                android:id="@+id/grammerA2Btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_seven"
-                android:text="@string/adjectivEndingTxt"
+                android:text="@string/grammerA2Txt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
-                android:translationZ="14dp"
+                android:translationZ="3dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
-
-            <Button
-                android:id="@+id/rulesBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/ripple_eight"
-                android:text="@string/rulesTxt"
-                android:textSize="20dp"
-                android:height="120dp"
-                android:elevation="10dp"
-                android:translationZ="13dp"
-                android:stateListAnimator="@null"
-                android:textColor="?attr/ButtonTextColor" />
-
-
         </LinearLayout>
     </LinearLayout>
 

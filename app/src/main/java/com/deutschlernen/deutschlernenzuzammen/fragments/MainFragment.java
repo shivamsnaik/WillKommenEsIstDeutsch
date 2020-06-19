@@ -2,10 +2,9 @@ package com.deutschlernen.deutschlernenzuzammen.fragments;
 
 
 import android.content.Context;
-import android.graphics.PorterDuff;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -14,14 +13,14 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.android.deutschlernenzuzammen.R;
+import com.deutschlernen.deutschlernenzuzammen.activity.BeginnersActivity;
+import com.deutschlernen.deutschlernenzuzammen.activity.GrammarA1Activity;
+import com.deutschlernen.deutschlernenzuzammen.activity.GrammarA2Activity;
 
 
 public class MainFragment extends Fragment {
+    private Button  practiceBtn, beginnersBtn, grammarA1Btn, grammarA2Btn;
 
-
-    private Button greetingsBtn, weekNamesBtn, monthNameBtn;
-    private Button whQuestionsBtn, trenbarrUntrennbarVerbenBtn, dativVerbenBtn, rulesBtn;
-    private Button adjektivEndingBtn;
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -48,108 +47,46 @@ public class MainFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle bundle)
     {
-        greetingsBtn = (Button) view.findViewById(R.id.greetingBtn);
-        weekNamesBtn = (Button) view.findViewById(R.id.weekNamesBtn);
-        monthNameBtn = (Button) view.findViewById(R.id.monthNamesBtn);
-        whQuestionsBtn = (Button) view.findViewById(R.id.whQuestionsBtn);
-        trenbarrUntrennbarVerbenBtn = (Button) view.findViewById(R.id.trenbarrUntrennbarVerbenBtn);
-        rulesBtn = (Button) view.findViewById(R.id.rulesBtn);
-        dativVerbenBtn = (Button) view.findViewById(R.id.dativVerbenBtn);
-        adjektivEndingBtn = (Button) view.findViewById(R.id.adjektivEndingBtn);
+        practiceBtn = (Button) view.findViewById(R.id.practiceBtn);
+        beginnersBtn = (Button) view.findViewById(R.id.beginnersBtn);
+        grammarA1Btn = (Button) view.findViewById(R.id.grammerA1Btn);
+        grammarA2Btn = (Button) view.findViewById(R.id.grammerA2Btn);
 
         //Click listeners
-        greetingsBtn.setOnClickListener(new View.OnClickListener() {
+        practiceBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
 
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new GreetingFragment());
+                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
+                ft.add(R.id.linearMainLayout, new PracticeFragment());
                 ft.commit();
             }
         });
 
-        weekNamesBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view)
-            {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new WeekNamesFragment());
-                ft.commit();
-            }
-        });
-
-        monthNameBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new MonthNameFragment());
-                ft.commit();
-            }
-        });
-
-        whQuestionsBtn.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new WhQuestionFragment());
-                ft.commit();
-            }
-        });
-
-        trenbarrUntrennbarVerbenBtn.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new TrennbarUntrennbarFragment());
-                ft.commit();
-            }
-        });
-
-        rulesBtn.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new RulesFragment());
-                ft.commit();
-            }
-        });
-
-        dativVerbenBtn.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new DativVerbenFragment());
-                ft.commit();
-            }
-        });
-
-        adjektivEndingBtn.setOnClickListener(new View.OnClickListener() {
+        beginnersBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.left_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.left_outward_slide);
-                ft.replace(R.id.linearMainLayout, new AdjektivEndingsFragment());
-                ft.commit();
+                startActivity(new Intent(getActivity(), BeginnersActivity.class));
+            }
+        });
+        grammarA1Btn.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), GrammarA1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        grammarA2Btn.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), GrammarA2Activity.class);
+                startActivity(intent);
             }
         });
     }

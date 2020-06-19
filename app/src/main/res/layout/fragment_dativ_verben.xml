@@ -20,311 +20,48 @@
             android:text="@string/dativVerbenTxt"
             android:background="?attr/HeaderColor"
             android:textColor="?attr/HeaderTextColor"
-            android:textSize="25dp">
+            android:textSize="25sp">
         </TextView>
 
         <TableLayout
+            android:id="@+id/dativeVerbenTable"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="2dp"
             android:stretchColumns="*">
 
             <TableRow
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="@string/germanTxt"
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="90dp"
-
-                    />
+                />
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="@string/englishTxt"
                     android:gravity="center"
                     android:background="@drawable/grid_background"
                     android:padding="12dp"
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/ElementColorEight"
+                    android:textColor="?attr/TableTextColor"
                     android:height="90dp"
                     />
             </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="ERZÄHLEN"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="TO TELL"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="GEFALLEN"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="TO LIKE"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="GEHÖREN"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="TO BELONG"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="HÄNGEN"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="TO HANG SOMETHING"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="HELFEN"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="TO HELP"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="PASSEN"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="TO BE SUITABLE"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="SCHMECKEN"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="TO TASTE"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="STEHEN"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="TO STAND"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="WÜNSCHEN"
-                    android:gravity="center"
-                    android:background="@drawable/grid_background"
-                    android:padding="12dp"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/grid_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="TO WISH"
-                    android:textSize="18sp"
-                    android:textColor="?attr/ElementColorEight"
-                    android:height="70dp"
-                    />
-            </TableRow>
-
-
         </TableLayout>
     </LinearLayout>
 </ScrollView>

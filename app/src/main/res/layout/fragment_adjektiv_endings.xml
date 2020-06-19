@@ -33,13 +33,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Besstimmten Artikel"
+                android:text="Bestimmte Artikel"
                 android:gravity="center"
                 android:background="@drawable/grid_background"
                 android:padding="12dp"
                 android:textSize="25sp"
                 android:textStyle="normal"
-                android:textColor="?attr/ElementColorEight"/>
+                android:textColor="?attr/TableTextColor"/>
 
             <TableRow>
                 <TextView
@@ -51,7 +51,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -63,7 +63,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -75,7 +75,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -87,7 +87,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -99,7 +99,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
             </TableRow>
@@ -113,7 +113,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -125,7 +125,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -137,7 +137,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -149,7 +149,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -161,7 +161,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
             </TableRow>
 
@@ -175,7 +175,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -187,7 +187,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -199,7 +199,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -211,7 +211,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -223,7 +223,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
             </TableRow>
 
@@ -237,7 +237,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -249,7 +249,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -261,7 +261,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -273,7 +273,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -285,7 +285,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
             </TableRow>
 
@@ -299,7 +299,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -311,7 +311,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -323,7 +323,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -335,7 +335,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -347,7 +347,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
             </TableRow>
         </TableLayout>
@@ -360,13 +360,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Unbesstimmten Artikel"
+                android:text="Unbestimmte Artikel"
                 android:gravity="center"
                 android:background="@drawable/grid_background"
                 android:padding="12dp"
                 android:textSize="25sp"
                 android:textStyle="normal"
-                android:textColor="?attr/ElementColorEight"/>
+                android:textColor="?attr/TableTextColor"/>
 
             <TableRow>
                 <TextView
@@ -378,7 +378,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -390,7 +390,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -402,7 +402,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -414,7 +414,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -426,7 +426,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
             </TableRow>
@@ -440,7 +440,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -452,7 +452,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -464,7 +464,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -476,7 +476,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -501,7 +501,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -513,7 +513,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -525,7 +525,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -537,7 +537,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -563,7 +563,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -575,7 +575,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -587,7 +587,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -599,7 +599,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -625,7 +625,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -637,7 +637,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -649,7 +649,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -661,7 +661,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -706,7 +706,7 @@
                 android:padding="12dp"
                 android:textSize="25sp"
                 android:textStyle="italic"
-                android:textColor="?attr/ElementColorEight"/>
+                android:textColor="?attr/TableTextColor"/>
 
             <TableRow>
                 <TextView
@@ -718,7 +718,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -730,7 +730,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -742,7 +742,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -754,7 +754,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -766,7 +766,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
             </TableRow>
@@ -780,7 +780,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -792,7 +792,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -804,7 +804,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -816,7 +816,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -828,7 +828,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
             </TableRow>
 
@@ -842,7 +842,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -854,7 +854,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -866,7 +866,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -878,7 +878,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -890,7 +890,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
             </TableRow>
 
@@ -904,7 +904,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -916,7 +916,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -928,7 +928,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -940,7 +940,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -952,7 +952,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
             </TableRow>
 
@@ -966,7 +966,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -978,7 +978,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -990,7 +990,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -1002,7 +1002,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
 
                 <TextView
@@ -1014,7 +1014,7 @@
                     android:padding="12dp"
                     android:textSize="18sp"
                     android:textStyle="italic"
-                    android:textColor="?attr/ElementColorEight">
+                    android:textColor="?attr/TableTextColor">
                 </TextView>
             </TableRow>
         </TableLayout>
