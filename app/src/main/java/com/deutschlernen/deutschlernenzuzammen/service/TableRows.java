@@ -24,6 +24,13 @@ import com.android.deutschlernenzuzammen.R;
 import org.w3c.dom.Text;
 
 public class TableRows {
+
+    //Check whether only first word is to be sent to tts service
+    private boolean spellFirstWordOnly;
+
+    public TableRows(){spellFirstWordOnly = false;}
+    public TableRows(boolean spellFirstWordOnly){this.spellFirstWordOnly = spellFirstWordOnly;}
+
     @RequiresApi(api = Build.VERSION_CODES.M)
     public void createRows(String[] dataList, int tableId, View view, Activity fragmentActivity){
 
@@ -35,9 +42,6 @@ public class TableRows {
         Resources.Theme theme = view.getContext().getTheme();
         theme.resolveAttribute(R.attr.ElementColorEight, typedValue,  true);
         final int textColor = ColorService.getColor(view.getContext(), R.attr.TableTextColor);
-
-        //Check whether only first word is to be sent to tts service
-        boolean spellFirstWordOnly = TableRows.getFirstWordFlag(view.getId());
 
         TableLayout table = (TableLayout)  view.findViewById(tableId);
         for(int i=0; i<dataList.length-1; i+=2){
@@ -94,31 +98,31 @@ public class TableRows {
 
     //To check whether only the first word from the string is to be sent to tts service
     private static boolean getFirstWordFlag(int fragmentId){
-
-        boolean flag;
+        System.out.println("FRAGMENT ID: "+fragmentId);
+        boolean flag = false;
         switch (fragmentId){
             case R.layout.fragment_conjugation:
                 flag = true;
                 break;
             default: flag = false;
         }
-
+        System.out.println("FRAGMENT ID: "+fragmentId);
         return flag;
     }
 
-    static class TextToSpeechListener implements TextView.OnClickListener {
+    class TextToSpeechListener implements TextView.OnClickListener {
         private boolean firstWordOnly = false;
 
         public TextToSpeechListener(){}
 
-        public TextToSpeechListener(boolean flag) {firstWordOnly = true;}
+        public TextToSpeechListener(boolean flag) {firstWordOnly = flag;}
 
         @Override
         public void onClick(View v) {
             Log.i("ONSPEECH", "onClick: "+((TextView)v).getText());
             if(false == firstWordOnly){
                 TextToSpeechService.convertTextToSpeech(v.getContext(), ((TextView)v).getText());
-            }else{
+            }else if(true == firstWordOnly){
                 TextToSpeechService.convertTextToSpeech(v.getContext(), ((TextView)v).getText().toString().split("\\s+")[0]);
             }
         }

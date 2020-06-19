@@ -30,7 +30,7 @@ public class ConjugationFragment extends Fragment{
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_conjugation, container, false);
-        new TableRows().createRows(conjugationTable, R.id.conjugationTable, view, this.getActivity());
+        new TableRows(true).createRows(conjugationTable, R.id.conjugationTable, view, this.getActivity());
         return view;
     }
 
