@@ -38,6 +38,5 @@ public final class TextToSpeechService {
 
             }
         });
-        ;
     }
 }

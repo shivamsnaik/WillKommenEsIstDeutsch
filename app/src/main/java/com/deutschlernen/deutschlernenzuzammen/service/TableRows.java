@@ -36,6 +36,9 @@ public class TableRows {
         theme.resolveAttribute(R.attr.ElementColorEight, typedValue,  true);
         final int textColor = ColorService.getColor(view.getContext(), R.attr.TableTextColor);
 
+        //Check whether only first word is to be sent to tts service
+        boolean spellFirstWordOnly = TableRows.getFirstWordFlag(view.getId());
+
         TableLayout table = (TableLayout)  view.findViewById(tableId);
         for(int i=0; i<dataList.length-1; i+=2){
 
@@ -70,7 +73,7 @@ public class TableRows {
 //            TextViewCompat.setTextAppearance(txtViewGerman, R.style.GidoleRegularFont);
             txtViewGerman.setTextColor(textColor);
             txtViewGerman.setBackgroundResource(R.drawable.ripple_table_item_background);
-            txtViewGerman.setOnClickListener(new TextToSpeechListener());
+            txtViewGerman.setOnClickListener(new TextToSpeechListener(spellFirstWordOnly));
 
             TextView  txtViewEnglish = new TextView(fragmentActivity);
             txtViewEnglish.setGravity(Gravity.CENTER);
@@ -89,11 +92,35 @@ public class TableRows {
         }
     }
 
+    //To check whether only the first word from the string is to be sent to tts service
+    private static boolean getFirstWordFlag(int fragmentId){
+
+        boolean flag;
+        switch (fragmentId){
+            case R.layout.fragment_conjugation:
+                flag = true;
+                break;
+            default: flag = false;
+        }
+
+        return flag;
+    }
+
     static class TextToSpeechListener implements TextView.OnClickListener {
+        private boolean firstWordOnly = false;
+
+        public TextToSpeechListener(){}
+
+        public TextToSpeechListener(boolean flag) {firstWordOnly = true;}
+
         @Override
         public void onClick(View v) {
             Log.i("ONSPEECH", "onClick: "+((TextView)v).getText());
-            TextToSpeechService.convertTextToSpeech(v.getContext(), ((TextView)v).getText());
+            if(false == firstWordOnly){
+                TextToSpeechService.convertTextToSpeech(v.getContext(), ((TextView)v).getText());
+            }else{
+                TextToSpeechService.convertTextToSpeech(v.getContext(), ((TextView)v).getText().toString().split("\\s+")[0]);
+            }
         }
     }
 
