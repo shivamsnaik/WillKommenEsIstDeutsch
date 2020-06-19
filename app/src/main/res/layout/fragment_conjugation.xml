@@ -1,13 +1,67 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.levelone.ConjugationFragment">
+    tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.levelone.ConjugationFragment"
+    android:background="?attr/BackgroundColor"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
 
-</FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="@string/conjugationTxt"
+            android:background="?attr/HeaderColor"
+            android:textColor="?attr/HeaderTextColor"
+            android:textSize="25sp">
+        </TextView>
+
+        <TableLayout
+            android:id="@+id/conjugationTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/germanTxt"
+                    android:gravity="center"
+                    android:background="@drawable/grid_background"
+                    android:padding="12dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/TableTextColor"
+                    android:height="90dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/englishTxt"
+                    android:gravity="center"
+                    android:background="@drawable/grid_background"
+                    android:padding="12dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/TableTextColor"
+                    android:height="90dp"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

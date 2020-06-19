@@ -25,6 +25,7 @@
     <string name="grammerA1Txt">Grammar Section (A1)</string>
     <string name="grammerA2Txt">Grammar Section (A2)</string>
     <string name="articleChartsTxt">Articles Charts</string>
+    <string name="conjugationTxt">Conjugation Table</string>
     <string name="toggleDarkModeTxt">Dim/Light the Candles</string>
 
     <string name="trenbarrUntrennbarVerbenTxt">Trennbar/Untrennbar Verbs</string>
@@ -510,7 +511,32 @@
 
     <!--  ALPHABETS END  -->
 
+    <!-- CONJUGATION TABLE START-->
 
+    <string-array name="conjugationTable">
+        <item>ich (I)</item>
+        <item>e</item>
+
+        <item>du (You)</item>
+        <item>st</item>
+
+        <item>er/sie/es\n(He/She/It)</item>
+        <item>t</item>
+
+        <item>wir (We)</item>
+        <item>en</item>
+
+        <item>ihr (You all)</item>
+        <item>t</item>
+
+        <item>sie (They)</item>
+        <item>en</item>
+
+        <item>Sie \n(You - FORMAL)</item>
+        <item>en</item>
+    </string-array>
+
+    <!-- CONJUGATION TABLE END-->
     <string name="ruleOneTxt">1. Zum is used as an exception while talking about food at different time. \nEg. Zum Früstuck, Zum Mittagessen. </string>
     <string name="ruleTwoTxt">
         2. Zu Hause oder Nach Hause ???\n -> Use Zu Hause when in possession.\n\u0009\u0009\u0009\u0009\u0009Ich bin zu Hause.\n

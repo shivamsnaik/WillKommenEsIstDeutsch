@@ -20,7 +20,7 @@ import com.deutschlernen.deutschlernenzuzammen.fragments.beginner.WeekNamesFragm
 import com.deutschlernen.deutschlernenzuzammen.fragments.beginner.WhQuestionFragment;
 
 
-public class BeginnersFragment extends Fragment {
+public class BeginnersFragment extends Fragment implements View.OnClickListener {
 
     private Button numbersBtn, greetingsBtn, weekNamesBtn, monthNameBtn;
     private Button whQuestionsBtn, alphabetsBtn;
@@ -58,78 +58,43 @@ public class BeginnersFragment extends Fragment {
         numbersBtn = (Button) view.findViewById(R.id.numbersBtn);
         alphabetsBtn = (Button) view.findViewById(R.id.alphabetsBtn);
 
-        numbersBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        //On click listeners
+        numbersBtn.setOnClickListener(this);
+        alphabetsBtn.setOnClickListener(this);
+        greetingsBtn.setOnClickListener(this);
+        weekNamesBtn.setOnClickListener(this);
+        monthNameBtn.setOnClickListener(this);
+        whQuestionsBtn.setOnClickListener(this);
+    }
 
+    @Override
+    public void onClick(View v) {
+        int buttonId = v.getId();
 
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
+        FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
+        ft.addToBackStack(null);
+        ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.left_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
+
+        switch (buttonId){
+            case R.id.numbersBtn:
                 ft.add(R.id.linearBeginnersLayout, new NumbersFragment());
-                ft.commit();
-            }
-        });
-
-        alphabetsBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
+                break;
+            case R.id.alphabetsBtn:
                 ft.add(R.id.linearBeginnersLayout, new AlphabetFragment());
-                ft.commit();
-            }
-        });
-
-        greetingsBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
+                break;
+            case R.id.greetingBtn:
                 ft.add(R.id.linearBeginnersLayout, new GreetingFragment());
-                ft.commit();
-            }
-        });
-
-        weekNamesBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view)
-            {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
+                break;
+            case R.id.weekNamesBtn:
                 ft.add(R.id.linearBeginnersLayout, new WeekNamesFragment());
-                ft.commit();
-            }
-        });
-
-        monthNameBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
+                break;
+            case R.id.monthNamesBtn:
                 ft.add(R.id.linearBeginnersLayout, new MonthNameFragment());
-                ft.commit();
-            }
-        });
-
-        whQuestionsBtn.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
+                break;
+            case R.id.whQuestionsBtn:
                 ft.add(R.id.linearBeginnersLayout, new WhQuestionFragment());
-                ft.commit();
-            }
-        });
+        }
+
+        ft.commit();
     }
 }
