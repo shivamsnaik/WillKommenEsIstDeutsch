@@ -1,4 +1,4 @@
-package com.deutschlernen.deutschlernenzuzammen.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments.levelone;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,8 +12,7 @@ import androidx.fragment.app.Fragment;
 
 import com.android.deutschlernenzuzammen.R;
 
-public class ArticleFragment extends Fragment{
-
+public class ConjugationFragment extends Fragment{
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +21,7 @@ public class ArticleFragment extends Fragment{
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_article, container, false);
+        return inflater.inflate(R.layout.fragment_conjugation, container, false);
     }
 
     @Override

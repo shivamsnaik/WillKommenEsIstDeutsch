@@ -1,4 +1,4 @@
-package com.deutschlernen.deutschlernenzuzammen.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments.beginner;
 
 import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;

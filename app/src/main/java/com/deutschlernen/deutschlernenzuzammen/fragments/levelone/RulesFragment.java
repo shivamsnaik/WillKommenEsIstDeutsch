@@ -1,4 +1,4 @@
-package com.deutschlernen.deutschlernenzuzammen.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments.levelone;
 
 import android.content.Context;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.deutschlernen.deutschlernenzuzammen.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments.leveltwo;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -1,26 +1,27 @@
-package com.deutschlernen.deutschlernenzuzammen.fragments;
+package com.deutschlernen.deutschlernenzuzammen.fragments.beginner;
 
 import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
 import com.android.deutschlernenzuzammen.R;
 import com.deutschlernen.deutschlernenzuzammen.service.TableRows;
 
+public class MonthNameFragment extends Fragment {
 
-public class TrennbarUntrennbarFragment extends Fragment {
-    String[] trenbarUntrenbarVerbsList;
+    String[] monthNames;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        trenbarUntrenbarVerbsList = getResources().getStringArray(R.array.trenbarUntrenbarVerbs);
+        monthNames = getResources().getStringArray(R.array.monthNames);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -28,8 +29,9 @@ public class TrennbarUntrennbarFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.trennbar_untrennbar, container, false);
-        TableRows.createRows(trenbarUntrenbarVerbsList, R.id.trenbarUntrenbarVerbsTable, view, this.getActivity());
+        View view = inflater.inflate(R.layout.fragment_month_name, container, false);
+        TableRows.createRows(monthNames, R.id.monthsTable, view, this.getActivity());
+
         return view;
     }
 

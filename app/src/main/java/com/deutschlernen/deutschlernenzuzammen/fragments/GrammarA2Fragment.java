@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.android.deutschlernenzuzammen.R;
+import com.deutschlernen.deutschlernenzuzammen.fragments.leveltwo.AdjektivEndingsFragment;
 
 
 public class GrammarA2Fragment extends Fragment {

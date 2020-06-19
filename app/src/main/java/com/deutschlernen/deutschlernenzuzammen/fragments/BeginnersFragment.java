@@ -12,6 +12,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.android.deutschlernenzuzammen.R;
+import com.deutschlernen.deutschlernenzuzammen.fragments.beginner.AlphabetFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.beginner.GreetingFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.beginner.MonthNameFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.beginner.NumbersFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.beginner.WeekNamesFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.beginner.WhQuestionFragment;
 
 
 public class BeginnersFragment extends Fragment {
