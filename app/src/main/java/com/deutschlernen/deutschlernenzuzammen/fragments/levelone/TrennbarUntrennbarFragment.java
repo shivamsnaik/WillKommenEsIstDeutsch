@@ -29,7 +29,7 @@ public class TrennbarUntrennbarFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.trennbar_untrennbar, container, false);
-        TableRows.createRows(trenbarUntrenbarVerbsList, R.id.trenbarUntrenbarVerbsTable, view, this.getActivity());
+        new TableRows().createRows(trenbarUntrenbarVerbsList, R.id.trenbarUntrenbarVerbsTable, view, this.getActivity());
         return view;
     }
 

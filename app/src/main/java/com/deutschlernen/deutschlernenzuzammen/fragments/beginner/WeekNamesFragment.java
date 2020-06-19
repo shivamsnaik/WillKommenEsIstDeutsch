@@ -29,7 +29,7 @@ public class WeekNamesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
         View view = inflater.inflate(R.layout.fragment_week_names, container, false);
-        TableRows.createRows(weekNamesList, R.id.weekNamesTable, view, this.getActivity());
+        new TableRows().createRows(weekNamesList, R.id.weekNamesTable, view, this.getActivity());
 
         return view;
     }

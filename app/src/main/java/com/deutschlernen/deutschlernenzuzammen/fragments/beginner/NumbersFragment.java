@@ -28,7 +28,7 @@ public class NumbersFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View view = inflater.inflate(R.layout.fragment_numbers, container, false);
-        TableRows.createRows(numbersList, R.id.numbersTable, view, this.getActivity());
+        new TableRows().createRows(numbersList, R.id.numbersTable, view, this.getActivity());
         return view;
     }
 

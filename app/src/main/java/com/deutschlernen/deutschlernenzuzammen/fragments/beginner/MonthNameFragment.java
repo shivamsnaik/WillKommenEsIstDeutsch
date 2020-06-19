@@ -30,7 +30,7 @@ public class MonthNameFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_month_name, container, false);
-        TableRows.createRows(monthNames, R.id.monthsTable, view, this.getActivity());
+        new TableRows().createRows(monthNames, R.id.monthsTable, view, this.getActivity());
 
         return view;
     }

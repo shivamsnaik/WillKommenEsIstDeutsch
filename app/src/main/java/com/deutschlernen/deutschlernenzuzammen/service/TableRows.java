@@ -25,7 +25,7 @@ import org.w3c.dom.Text;
 
 public class TableRows {
     @RequiresApi(api = Build.VERSION_CODES.M)
-    public static void createRows(String[] dataList, int tableId, View view, Activity fragmentActivity){
+    public void createRows(String[] dataList, int tableId, View view, Activity fragmentActivity){
 
         //THE DISPLAY SCALE FACTOR
         final float scale = view.getContext().getResources().getDisplayMetrics().density;

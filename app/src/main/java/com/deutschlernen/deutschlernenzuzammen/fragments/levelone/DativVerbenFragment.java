@@ -28,7 +28,7 @@ public class DativVerbenFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle bundle){
 
         View view = inflater.inflate(R.layout.fragment_dativ_verben, container, false);
-        TableRows.createRows(dativeVerbsList, R.id.dativeVerbenTable, view, this.getActivity());
+        new TableRows().createRows(dativeVerbsList, R.id.dativeVerbenTable, view, this.getActivity());
         return view;
     }
 

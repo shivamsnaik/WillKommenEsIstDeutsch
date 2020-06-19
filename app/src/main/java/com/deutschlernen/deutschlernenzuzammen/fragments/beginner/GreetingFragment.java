@@ -29,7 +29,7 @@ public class GreetingFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
         View view = inflater.inflate(R.layout.fragment_greeting, container, false);
-        TableRows.createRows(greetingsList,R.id.greetingsTable, view, this.getActivity());
+        new TableRows().createRows(greetingsList,R.id.greetingsTable, view, this.getActivity());
         return view;
     }
 

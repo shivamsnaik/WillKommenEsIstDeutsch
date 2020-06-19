@@ -29,7 +29,7 @@ public class WhQuestionFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle bundle){
 
         View view = inflater.inflate(R.layout.fragment_wh_questions, container, false);
-        TableRows.createRows(whQuestionsList, R.id.whQuestionsTable, view, this.getActivity());
+        new TableRows().createRows(whQuestionsList, R.id.whQuestionsTable, view, this.getActivity());
 
         return view;
     }
