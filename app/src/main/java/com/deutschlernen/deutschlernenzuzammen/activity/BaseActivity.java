@@ -91,7 +91,8 @@ public class BaseActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(intent);
-        finish();
+        finishAffinity();
+
     }
 
     //ATTACHES NEW CONTEXT TO REFLECT CUSTOM FONT STYLE
