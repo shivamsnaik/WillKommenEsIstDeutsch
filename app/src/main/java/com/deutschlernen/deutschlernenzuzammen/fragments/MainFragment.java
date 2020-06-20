@@ -18,7 +18,7 @@ import com.deutschlernen.deutschlernenzuzammen.activity.GrammarA1Activity;
 import com.deutschlernen.deutschlernenzuzammen.activity.GrammarA2Activity;
 
 
-public class MainFragment extends Fragment {
+public class MainFragment extends Fragment implements View.OnClickListener {
     private Button  practiceBtn, beginnersBtn, grammarA1Btn, grammarA2Btn;
 
     @Override
@@ -49,45 +49,41 @@ public class MainFragment extends Fragment {
     {
         practiceBtn = (Button) view.findViewById(R.id.practiceBtn);
         beginnersBtn = (Button) view.findViewById(R.id.beginnersBtn);
-        grammarA1Btn = (Button) view.findViewById(R.id.grammerA1Btn);
-        grammarA2Btn = (Button) view.findViewById(R.id.grammerA2Btn);
+        grammarA1Btn = (Button) view.findViewById(R.id.grammarA1Btn);
+        grammarA2Btn = (Button) view.findViewById(R.id.grammarA2Btn);
 
         //Click listeners
-        practiceBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        practiceBtn.setOnClickListener(this);
+        beginnersBtn.setOnClickListener(this);
+        grammarA1Btn.setOnClickListener(this);
+        grammarA2Btn.setOnClickListener(this);
+    }
 
+    @Override
+    public void onClick(View v) {
+        int buttonId = v.getId();
 
+        switch(buttonId){
+            case R.id.practiceBtn:
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.addToBackStack(null);
                 ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.right_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
                 ft.add(R.id.linearMainLayout, new PracticeFragment());
                 ft.commit();
-            }
-        });
+                break;
 
-        beginnersBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+            case R.id.beginnersBtn:
                 startActivity(new Intent(getActivity(), BeginnersActivity.class));
-            }
-        });
-        grammarA1Btn.setOnClickListener(new View.OnClickListener(){
+                break;
 
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), GrammarA1Activity.class);
-                startActivity(intent);
-            }
-        });
+            case R.id.grammarA1Btn:
+                startActivity(new Intent(getActivity(), GrammarA1Activity.class));
+                break;
 
-        grammarA2Btn.setOnClickListener(new View.OnClickListener(){
+            case R.id.grammarA2Btn:
+                startActivity(new Intent(getActivity(), GrammarA2Activity.class));
+                break;
+        }
 
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), GrammarA2Activity.class);
-                startActivity(intent);
-            }
-        });
     }
 }

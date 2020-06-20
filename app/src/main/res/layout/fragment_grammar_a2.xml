@@ -36,18 +36,18 @@
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
 
-            <Button
-                android:id="@+id/rulesA2Btn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/ripple_four"
-                android:text="@string/rulesTxt"
-                android:textSize="20dp"
-                android:height="120dp"
-                android:elevation="10dp"
-                android:translationZ="2dp"
-                android:stateListAnimator="@null"
-                android:textColor="?attr/ButtonTextColor" />
+<!--            <Button-->
+<!--                android:id="@+id/rulesA2Btn"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/ripple_four"-->
+<!--                android:text="@string/rulesTxt"-->
+<!--                android:textSize="20dp"-->
+<!--                android:height="120dp"-->
+<!--                android:elevation="10dp"-->
+<!--                android:translationZ="2dp"-->
+<!--                android:stateListAnimator="@null"-->
+<!--                android:textColor="?attr/ButtonTextColor" />-->
         </LinearLayout>
     </LinearLayout>
 

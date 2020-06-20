@@ -25,6 +25,7 @@
     <string name="grammerA1Txt">Grammar Section (A1)</string>
     <string name="grammerA2Txt">Grammar Section (A2)</string>
     <string name="articleChartsTxt">Articles Charts</string>
+    <string name="conjugationTxt">Conjugation Table</string>
     <string name="toggleDarkModeTxt">Dim/Light the Candles</string>
 
     <string name="trenbarrUntrennbarVerbenTxt">Trennbar/Untrennbar Verbs</string>
@@ -50,6 +51,12 @@
 
         <item>Gute Nacht</item>
         <item>Good Night</item>
+
+        <item>Wie geht\'s?/\nWie geht es dir\?</item>
+        <item>How are you?\n(informal)</item>
+
+        <item>Wie geht es Ihnen\?</item>
+        <item>How are you?\n(formal)</item>
 
         <item>Übermorgen</item>
         <item>Day after tomorrow</item>
@@ -116,12 +123,6 @@
 
         <item>Gratulationen</item>
         <item>Congratulations</item>
-
-        <item>Wie geht\'s?/\nWie geht es dir\?</item>
-        <item>How are you?(INF)</item>
-
-        <item>Wie geht es Ihnen\?</item>
-        <item>How are you?(F)</item>
 
         <item>Gute Reise/\nSchöne Reise.</item>
         <item>Happy Journey</item>
@@ -236,7 +237,7 @@
         <item>Wessen?</item>
         <item>Whose?</item>
 
-        <item>Wie Viel?</item>
+        <item>Wie viel?</item>
         <item>How much?</item>
 
         <item>Woher?</item>
@@ -509,6 +510,60 @@
     </string-array>
 
     <!--  ALPHABETS END  -->
+
+    <!-- CONJUGATION TABLE START-->
+
+    <string-array name="conjugationTable">
+        <item><font color="red">ich\n(I)</font></item>
+        <item>e</item>
+
+        <item>du\n(You)</item>
+        <item>st</item>
+
+        <item>er/sie/es\n(He/She/It)</item>
+        <item>t</item>
+
+        <item>wir\n(We)</item>
+        <item>en</item>
+
+        <item>ihr\n(You all)</item>
+        <item>t</item>
+
+        <item>sie\n(They)</item>
+        <item>en</item>
+
+        <item>Sie\n(You - FORMAL)</item>
+        <item>en</item>
+    </string-array>
+
+    <string name="cojugationHabenHeader">
+        <font fgcolor="red">Example 1 - Haben</font>
+    </string>
+
+    <string-array name="conjugationHaben">
+        <item>ich habe</item>
+        <item>du hast</item>
+        <item>er/sie/es hat</item>
+        <item>wir haben</item>
+        <item>ihr habt</item>
+        <item>sie haben</item>
+        <item>Sie haben</item>
+    </string-array>
+
+    <string name="cojugationSeinHeader">
+        <font fgcolor="red">Example 2 - Sein</font>
+    </string>
+
+    <string-array name="conjugationSein">
+        <item>ich bin</item>
+        <item>du bist</item>
+        <item>er/sie/es ist</item>
+        <item>wir sind</item>
+        <item>ihr seid</item>
+        <item>sie sind</item>
+        <item>Sie sind</item>
+    </string-array>
+    <!-- CONJUGATION TABLE END-->
 
 
     <string name="ruleOneTxt">1. Zum is used as an exception while talking about food at different time. \nEg. Zum Früstuck, Zum Mittagessen. </string>

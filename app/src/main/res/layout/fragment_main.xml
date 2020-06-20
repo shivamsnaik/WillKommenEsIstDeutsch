@@ -52,7 +52,7 @@
                 android:stateListAnimator="@null"
                 />
             <Button
-                android:id="@+id/grammerA1Btn"
+                android:id="@+id/grammarA1Btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_five"
@@ -65,7 +65,7 @@
                 android:textColor="?attr/ButtonTextColor" />
 
             <Button
-                android:id="@+id/grammerA2Btn"
+                android:id="@+id/grammarA2Btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_seven"

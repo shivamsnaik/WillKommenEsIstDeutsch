@@ -12,9 +12,14 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.android.deutschlernenzuzammen.R;
+import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.ArticleFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.ConjugationFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.DativVerbenFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.RulesFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.TrennbarUntrennbarFragment;
 
 
-public class GrammarA1Fragment extends Fragment {
+public class GrammarA1Fragment extends Fragment implements View.OnClickListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -42,56 +47,44 @@ public class GrammarA1Fragment extends Fragment {
     public void onViewCreated(View view, Bundle bundle)
     {
         Button articleBtn = (Button) view.findViewById(R.id.articleBtn);
+        Button conjugationBtn = (Button) view.findViewById(R.id.conjugationBtn);
         Button dativVerbenBtn = (Button) view.findViewById(R.id.dativVerbenBtn);
         Button trenbarrUntrennbarVerbenBtn = (Button) view.findViewById(R.id.trenbarrUntrennbarVerbenBtn);
         Button rulesBtn = (Button) view.findViewById(R.id.rulesA1Btn);
 
         //Click listeners
-        trenbarrUntrennbarVerbenBtn.setOnClickListener(new View.OnClickListener(){
+        articleBtn.setOnClickListener(this);
+        conjugationBtn.setOnClickListener(this);
+        dativVerbenBtn.setOnClickListener(this);
+        trenbarrUntrennbarVerbenBtn.setOnClickListener(this);
+        rulesBtn.setOnClickListener(this);
+    }
 
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.left_outward_slide, R.anim.left_inward_slide, R.anim.right_outward_slide);
-                ft.add(R.id.linearGrammarA1Layout, new TrennbarUntrennbarFragment());
-                ft.commit();
-            }
-        });
+    @Override
+    public void onClick(View v) {
+        int buttonId = v.getId();
 
-        dativVerbenBtn.setOnClickListener(new View.OnClickListener(){
+        FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
+        ft.addToBackStack(null);
+        ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.left_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
 
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.left_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
-                ft.add(R.id.linearGrammarA1Layout, new DativVerbenFragment());
-                ft.commit();
-            }
-        });
-
-        articleBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.left_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
+        switch (buttonId){
+            case R.id.articleBtn:
                 ft.add(R.id.linearGrammarA1Layout, new ArticleFragment());
-                ft.commit();
-            }
-        });
-
-        rulesBtn.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-                ft.addToBackStack(null);
-                ft.setCustomAnimations(R.anim.right_inward_slide, R.anim.left_outward_slide, R.anim.right_inward_slide, R.anim.right_outward_slide);
+                break;
+            case R.id.conjugationBtn:
+                ft.add(R.id.linearGrammarA1Layout, new ConjugationFragment());
+                break;
+            case R.id.dativVerbenBtn:
+                ft.add(R.id.linearGrammarA1Layout, new DativVerbenFragment());
+                break;
+            case R.id.trenbarrUntrennbarVerbenBtn:
+                ft.add(R.id.linearGrammarA1Layout, new TrennbarUntrennbarFragment());
+                break;
+            case R.id.rulesA1Btn:
                 ft.add(R.id.linearGrammarA1Layout, new RulesFragment());
-                ft.commit();
-            }
-        });
+        }
+
+        ft.commit();
     }
 }
