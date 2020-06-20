@@ -27,7 +27,7 @@ public final class TextToSpeechService {
             public void onInit(int status) {
                 if(status == TextToSpeech.SUCCESS){
                     Log.i("ONSPEECH", "onInit: "+status);
-                    int result = textToSpeechObj.setLanguage(Locale.GERMANY);
+                    int result = textToSpeechObj.setLanguage(Locale.GERMAN);
                     if(result == TextToSpeech.LANG_MISSING_DATA ||
                     result  == TextToSpeech.LANG_NOT_SUPPORTED){
                         Toast.makeText(context, "This language is not supported", Toast.LENGTH_SHORT).show();

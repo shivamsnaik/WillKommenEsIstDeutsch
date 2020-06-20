@@ -63,5 +63,77 @@
                     />
             </TableRow>
         </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/white"
+        />
+
+        <TableLayout
+            android:id="@+id/conjugationHabenTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+        >
+            <TableRow
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="60dp"
+            >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/cojugationHabenHeader"
+                    android:gravity="center"
+                    android:background="@drawable/grid_background"
+                    android:padding="12dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/TableTextColor"
+                />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/white"
+            />
+
+        <TableLayout
+            android:id="@+id/conjugationSeinTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            >
+            <TableRow
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="60dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/cojugationSeinHeader"
+                    android:gravity="center"
+                    android:background="@drawable/grid_background"
+                    android:padding="12dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/TableTextColor"
+                    />
+            </TableRow>
+
+        </TableLayout>
     </LinearLayout>
 </ScrollView>

@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.android.deutschlernenzuzammen.R;
-import com.deutschlernen.deutschlernenzuzammen.service.TableRows;
+import com.deutschlernen.deutschlernenzuzammen.service.TableService;
 
 public class MonthNameFragment extends Fragment {
 
@@ -30,7 +30,7 @@ public class MonthNameFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_month_name, container, false);
-        new TableRows().createRows(monthNames, R.id.monthsTable, view, this.getActivity());
+        new TableService().createRows(monthNames, R.id.monthsTable, view, this.getActivity());
 
         return view;
     }

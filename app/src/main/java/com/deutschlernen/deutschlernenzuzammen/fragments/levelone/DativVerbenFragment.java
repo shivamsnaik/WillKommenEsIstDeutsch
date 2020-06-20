@@ -11,7 +11,7 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
 import com.android.deutschlernenzuzammen.R;
-import com.deutschlernen.deutschlernenzuzammen.service.TableRows;
+import com.deutschlernen.deutschlernenzuzammen.service.TableService;
 
 public class DativVerbenFragment extends Fragment {
 
@@ -28,7 +28,7 @@ public class DativVerbenFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle bundle){
 
         View view = inflater.inflate(R.layout.fragment_dativ_verben, container, false);
-        new TableRows().createRows(dativeVerbsList, R.id.dativeVerbenTable, view, this.getActivity());
+        new TableService().createRows(dativeVerbsList, R.id.dativeVerbenTable, view, this.getActivity());
         return view;
     }
 

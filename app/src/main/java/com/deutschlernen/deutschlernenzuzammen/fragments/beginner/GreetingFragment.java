@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.android.deutschlernenzuzammen.R;
-import com.deutschlernen.deutschlernenzuzammen.service.TableRows;
+import com.deutschlernen.deutschlernenzuzammen.service.TableService;
 
 
 public class GreetingFragment extends Fragment {
@@ -29,7 +29,7 @@ public class GreetingFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
         View view = inflater.inflate(R.layout.fragment_greeting, container, false);
-        new TableRows().createRows(greetingsList,R.id.greetingsTable, view, this.getActivity());
+        new TableService().createRows(greetingsList,R.id.greetingsTable, view, this.getActivity());
         return view;
     }
 

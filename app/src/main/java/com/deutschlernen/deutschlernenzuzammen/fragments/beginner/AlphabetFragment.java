@@ -13,7 +13,7 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
 import com.android.deutschlernenzuzammen.R;
-import com.deutschlernen.deutschlernenzuzammen.service.TableRows;
+import com.deutschlernen.deutschlernenzuzammen.service.TableService;
 
 public class AlphabetFragment extends Fragment{
 
@@ -30,7 +30,7 @@ public class AlphabetFragment extends Fragment{
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_alphabet, container, false);
-        new TableRows().createRows(alphabetList, R.id.alphabetsTable, view, this.getActivity());
+        new TableService().createRows(alphabetList, R.id.alphabetsTable, view, this.getActivity());
 
         return view;
     }

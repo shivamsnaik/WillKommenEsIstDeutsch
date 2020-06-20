@@ -11,7 +11,7 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
 import com.android.deutschlernenzuzammen.R;
-import com.deutschlernen.deutschlernenzuzammen.service.TableRows;
+import com.deutschlernen.deutschlernenzuzammen.service.TableService;
 
 
 public class TrennbarUntrennbarFragment extends Fragment {
@@ -29,7 +29,7 @@ public class TrennbarUntrennbarFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.trennbar_untrennbar, container, false);
-        new TableRows().createRows(trenbarUntrenbarVerbsList, R.id.trenbarUntrenbarVerbsTable, view, this.getActivity());
+        new TableService().createRows(trenbarUntrenbarVerbsList, R.id.trenbarUntrenbarVerbsTable, view, this.getActivity());
         return view;
     }
 

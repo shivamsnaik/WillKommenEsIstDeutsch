@@ -11,7 +11,7 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
 import com.android.deutschlernenzuzammen.R;
-import com.deutschlernen.deutschlernenzuzammen.service.TableRows;
+import com.deutschlernen.deutschlernenzuzammen.service.TableService;
 
 
 public class WhQuestionFragment extends Fragment {
@@ -29,7 +29,7 @@ public class WhQuestionFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle bundle){
 
         View view = inflater.inflate(R.layout.fragment_wh_questions, container, false);
-        new TableRows().createRows(whQuestionsList, R.id.whQuestionsTable, view, this.getActivity());
+        new TableService().createRows(whQuestionsList, R.id.whQuestionsTable, view, this.getActivity());
 
         return view;
     }

@@ -32,7 +32,8 @@
                 android:translationZ="20dp"
                 android:stateListAnimator="@null"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+            >
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -44,8 +45,6 @@
                     android:textSize="25sp"
                     android:textStyle="bold"
                     android:textColor="?attr/TableTextColor"
-                    android:height="90dp"
-
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -57,7 +56,6 @@
                     android:textSize="25sp"
                     android:textStyle="bold"
                     android:textColor="?attr/TableTextColor"
-                    android:height="90dp"
                     />
             </TableRow>
         </TableLayout>

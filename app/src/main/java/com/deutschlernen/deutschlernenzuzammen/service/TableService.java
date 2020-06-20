@@ -11,6 +11,7 @@ import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -20,16 +21,15 @@ import androidx.core.content.ContextCompat;
 import androidx.core.widget.TextViewCompat;
 
 import com.android.deutschlernenzuzammen.R;
+import com.deutschlernen.deutschlernenzuzammen.model.Table;
 
 import org.w3c.dom.Text;
 
-public class TableRows {
+public class TableService {
 
-    //Check whether only first word is to be sent to tts service
-    private boolean spellFirstWordOnly;
-
-    public TableRows(){spellFirstWordOnly = false;}
-    public TableRows(boolean spellFirstWordOnly){this.spellFirstWordOnly = spellFirstWordOnly;}
+    private Table tableProperties;
+    public TableService(){tableProperties = new Table();}
+    public TableService(Table table){this.tableProperties = table;}
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     public void createRows(String[] dataList, int tableId, View view, Activity fragmentActivity){
@@ -44,7 +44,13 @@ public class TableRows {
         final int textColor = ColorService.getColor(view.getContext(), R.attr.TableTextColor);
 
         TableLayout table = (TableLayout)  view.findViewById(tableId);
-        for(int i=0; i<dataList.length-1; i+=2){
+
+        int counterRange = 2, listLengthFix = 1;
+        if(true == tableProperties.getSingleColumnFlag()){
+            counterRange = 1;
+            listLengthFix = 0;
+        }
+        for(int i=0; i<dataList.length-listLengthFix; i+=counterRange){
 
             if(dataList[i].equals("-- LINE_BREAK --")){
                 TableRow row = new TableRow(fragmentActivity);
@@ -65,33 +71,36 @@ public class TableRows {
             row.setElevation(10);
             row.setTranslationZ(20);
             row.setStateListAnimator(null);
-            row.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, (int) (90 * scale + 0.5)));
+            row.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+            row.setMinimumHeight((int) (tableProperties.getTableItemHeight() * scale + 0.5));
             row.setBackgroundResource(R.drawable.grid_background);
 
             TextView txtViewGerman = new TextView(fragmentActivity);
             txtViewGerman.setGravity(Gravity.CENTER);
-            txtViewGerman.setHeight((int)(90 * scale + 0.5f)); //SET HEIGHT IN DP
+            txtViewGerman.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
             txtViewGerman.setText(dataList[i]);
             txtViewGerman.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
-            txtViewGerman.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
+            txtViewGerman.setTextSize(TypedValue.COMPLEX_UNIT_SP, tableProperties.getTextSize());
 //            TextViewCompat.setTextAppearance(txtViewGerman, R.style.GidoleRegularFont);
             txtViewGerman.setTextColor(textColor);
             txtViewGerman.setBackgroundResource(R.drawable.ripple_table_item_background);
-            txtViewGerman.setOnClickListener(new TextToSpeechListener(spellFirstWordOnly));
-
-            TextView  txtViewEnglish = new TextView(fragmentActivity);
-            txtViewEnglish.setGravity(Gravity.CENTER);
-            txtViewEnglish.setHeight((int)(90 * scale + 0.5f)); //SET HEIGHT IN DP
-            txtViewEnglish.setText(dataList[i+1]);
-            txtViewEnglish.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
-            txtViewEnglish.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
-//            TextViewCompat.setTextAppearance(txtViewEnglish, R.style.GidoleRegularFont);
-            txtViewEnglish.setTextColor(textColor);
-            txtViewEnglish.setBackgroundResource(R.drawable.ripple_table_item_background);
-            txtViewEnglish.setOnClickListener(null);
-
+            txtViewGerman.setOnClickListener(new TextToSpeechListener(tableProperties.getIsSpellFirstWordOnly()));
             row.addView(txtViewGerman);
-            row.addView(txtViewEnglish);
+
+            if(true != tableProperties.getSingleColumnFlag()) {
+                TextView txtViewEnglish = new TextView(fragmentActivity);
+                txtViewEnglish.setGravity(Gravity.CENTER);
+                txtViewEnglish.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                txtViewEnglish.setText(dataList[i + 1]);
+                txtViewEnglish.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
+                txtViewEnglish.setTextSize(TypedValue.COMPLEX_UNIT_SP, tableProperties.getTextSize());
+                //            TextViewCompat.setTextAppearance(txtViewEnglish, R.style.GidoleRegularFont);
+                txtViewEnglish.setTextColor(textColor);
+                txtViewEnglish.setBackgroundResource(R.drawable.ripple_table_item_background);
+                txtViewEnglish.setOnClickListener(null);
+                row.addView(txtViewEnglish);
+            }
+
             table.addView(row, new TableLayout.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableLayout.LayoutParams.WRAP_CONTENT));
         }
     }
