@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewStub;
 import android.widget.SeekBar;
 import android.widget.TableLayout;
 import android.widget.TextView;
@@ -25,10 +26,10 @@ import static android.view.View.GONE;
 public class PossessivePronounsFragment extends Fragment implements SeekBar.OnSeekBarChangeListener {
 
     private String[] possessivePronounsTable;
-    private View view;
+    private View view,previousTableView;
     private SeekBar seekbar;
     private TableLayout tableLayout;
-    private int previousProgress;
+    private int previousTable;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -42,8 +43,11 @@ public class PossessivePronounsFragment extends Fragment implements SeekBar.OnSe
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_possessive_pronouns, container, false);
         seekbar = (SeekBar)view.findViewById(R.id.possessivePronounsSeekBar);
-        previousProgress = seekbar.getProgress();
         seekbar.setOnSeekBarChangeListener(this);
+
+        //SET FIRST TABLE VISIBLE BY DEFAULT
+        ((ViewStub)  view.findViewById(R.id.meinTable)).setVisibility(View.VISIBLE);
+        previousTable = R.id.meinTable;
 
         Table table = new Table();
         table.setSpellFirstWordOnly(true);
@@ -66,21 +70,42 @@ public class PossessivePronounsFragment extends Fragment implements SeekBar.OnSe
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-        disableOrEnableTable(previousProgress, View.GONE);
-        previousProgress = progress;
-
-        disableOrEnableTable(progress, View.VISIBLE);
+        switch (progress){
+            case 0:
+                (view.findViewById(R.id.meinTable)).setVisibility(View.VISIBLE);
+                (view.findViewById(previousTable)).setVisibility(View.GONE);
+                previousTable = R.id.meinTable;
+                break;
+            case 1:
+                (view.findViewById(R.id.deinTable)).setVisibility(View.VISIBLE);
+                (view.findViewById(previousTable)).setVisibility(View.GONE);
+                previousTable = R.id.deinTable;
+                break;
+            case 2:
+                (view.findViewById(R.id.seinTable)).setVisibility(View.VISIBLE);
+                (view.findViewById(previousTable)).setVisibility(View.GONE);
+                previousTable = R.id.seinTable;
+                break;
+            case 3:
+                (view.findViewById(R.id.ihrTable)).setVisibility(View.VISIBLE);
+                (view.findViewById(previousTable)).setVisibility(View.GONE);
+                previousTable = R.id.ihrTable;
+                break;
+            case 4:
+                (view.findViewById(R.id.unserTable)).setVisibility(View.VISIBLE);
+                (view.findViewById(previousTable)).setVisibility(View.GONE);
+                previousTable = R.id.unserTable;
+                break;
+            case 5:
+                (view.findViewById(R.id.euerTable)).setVisibility(View.VISIBLE);
+                (view.findViewById(previousTable)).setVisibility(View.GONE);
+                previousTable = R.id.euerTable;
+                break;
+        }
     }
 
     private void disableOrEnableTable(int tableIndex, int visibilityValue){
-        switch(tableIndex){
-            case 0: ((TableLayout)view.findViewById(R.id.meinTable)).setVisibility(visibilityValue); break;
-            case 1: ((TableLayout)view.findViewById(R.id.deinTable)).setVisibility(visibilityValue); break;
-            case 2: ((TableLayout)view.findViewById(R.id.seinTable)).setVisibility(visibilityValue); break;
-            case 3: ((TableLayout)view.findViewById(R.id.ihrTable)).setVisibility(visibilityValue); break;
-            case 4: ((TableLayout)view.findViewById(R.id.unserTable)).setVisibility(visibilityValue); break;
-            case 5: ((TableLayout)view.findViewById(R.id.euerTable)).setVisibility(visibilityValue); break;
-        }
+        
     }
 
     @Override
