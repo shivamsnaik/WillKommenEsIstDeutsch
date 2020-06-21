@@ -36,6 +36,8 @@
         <item name="TableTextColor">@color/black</item>
         <item name="MenuRippleColor">@color/menuRippleColor</item>
         <item name="editTextBackgroundColor">@color/menuRippleColor</item>
+
+        <item name="seekBarThumbTint">@color/BlueColorNine</item>
     </style>
 
     <!-- Night theme. -->
@@ -73,6 +75,8 @@
         <item name="TableTextColor">@color/TableTextColor</item>
         <item name="MenuRippleColor">@color/menuRippleColorDark</item>
         <item name="editTextBackgroundColor">@color/red</item>
+
+        <item name="seekBarThumbTint">@color/red</item>
     </style>
 
     <style name="Garamound" parent="android:TextAppearance">

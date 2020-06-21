@@ -26,10 +26,9 @@
     <string name="grammerA2Txt">Grammar Section (A2)</string>
     <string name="articleChartsTxt">Articles Charts</string>
     <string name="conjugationTxt">Conjugation Table</string>
+    <string name="possessivePronounsTxt">Possessive Pronouns</string>
     <string name="toggleDarkModeTxt">Dim/Light the Candles</string>
-
     <string name="trenbarrUntrennbarVerbenTxt">Trennbar/Untrennbar Verbs</string>
-
     <string name="rulesTxt">General Rules</string>
 
     <string name="weekNamesNote"><font fgcolor="red">Note:\n\n1. Wochentag: Weekdays\n2. Wochenende: Weekends\n3. All the words take \"DER\"  as article</font></string>
@@ -76,11 +75,14 @@
         <item>Vielen Dank</item>
         <item>Thank-you so much</item>
 
+        <item>Gern geschehen</item>
+        <item>Welcome\n(Reply to thanks)</item>
+
         <item>Sehr Gut</item>
         <item>Very Good</item>
 
         <item>Willkommen</item>
-        <item>Welcome</item>
+        <item>Welcome\n(Greeting)</item>
 
         <item>Herzlich willkommen</item>
         <item>Heartly Welcome</item>
@@ -88,6 +90,9 @@
         <item>Gesundheit</item>
         <item>God bless you</item>
 
+        <item>Enschuldigen Sie/Entschuldigung</item>
+        <item>Excuse me/\nsorry</item>
+        
         <item>Freut mich/\nfreut mich Sie \nkennenzulernen</item>
         <item>Glad to meet</item>
 
@@ -564,6 +569,40 @@
         <item>Sie sind</item>
     </string-array>
     <!-- CONJUGATION TABLE END-->
+
+<!--  POSSESSIVE PRONOUNS START  -->
+
+    <string-array name="possessivePronouns">
+        <item>mein</item>
+        <item>ich</item>
+
+        <item>dein</item>
+        <item>du</item>
+
+        <item>sein</item>
+        <item>er</item>
+
+        <item>ihr</item>
+        <item>sie</item>
+
+        <item>sein</item>
+        <item>es</item>
+
+        <item>unser</item>
+        <item>wir</item>
+
+        <item>euer</item>
+        <item>ihr</item>
+
+        <item>ihr</item>
+        <item>sie</item>
+
+        <item>Ihr</item>
+        <item>Sie (formal)</item>
+
+    </string-array>
+
+<!-- POSSESSIVE PRONOUNS END-->
 
 
     <string name="ruleOneTxt">1. Zum is used as an exception while talking about food at different time. \nEg. Zum Früstuck, Zum Mittagessen. </string>
