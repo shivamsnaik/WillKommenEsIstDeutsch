@@ -51,21 +51,24 @@ public class TableService {
             listLengthFix = 0;
         }
         for(int i=0; i<dataList.length-listLengthFix; i+=counterRange){
+            if(dataList[i].equals("LINE_BREAK") || dataList[i].equals("THIN_LINE_BREAK")){
+                float separationWidth = dataList[i].equals("THIN_LINE_BREAK")?0.5f:2;
 
-            if(dataList[i].equals("-- LINE_BREAK --")){
                 TableRow row = new TableRow(fragmentActivity);
                 row.setElevation(10);
                 row.setTranslationZ(20);
                 row.setStateListAnimator(null);
-                row.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, (int)(2 * scale + 0.5)));
+                row.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, (int)(separationWidth * scale + 0.5)));
                 row.setBackgroundResource(R.color.white);
 
                 TextView emptyTextView = new TextView(fragmentActivity);
-                emptyTextView.setHeight((int)(2 * scale + 0.5f));
+                emptyTextView.setHeight((int)(separationWidth * scale + 0.5f));
                 row.addView(emptyTextView);
                 table.addView(row, new TableLayout.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableLayout.LayoutParams.WRAP_CONTENT));
                 i++;
             }
+
+
 
             TableRow row = new TableRow(fragmentActivity);
             row.setElevation(10);

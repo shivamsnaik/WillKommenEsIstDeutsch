@@ -23,11 +23,17 @@
             android:textSize="25sp">
         </TextView>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="2dp"
+            android:background="@color/white"
+        />
+
         <TableLayout
             android:id="@+id/possessivePronounsTable"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="2dp"
             android:stretchColumns="*">
 
             <TableRow

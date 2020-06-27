@@ -15,6 +15,7 @@ import com.android.deutschlernenzuzammen.R;
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.ArticleFragment;
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.ConjugationFragment;
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.DativVerbenFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.NounsFragment;
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.PossessivePronounsFragment;
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.RulesFragment;
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.TrennbarUntrennbarFragment;
@@ -48,6 +49,7 @@ public class GrammarA1Fragment extends Fragment implements View.OnClickListener 
     public void onViewCreated(View view, Bundle bundle)
     {
         Button articleBtn = (Button) view.findViewById(R.id.articleBtn);
+        Button nounsBtn = (Button) view.findViewById(R.id.nounsBtn);
         Button conjugationBtn = (Button) view.findViewById(R.id.conjugationBtn);
         Button dativVerbenBtn = (Button) view.findViewById(R.id.dativVerbenBtn);
         Button trenbarrUntrennbarVerbenBtn = (Button) view.findViewById(R.id.trenbarrUntrennbarVerbenBtn);
@@ -56,6 +58,7 @@ public class GrammarA1Fragment extends Fragment implements View.OnClickListener 
 
         //Click listeners
         articleBtn.setOnClickListener(this);
+        nounsBtn.setOnClickListener(this);
         conjugationBtn.setOnClickListener(this);
         dativVerbenBtn.setOnClickListener(this);
         trenbarrUntrennbarVerbenBtn.setOnClickListener(this);
@@ -74,6 +77,9 @@ public class GrammarA1Fragment extends Fragment implements View.OnClickListener 
         switch (buttonId){
             case R.id.articleBtn:
                 ft.add(R.id.linearGrammarA1Layout, new ArticleFragment());
+                break;
+            case R.id.nounsBtn:
+                ft.add(R.id.linearGrammarA1Layout, new NounsFragment());
                 break;
             case R.id.conjugationBtn:
                 ft.add(R.id.linearGrammarA1Layout, new ConjugationFragment());
