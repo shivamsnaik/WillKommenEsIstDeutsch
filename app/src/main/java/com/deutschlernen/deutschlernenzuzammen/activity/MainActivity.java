@@ -33,8 +33,11 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         //ADD FEATURE TO SHOW POP UP IF FEATURE UPDATED ON PHONE FOR FIRST TIME
-        PopupService.showPopupForFeatureUpdate(this.getBaseContext(), sharedPreferences, "tts_shoutout",
-                "UPDATE - You can now Tap on GERMAN/DEUTSCH words to listen to the pronunciation");
+        PopupService.showPopupForFeatureUpdate(this.getBaseContext(), sharedPreferences, "noun_personal_pronoun_shoutout",
+                "UPDATE - Two new Pages added:" +
+                        "\n1. Nouns " +
+                        "\n2. Personal Pronouns" +
+                        "\n3. Added few examples in CONJUGATION page");
 
         setContentView(R.layout.activity_main);
 
