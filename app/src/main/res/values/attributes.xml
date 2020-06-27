@@ -17,6 +17,8 @@
         <attr name="ButtonTextColor" format="color"/>
         <attr name="CardBackgroundColor" format="color"/>
         <attr name="GridBackgroundColor" format="color"/>
+
+        <attr name="seekBarThumbTint" format="color"/>
     </declare-styleable>
 
     <attr name="HeaderColor" format="color"/>
@@ -36,6 +38,7 @@
 
     <attr name="MenuRippleColor" format="color"/>
     <attr name="editTextBackgroundColor" format="color"/>
+
 
 
 </resources>

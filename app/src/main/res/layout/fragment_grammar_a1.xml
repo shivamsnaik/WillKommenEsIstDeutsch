@@ -37,11 +37,11 @@
                 android:textColor="?attr/ButtonTextColor" />
 
             <Button
-                android:id="@+id/conjugationBtn"
+                android:id="@+id/nounsBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_three"
-                android:text="@string/conjugationTxt"
+                android:text="@string/nounsTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
@@ -50,11 +50,11 @@
                 android:textColor="?attr/ButtonTextColor" />
 
             <Button
-                android:id="@+id/dativVerbenBtn"
+                android:id="@+id/conjugationBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_four"
-                android:text="@string/dativVerbenTxt"
+                android:text="@string/conjugationTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
@@ -63,11 +63,11 @@
                 android:textColor="?attr/ButtonTextColor" />
 
             <Button
-                android:id="@+id/trenbarrUntrennbarVerbenBtn"
+                android:id="@+id/possessivePronounsBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_five"
-                android:text="@string/trenbarrUntrennbarVerbenTxt"
+                android:text="@string/possessivePronounsTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
@@ -76,15 +76,41 @@
                 android:textColor="?attr/ButtonTextColor" />
 
             <Button
-                android:id="@+id/rulesA1Btn"
+                android:id="@+id/dativVerbenBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_six"
-                android:text="@string/rulesTxt"
+                android:text="@string/dativVerbenTxt"
                 android:textSize="20dp"
                 android:height="120dp"
                 android:elevation="10dp"
                 android:translationZ="5dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/ButtonTextColor" />
+
+            <Button
+                android:id="@+id/trenbarrUntrennbarVerbenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_seven"
+                android:text="@string/trenbarrUntrennbarVerbenTxt"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="6dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/ButtonTextColor" />
+
+            <Button
+                android:id="@+id/rulesA1Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_eight"
+                android:text="@string/rulesTxt"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="7dp"
                 android:stateListAnimator="@null"
                 android:textColor="?attr/ButtonTextColor" />
         </LinearLayout>

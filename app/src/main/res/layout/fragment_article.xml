@@ -22,11 +22,16 @@
             android:textSize="25dp">
         </TextView>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="2dp"
+            android:background="@color/white"
+        />
+
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginTop="2dp"
-
             android:background="?attr/BackgroundColor"
             android:stretchColumns="*">
 

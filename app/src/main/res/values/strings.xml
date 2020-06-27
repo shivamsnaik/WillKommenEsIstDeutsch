@@ -25,11 +25,11 @@
     <string name="grammerA1Txt">Grammar Section (A1)</string>
     <string name="grammerA2Txt">Grammar Section (A2)</string>
     <string name="articleChartsTxt">Articles Charts</string>
+    <string name="nounsTxt">Nouns (with Article)</string>
     <string name="conjugationTxt">Conjugation Table</string>
+    <string name="possessivePronounsTxt">Possessive Pronouns</string>
     <string name="toggleDarkModeTxt">Dim/Light the Candles</string>
-
     <string name="trenbarrUntrennbarVerbenTxt">Trennbar/Untrennbar Verbs</string>
-
     <string name="rulesTxt">General Rules</string>
 
     <string name="weekNamesNote"><font fgcolor="red">Note:\n\n1. Wochentag: Weekdays\n2. Wochenende: Weekends\n3. All the words take \"DER\"  as article</font></string>
@@ -76,17 +76,23 @@
         <item>Vielen Dank</item>
         <item>Thank-you so much</item>
 
+        <item>Gern geschehen</item>
+        <item>Welcome\n(Reply to thanks)</item>
+
         <item>Sehr Gut</item>
         <item>Very Good</item>
 
         <item>Willkommen</item>
-        <item>Welcome</item>
+        <item>Welcome\n(Greeting)</item>
 
         <item>Herzlich willkommen</item>
         <item>Heartly Welcome</item>
 
         <item>Gesundheit</item>
         <item>God bless you</item>
+
+        <item>Enschuldigen Sie/Entschuldigung</item>
+        <item>Excuse me/\nsorry</item>
 
         <item>Freut mich/\nfreut mich Sie \nkennenzulernen</item>
         <item>Glad to meet</item>
@@ -400,7 +406,7 @@
         <item>Zwanzig</item>
         <item>Twenty</item>
 
-        <item>-- LINE_BREAK --</item>
+        <item>LINE_BREAK</item>
 
         <item>Einundzwanzig</item>
         <item>Twenty One</item>
@@ -409,14 +415,14 @@
         <item>Siebenundzwanzig</item>
         <item>Twenty Seven</item>
 
-        <item>-- LINE_BREAK --</item>
+        <item>LINE_BREAK</item>
 
         <item>Dreiunddreißig</item>
         <item>Thirty Three</item>
         <item>Achtunddreißig</item>
         <item>Thirty Eight</item>
 
-        <item>-- LINE_BREAK --</item>
+        <item>LINE_BREAK</item>
 
         <item>Einhundert</item>
         <item>One Hundred</item>
@@ -497,7 +503,7 @@
         <item>Z</item>
         <item>Z</item>
 
-        <item>-- LINE_BREAK --</item>
+        <item>LINE_BREAK</item>
 
         <item>Ä</item>
         <item> - </item>
@@ -510,6 +516,126 @@
     </string-array>
 
     <!--  ALPHABETS END  -->
+
+
+    <!--  NOUNS START  -->
+    <string-array name="nouns">
+        <!--    DER    -->
+        <item>der Mann</item>
+        <item>Man</item>
+
+        <item>der Tisch</item>
+        <item>Table</item>
+
+        <item>der Stuhl</item>
+        <item>Chair</item>
+
+        <item>der Computer</item>
+        <item>Computer</item>
+
+        <item>der Geburtstag</item>
+        <item>Birthday</item>
+
+        <item>der Kuli</item>
+        <item>Pen</item>
+
+        <item>der Bleistift</item>
+        <item>Pencil</item>
+
+        <item>der Laptop</item>
+        <item>Laptop</item>
+
+        <item>der Junge</item>
+        <item>Boy</item>
+
+        <item>der Koch</item>
+        <item>Cook</item>
+
+        <item>der Kollege</item>
+        <item>Colleagues</item>
+
+        <item>der Student</item>
+        <item>Student</item>
+
+        <item>der Vater</item>
+        <item>Father</item>
+
+        <item>der Bruder</item>
+        <item>Brother</item>
+
+        <item>der Wald</item>
+        <item>Forest</item>
+
+        <item>der Müll</item>
+        <item>Litter</item>
+
+        <item>der Hund</item>
+        <item>Dog</item>
+
+        <!--    DIE    -->
+
+        <item>die Frau</item>
+        <item>Woman</item>
+
+        <item>die Mutter</item>
+        <item>Mother</item>
+
+        <item>die Schwester</item>
+        <item>Sister</item>
+
+        <item>die Tasche</item>
+        <item>Bag</item>
+
+        <item>die Muttersprache</item>
+        <item>Mother Tongue</item>
+
+        <item>die Flasche</item>
+        <item>Bottle</item>
+
+        <item>die Sprache</item>
+        <item>Language</item>
+
+        <item>die Freizeit</item>
+        <item>Free Time</item>
+
+        <item>die Toilette</item>
+        <item>Toilet</item>
+
+        <item>die Schule</item>
+        <item>School</item>
+        <!--    DAS    -->
+
+        <item>das Kind</item>
+        <item>Child</item>
+
+        <item>das Fenster</item>
+        <item>Window</item>
+
+        <item>das Fahrad</item>
+        <item>Bike</item>
+
+        <item>das Spielzeug</item>
+        <item>Toy</item>
+
+        <item>das Haus</item>
+        <item>House</item>
+
+        <item>das Zimmer</item>
+        <item>Room</item>
+
+        <item>das Auto</item>
+        <item>Car</item>
+
+        <item>das Buch</item>
+        <item>Book</item>
+
+        <item>das Kolleg/\nCollege</item>
+        <item>College</item>
+
+
+    </string-array>
+    <!--  NOUNS END  -->
+
 
     <!-- CONJUGATION TABLE START-->
 
@@ -548,6 +674,16 @@
         <item>ihr habt</item>
         <item>sie haben</item>
         <item>Sie haben</item>
+
+        <item>THIN_LINE_BREAK</item>
+
+        <item>EXAMPLES</item>
+
+        <item>THIN_LINE_BREAK</item>
+
+        <item><i>ich habe ein Auto.</i></item>
+        <item>sie hat einen Bleistift.</item>
+        <item>Sie haben das Handy.</item>
     </string-array>
 
     <string name="cojugationSeinHeader">
@@ -562,8 +698,53 @@
         <item>ihr seid</item>
         <item>sie sind</item>
         <item>Sie sind</item>
+
+        <item>THIN_LINE_BREAK</item>
+
+        <item>EXAMPLES</item>
+
+        <item>THIN_LINE_BREAK</item>
+
+        <item><i>ich bin krank.</i></item>
+        <item>Sie sind eine gute mutter.</item>
+        <item>sie ist sehr schön</item>
+        <item>ihr seid klug!</item>
     </string-array>
     <!-- CONJUGATION TABLE END-->
+
+    <!--  POSSESSIVE PRONOUNS START  -->
+
+    <string-array name="possessivePronouns">
+        <item>mein</item>
+        <item>ich</item>
+
+        <item>dein</item>
+        <item>du</item>
+
+        <item>sein</item>
+        <item>er</item>
+
+        <item>ihr</item>
+        <item>sie</item>
+
+        <item>sein</item>
+        <item>es</item>
+
+        <item>unser</item>
+        <item>wir</item>
+
+        <item>euer</item>
+        <item>ihr</item>
+
+        <item>ihr</item>
+        <item>sie</item>
+
+        <item>Ihr</item>
+        <item>Sie (formal)</item>
+
+    </string-array>
+
+    <!-- POSSESSIVE PRONOUNS END-->
 
 
     <string name="ruleOneTxt">1. Zum is used as an exception while talking about food at different time. \nEg. Zum Früstuck, Zum Mittagessen. </string>

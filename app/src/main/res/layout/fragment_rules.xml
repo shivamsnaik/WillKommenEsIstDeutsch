@@ -23,6 +23,13 @@
 
         <TextView
             android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="2dp"
+            android:background="@color/white"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="100dp"
             android:gravity="center_vertical"
             android:background="@drawable/grid_background"
@@ -40,6 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/dimWhite"
+            android:layerType="software"
         />
 
         <TextView

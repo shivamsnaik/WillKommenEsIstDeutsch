@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.deutschlernen.deutschlernenzuzammen.fragments.levelone.PossessivePronounsFragment"
+    android:background="?attr/HeaderColor"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="@string/possessivePronounsTxt"
+            android:background="?attr/HeaderColor"
+            android:textColor="?attr/HeaderTextColor"
+            android:textSize="25sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="2dp"
+            android:background="@color/white"
+        />
+
+        <TableLayout
+            android:id="@+id/possessivePronounsTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:elevation="10dp"
+                android:translationZ="20dp"
+                android:stateListAnimator="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Possessive\nPronouns"
+                    android:gravity="center"
+                    android:background="@drawable/grid_background"
+                    android:padding="12dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/TableTextColor"
+                    android:height="90dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Equivalent\nPronoun"
+                    android:gravity="center"
+                    android:background="@drawable/grid_background"
+                    android:padding="12dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/TableTextColor"
+                    android:height="90dp"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/white"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide to view respective conjugation table"
+            android:gravity="center"
+            android:background="@drawable/grid_background"
+            android:padding="12dp"
+            android:paddingBottom="0dp"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:textColor="?attr/TableTextColor"/>
+
+        <SeekBar
+            android:id="@+id/possessivePronounsSeekBar"
+            android:layout_width="match_parent"
+            android:progress="0"
+            android:max="5"
+            android:progressBackgroundTint="?attr/seekBarThumbTint"
+            android:progressTint="?attr/seekBarThumbTint"
+            android:thumbTint="?attr/seekBarThumbTint"
+            android:background="@drawable/grid_background"
+            android:layout_height="45dp">
+        </SeekBar>
+
+        <ViewStub
+            android:id="@+id/meinTable"
+            android:inflatedId="@+id/meinTable"
+            android:layout="@layout/layout_mein_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+
+        <ViewStub
+            android:id="@+id/deinTable"
+            android:inflatedId="@+id/deinTable"
+            android:layout="@layout/layout_dein_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+
+        <ViewStub
+            android:id="@+id/seinTable"
+            android:inflatedId="@+id/seinTable"
+            android:layout="@layout/layout_sein_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+
+        <ViewStub
+            android:id="@+id/ihrTable"
+            android:inflatedId="@+id/ihrTable"
+            android:layout="@layout/layout_ihr_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+
+        <ViewStub
+            android:id="@+id/unserTable"
+            android:inflatedId="@+id/unserTable"
+            android:layout="@layout/layout_unser_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+
+        <ViewStub
+            android:id="@+id/euerTable"
+            android:inflatedId="@+id/euerTable"
+            android:layout="@layout/layout_euer_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+
+    </LinearLayout>
+</ScrollView>
