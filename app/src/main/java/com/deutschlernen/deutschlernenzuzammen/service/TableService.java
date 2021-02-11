@@ -27,8 +27,9 @@ import org.w3c.dom.Text;
 
 public class TableService {
 
+    private boolean activateVoiceForBothColumns;
     private Table tableProperties;
-    public TableService(){tableProperties = new Table();}
+    public TableService(){tableProperties = new Table(); activateVoiceForBothColumns = false;}
     public TableService(Table table){this.tableProperties = table;}
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -100,7 +101,11 @@ public class TableService {
                 //            TextViewCompat.setTextAppearance(txtViewEnglish, R.style.GidoleRegularFont);
                 secondTextView.setTextColor(textColor);
                 secondTextView.setBackgroundResource(R.drawable.ripple_table_item_background);
-                secondTextView.setOnClickListener(null);
+                if (activateVoiceForBothColumns == true) {
+                    secondTextView.setOnClickListener(new TextToSpeechListener(tableProperties.getIsSpellFirstWordOnly()));
+                } else {
+                    secondTextView.setOnClickListener(null);
+                }
                 row.addView(secondTextView);
             }
 
@@ -108,6 +113,11 @@ public class TableService {
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    public void createRows(String[] dataList, int tableId, View view, Activity fragmentActivity, boolean activateVoiceForBothColumns){
+        this.activateVoiceForBothColumns = true;
+        this.createRows(dataList, tableId, view, fragmentActivity);
+    }
     //To check whether only the first word from the string is to be sent to tts service
     private static boolean getFirstWordFlag(int fragmentId){
         System.out.println("FRAGMENT ID: "+fragmentId);

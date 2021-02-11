@@ -28,6 +28,7 @@
     <string name="nounsTxt">Nouns (with Article)</string>
     <string name="conjugationTxt">Conjugation Table</string>
     <string name="articleCasesTxt">Article Cases</string>
+    <string name="pronounTxt">Akkusativ and Dativ Pronouns</string>
     <string name="articleCasesNoteTxt">In case of confusion or doubts on usage of Dativ Plural case, refer the <font fgcolor="#EE3B3B"> point 2</font> of <font fgcolor="#EE3B3B">General Rules</font> tab in <font fgcolor="#EE3B3B">A1</font> section</string>
     <string name="possessivePronounsTxt">Possessive Pronouns</string>
     <string name="toggleDarkModeTxt">Dim/Light the Candles</string>
@@ -140,7 +141,8 @@
 
     <string name="englishTxt">English</string>
     <string name="germanTxt">Deutsch\n<font size="12"><i>(Click on the word for Voice O/P)</i></font></string>
-
+    <string name="akkusativTxt">Akkusativ\n<font size="12"><i>(Click on the word for Voice O/P)</i></font></string>
+    <string name="dativTxt">Dativ\n<font size="12"><i>(Click on the word for Voice O/P)</i></font></string>
     <!--GREETINGS PAGE == END-->
 
 
@@ -747,6 +749,37 @@
     </string-array>
 
     <!-- POSSESSIVE PRONOUNS END-->
+    <!-- PRONOUNS START -->
+
+        <string-array name="pronouns">
+            <item>mich</item>
+            <item>mir</item>
+
+            <item>dich</item>
+            <item>dir</item>
+
+            <item>ihn</item>
+            <item>ihm</item>
+
+            <item>sie</item>
+            <item>ihr</item>
+
+            <item>es</item>
+            <item>ihm</item>
+
+            <item>uns</item>
+            <item>uns</item>
+
+            <item>euch</item>
+            <item>euch</item>
+
+            <item>sie</item>
+            <item>ihnen</item>
+
+            <item>Sie</item>
+            <item>Ihnen</item>
+        </string-array>
+    <!-- PRONOUNS END-->
 
     <!-- RULES SECTION START -->
     <string name="ruleOneTxt">1. <font fgcolor="#EE3B3B">Zum</font> is used as an exception while talking about food at different time. \nEg. <font fgcolor="#EE3B3B">Zum</font> Früstuck, <font fgcolor="#EE3B3B">Zum</font> Mittagessen. </string>

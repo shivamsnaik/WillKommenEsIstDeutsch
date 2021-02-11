@@ -18,6 +18,7 @@ import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.ConjugationFra
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.DativVerbenFragment;
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.NounsFragment;
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.PossessivePronounsFragment;
+import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.PronounsFragment;
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.RulesFragment;
 import com.deutschlernen.deutschlernenzuzammen.fragments.levelone.TrennbarUntrennbarFragment;
 
@@ -53,6 +54,7 @@ public class GrammarA1Fragment extends Fragment implements View.OnClickListener 
         Button nounsBtn = (Button) view.findViewById(R.id.nounsBtn);
         Button conjugationBtn = (Button) view.findViewById(R.id.conjugationBtn);
         Button articleCasesBtn = (Button) view.findViewById(R.id.articleCasesBtn);
+        Button pronounsBtn = (Button) view.findViewById(R.id.pronounsBtn);
         Button dativVerbenBtn = (Button) view.findViewById(R.id.dativVerbenBtn);
         Button trenbarrUntrennbarVerbenBtn = (Button) view.findViewById(R.id.trenbarrUntrennbarVerbenBtn);
         Button possessivePronounsBtn = (Button) view.findViewById(R.id.possessivePronounsBtn);
@@ -63,6 +65,7 @@ public class GrammarA1Fragment extends Fragment implements View.OnClickListener 
         nounsBtn.setOnClickListener(this);
         conjugationBtn.setOnClickListener(this);
         articleCasesBtn.setOnClickListener(this);
+        pronounsBtn.setOnClickListener(this);
         dativVerbenBtn.setOnClickListener(this);
         trenbarrUntrennbarVerbenBtn.setOnClickListener(this);
         possessivePronounsBtn.setOnClickListener(this);
@@ -89,6 +92,9 @@ public class GrammarA1Fragment extends Fragment implements View.OnClickListener 
                 break;
             case R.id.articleCasesBtn:
                 ft.add(R.id.linearGrammarA1Layout, new ArticleCasesFragment());
+                break;
+            case R.id.pronounsBtn:
+                ft.add(R.id.linearGrammarA1Layout, new PronounsFragment());
                 break;
             case R.id.dativVerbenBtn:
                 ft.add(R.id.linearGrammarA1Layout, new DativVerbenFragment());
