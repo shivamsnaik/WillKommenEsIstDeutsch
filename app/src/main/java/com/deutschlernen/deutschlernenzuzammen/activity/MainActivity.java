@@ -33,11 +33,11 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         //ADD FEATURE TO SHOW POP UP IF FEATURE UPDATED ON PHONE FOR FIRST TIME
-        PopupService.showPopupForFeatureUpdate(this.getBaseContext(), sharedPreferences, "noun_personal_pronoun_shoutout",
-                "UPDATE - Two new Pages added:" +
-                        "\n1. Nouns " +
-                        "\n2. Personal Pronouns" +
-                        "\n3. Added few examples in CONJUGATION page");
+        PopupService.showPopupForFeatureUpdate(this.getBaseContext(), sharedPreferences, "cases_pronouns_shoutout",
+                "UPDATE - Two new Pages added in A1:" +
+                        "\n1. Article Cases " +
+                        "\n2. Akkusativ and Dativ Pronouns" +
+                        "\n3. Updated General Rules tab in A1");
 
         setContentView(R.layout.activity_main);
 

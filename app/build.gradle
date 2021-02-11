@@ -7,8 +7,8 @@ android {
         applicationId "com.deutschlernen.willkommenesistdeutsch"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 9
-        versionName "1.6.1"
+        versionCode 10
+        versionName "1.6.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_8
