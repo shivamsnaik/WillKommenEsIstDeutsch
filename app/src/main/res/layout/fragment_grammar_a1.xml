@@ -63,10 +63,23 @@
                 android:textColor="?attr/ButtonTextColor" />
 
             <Button
-                android:id="@+id/possessivePronounsBtn"
+                android:id="@+id/articleCasesBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_five"
+                android:text="@string/articleCasesTxt"
+                android:textSize="20dp"
+                android:height="120dp"
+                android:elevation="10dp"
+                android:translationZ="3dp"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/ButtonTextColor" />
+
+            <Button
+                android:id="@+id/possessivePronounsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_six"
                 android:text="@string/possessivePronounsTxt"
                 android:textSize="20dp"
                 android:height="120dp"
@@ -79,7 +92,7 @@
                 android:id="@+id/dativVerbenBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_six"
+                android:background="@drawable/ripple_seven"
                 android:text="@string/dativVerbenTxt"
                 android:textSize="20dp"
                 android:height="120dp"
@@ -92,7 +105,7 @@
                 android:id="@+id/trenbarrUntrennbarVerbenBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_seven"
+                android:background="@drawable/ripple_eight"
                 android:text="@string/trenbarrUntrennbarVerbenTxt"
                 android:textSize="20dp"
                 android:height="120dp"
@@ -105,7 +118,7 @@
                 android:id="@+id/rulesA1Btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_eight"
+                android:background="@drawable/ripple_nine"
                 android:text="@string/rulesTxt"
                 android:textSize="20dp"
                 android:height="120dp"

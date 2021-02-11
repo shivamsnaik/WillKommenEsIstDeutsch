@@ -11,6 +11,7 @@
         <attr name="textHighlightColor" format="color"/>
         <attr name="tintcolor" format="color"/>
         <attr name="TableTextColor" format="color"/>
+        <attr name="TableHeadingColor" format="color"/>
         <attr name="buttoncolor" format="color"/>
         <attr name="bordercolor" format="color"/>
         <attr name="buttonBackgroundColor" format="color"/>

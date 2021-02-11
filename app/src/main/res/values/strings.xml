@@ -27,6 +27,8 @@
     <string name="articleChartsTxt">Articles Charts</string>
     <string name="nounsTxt">Nouns (with Article)</string>
     <string name="conjugationTxt">Conjugation Table</string>
+    <string name="articleCasesTxt">Article Cases</string>
+    <string name="articleCasesNoteTxt">In case of confusion or doubts on usage of Dativ Plural case, refer the <font fgcolor="#EE3B3B"> point 2</font> of <font fgcolor="#EE3B3B">General Rules</font> tab in <font fgcolor="#EE3B3B">A1</font> section</string>
     <string name="possessivePronounsTxt">Possessive Pronouns</string>
     <string name="toggleDarkModeTxt">Dim/Light the Candles</string>
     <string name="trenbarrUntrennbarVerbenTxt">Trennbar/Untrennbar Verbs</string>
@@ -746,37 +748,41 @@
 
     <!-- POSSESSIVE PRONOUNS END-->
 
-
-    <string name="ruleOneTxt">1. Zum is used as an exception while talking about food at different time. \nEg. Zum Früstuck, Zum Mittagessen. </string>
-    <string name="ruleTwoTxt">
-        2. Zu Hause oder Nach Hause ???\n -> Use Zu Hause when in possession.\n\u0009\u0009\u0009\u0009\u0009Ich bin zu Hause.\n
-        -> Nach Hause when action is involved.\n\u0009\u0009\u0009\u0009\u0009Ich gehe nach Hause.
+    <!-- RULES SECTION START -->
+    <string name="ruleOneTxt">1. <font fgcolor="#EE3B3B">Zum</font> is used as an exception while talking about food at different time. \nEg. <font fgcolor="#EE3B3B">Zum</font> Früstuck, <font fgcolor="#EE3B3B">Zum</font> Mittagessen. </string>
+    <string name="ruleTwoTxt">2. Dativ Plural case examples:\n\n
+        <i>Ich gebe <font fgcolor="#EE3B3B">den</font> Kinder<font fgcolor="#EE3B3B">n</font> die Schokoladen.\n\n</i>
+        <font fgcolor="#EE3B3B">Den</font> is used as the article and <font fgcolor="#EE3B3B">n</font> is added as suffix to the noun which takes dativ case in the <font fgcolor="#EE3B3B">plural form</font>.
     </string>
-    <string name="ruleThreeTxt">3. Ich gehe NACH oder ZU Deutschland??\nNach is used while going to a destination that occupied large space.\nEg. Countries</string>
-    <string name="ruleFourTxt">4. A trennbar verb can end with T or EN in Partizip ZWEI</string>
-    <string name="ruleFiveTxt">
-        5. NOMINATIVE -> RESE\n\u0009\u0009\u0009AKKUSATIV -> NESE\n
-        \u0009\u0009\u0009DATIV -> MR M+N
-        \n\u0009\u0009\u0009GENITIV -> SR SR
+    <string name="ruleThreeTxt">
+        3. <font fgcolor="#EE3B3B">Zu</font> Hause oder <font fgcolor="#EE3B3B">Nach</font> Hause ???\n -> Use <font fgcolor="#EE3B3B">Zu</font> Hause when in possession.\n\u0009\u0009\u0009\u0009\u0009Ich bin <font fgcolor="#EE3B3B">zu</font> Hause.\n
+        -> <font fgcolor="#EE3B3B">Nach</font> Hause when action is involved.\n\u0009\u0009\u0009\u0009\u0009Ich gehe <font fgcolor="#EE3B3B">nach</font> Hause.
     </string>
-
-    <string name="ruleSixTxt">6. Viel => NOT COUNTABLE ITEM
-        \n\u0009\u0009\u0009\u0009\u0009Eg. Wie VIEL kostet das?
-        \nViele => COUNTABLE ITEM
-        \n\u0009\u0009\u0009\u0009\u0009Wie VIELE kinder sind da?
+    <string name="ruleFourTxt">4. Ich gehe <font fgcolor="#EE3B3B">nach</font> oder <font fgcolor="#EE3B3B">zu</font> Deutschland??\n<font fgcolor="#EE3B3B">Nach</font> is used while going to a destination that occupied large space.\nEg. Countries</string>
+    <string name="ruleFiveTxt">5. A trennbar verb can end with <font fgcolor="#EE3B3B">T or EN</font> in Partizip Zwei</string>
+    <string name="ruleSixTxt">6. A general trick to remember the <font fgcolor="#EE3B3B">Definite Article Cases</font> table i.e., Pick first letter from each word and make a small word for each case.
+        Eg.\n NOMINATIVE -> <font fgcolor="#EE3B3B">R E S E</font>\n\u0009\u0009\u0009AKKUSATIV -> <font fgcolor="#EE3B3B">N E S E</font>\n
+        \u0009\u0009\u0009DATIV -> <font fgcolor="#EE3B3B">M R M+N</font>
+        \n\u0009\u0009\u0009GENITIV -> <font fgcolor="#EE3B3B">S R S R</font>
     </string>
 
-    <string name="ruleSevenTxt">
-        7. IN => When action leads anyone inside or outside something.
-        \n\u0009\u0009\u0009\u0009\u0009Eg. Ich gehe in die Kirche.
-        \nZU => When action does not specify ending up inside or ouside some place.
-        \n\u0009\u0009\u0009\u0009\u0009Eg. Ich gehe zur Kirche.
+    <string name="ruleSevenTxt">7. <font fgcolor="#EE3B3B">Viel</font> => NOT COUNTABLE ITEM
+        \n\u0009\u0009\u0009\u0009\u0009Eg. Wie <font fgcolor="#EE3B3B">viel</font> kostet das?
+        \n<font fgcolor="#EE3B3B">Viele</font> => COUNTABLE ITEM
+        \n\u0009\u0009\u0009\u0009\u0009Wie <font fgcolor="#EE3B3B">viele</font> kinder sind da?
     </string>
 
     <string name="ruleEightTxt">
-        8. If a reflexive verb has additional object, it become REFLEXIV DATIVE satz. Eg:
-        \n\u0009\u0009\u0009\u0009\u0009 Ich wasche mich. - w/o object
-        \n\u0009\u0009\u0009\u0009\u0009 Ich wasche mir die Haare - w object
+        8. <font fgcolor="#EE3B3B">In</font> => When action leads anyone inside or outside something.
+        \n\u0009\u0009\u0009\u0009\u0009Eg. Ich gehe <font fgcolor="#EE3B3B">in</font> die Kirche.
+        \n<font fgcolor="#EE3B3B">Zu</font> => When action does not specify ending up inside or ouside some place.
+        \n\u0009\u0009\u0009\u0009\u0009Eg. Ich gehe <font fgcolor="#EE3B3B">zur</font> Kirche.
+    </string>
+
+    <string name="ruleNineTxt">
+        9. If a reflexive verb has additional object, it become <font fgcolor="#EE3B3B">Reflexiv Dative</font> satz. Eg:
+        \n\u0009\u0009\u0009\u0009\u0009 Ich <font fgcolor="#EE3B3B">wasche</font> mich. - w/o object
+        \n\u0009\u0009\u0009\u0009\u0009 Ich <font fgcolor="#EE3B3B">wasche</font> mir die Haare - w object
     </string>
     <!--    -->
 

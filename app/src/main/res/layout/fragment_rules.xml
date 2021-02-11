@@ -30,15 +30,17 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleOneTxt"
             android:textSize="18sp"
             android:textColor="?attr/TableTextColor"
+            android:justificationMode="inter_word"
             >
 
         </TextView>
@@ -52,11 +54,13 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="@string/ruleTwoTxt"
             android:textColor="?attr/TableTextColor"
             android:textSize="18sp"
@@ -72,11 +76,12 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleThreeTxt"
             android:textColor="?attr/TableTextColor"
@@ -92,11 +97,12 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleFourTxt"
             android:textColor="?attr/TableTextColor"
@@ -112,11 +118,12 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleFiveTxt"
             android:textColor="?attr/TableTextColor"
@@ -132,11 +139,12 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleSixTxt"
             android:textColor="?attr/TableTextColor"
@@ -152,11 +160,12 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="160dp"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleSevenTxt"
             android:textColor="?attr/TableTextColor"
@@ -172,13 +181,28 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:background="@drawable/grid_background"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:text="@string/ruleEightTxt"
+            android:textColor="?attr/TableTextColor"
+            android:textSize="18sp"
+            android:justificationMode="inter_word">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/grid_background"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/ruleNineTxt"
             android:textColor="?attr/TableTextColor"
             android:textSize="18sp"
             android:justificationMode="inter_word">
